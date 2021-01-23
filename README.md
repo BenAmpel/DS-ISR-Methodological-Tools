@@ -7,6 +7,7 @@ A repository of tools found in top conferences to aid in method identification a
 ## Graphs
 *Papers and Repositories For Construcing Novel Graphs.*
 - [Graph Neural Networks](#Graph-Neural-Networks)
+- [Graph Attention Networks](#Graph-Attention-Networks)
 
 ### Graph Neural Networks
 [Seminal Paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja)
