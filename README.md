@@ -14,7 +14,7 @@ A repository of tools found in top conferences to aid in method identification a
 ### Graph Neural Networks
 [Seminal Paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja)
 - Papers with code:
-  - [Graph Structure Learning for Robust Graph Neural Networks](https://github.com/ChandlerBang/Pro-GNN) - Protect GNNs against adversarial attacks
+  - [Graph Structure Learning for Robust Graph Neural Networks](https://arxiv.org/pdf/2005.10203.pdf) [Code](https://github.com/ChandlerBang/Pro-GNN) - Protect GNNs against adversarial attacks
   - [GPT-GNN: Generative Pre-Training of Graph Neural Networks](https://github.com/acbull/GPT-GNN) - Using GPT to fine-tune a GNN improves many downstream tasks
   - [GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training](https://github.com/THUDM/GCC) - Pre-training a GNN on ten graph datasets improves many downstream tasks
   - [Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://github.com/THUDM/GCC) - Framework designed for multi-variate time series data
@@ -49,4 +49,4 @@ A repository of tools found in top conferences to aid in method identification a
   - Graph Structural-topic Neural Network
   
 ### Graph Prototypical Networks
-[Seminal Paper](https://arxiv.org/pdf/2006.12739.pdf) = [Code](https://github.com/kaize0409/GPN)
+[Seminal Paper](https://arxiv.org/pdf/2006.12739.pdf) - [Code](https://github.com/kaize0409/GPN)
