@@ -40,7 +40,7 @@ A repository of tools found in top conferences to aid in method identification a
   - DisenHAN: Disentangled Heterogeneous Graph Attention Network for Recommendation, 2020 - 
 
 ### Graph Convolutional Networks
-[Seminal Paper](https://arxiv.org/pdf/1609.02907.pdf) 2017
+[Seminal Paper](https://arxiv.org/pdf/1609.02907.pdf), 2017
 - **Papers with code:**
   - [HGCN: A Heterogeneous Graph Convolutional Network-Based Deep Learning Model Toward Collective Classification](https://github.com/huazai1992/HGCN), 2020 - 
   - [Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations](https://www.in.tum.de/daml/robust-gcn/), 2020 - 
