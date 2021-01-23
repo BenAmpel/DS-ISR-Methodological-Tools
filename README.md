@@ -18,4 +18,10 @@ A repository of tools found in top conferences to aid in method identification a
     - [Cola-GNN: Cross-location Attention based Graph Neural Networks for Long-term ILI Prediction](https://github.com/amy-deng/colagnn)
     - [Graph Unfolding Networks](https://github.com/GUNets/GUNets)
   - Papers without code
+    - XGNN: Towards Model-Level Explanations of Graph Neural Networks
+    - TinyGNN: Learning Efficient Graph Neural Networks
+    - Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification
+    - Graph Few-shot Learning with Attribute Matching
+    - Streaming Graph Neural Networks via Continual Learning
+
   
