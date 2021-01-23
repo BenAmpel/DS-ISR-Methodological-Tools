@@ -8,7 +8,7 @@ A repository of tools found in top conferences to aid in method identification a
 *Papers and Repositories For Construcing Novel Graphs.*
 - [Graph Neural Networks](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja)
   - Papers with code
-    - [Graph Structure Learning for Robust Graph Neural Networks](https://github.com/ChandlerBang/Pro-GNN) Protect GNNs against adversarial attacks
+    - [Graph Structure Learning for Robust Graph Neural Networks](https://github.com/ChandlerBang/Pro-GNN) - Protect GNNs against adversarial attacks
     - [GPT-GNN: Generative Pre-Training of Graph Neural Networks](https://github.com/acbull/GPT-GNN)
     - [GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training](https://github.com/THUDM/GCC)
     - [Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://github.com/THUDM/GCC)
