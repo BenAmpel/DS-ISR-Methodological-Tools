@@ -34,19 +34,19 @@ A repository of tools found in top conferences to aid in method identification a
 ### Graph Attention Networks
 [Seminal Paper](https://arxiv.org/pdf/1710.10903.pdf), 2018
 - **Papers with code:**
-  - [Graph Attention Networks over Edge Content-Based Channels], 2020 - [Code](https://github.com/Louise-LuLin/topic-gcn)  
-  - [DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation], 2020 - [Code](https://github.com/cuilimeng/DETERRENT)
+  - [Graph Attention Networks over Edge Content-Based Channels](https://dl.acm.org/doi/10.1145/3394486.3403233), 2020 - Enhanced learning by utilizing the latent semantic information in edge content. [Code](https://github.com/Louise-LuLin/topic-gcn)  
+  - [DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation](http://pike.psu.edu/publications/kdd20-deterrent.pdf), 2020 - To detect misinformation in healthcare. [Code](https://github.com/cuilimeng/DETERRENT)
 - **Papers without code:**
-  - DisenHAN: Disentangled Heterogeneous Graph Attention Network for Recommendation, 2020 - 
+  - [DisenHAN: Disentangled Heterogeneous Graph Attention Network for Recommendation](https://dl.acm.org/doi/abs/10.1145/3340531.3411996), 2020 - To decompose high order connectivity between node pairs and identify major aspects of meta relations.
 
 ### Graph Convolutional Networks
 [Seminal Paper](https://arxiv.org/pdf/1609.02907.pdf), 2017
 - **Papers with code:**
-  - [HGCN: A Heterogeneous Graph Convolutional Network-Based Deep Learning Model Toward Collective Classification](https://github.com/huazai1992/HGCN), 2020 - 
-  - [Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations](https://www.in.tum.de/daml/robust-gcn/), 2020 - 
-  - [Adaptive Graph Encoder for Attributed Graph Embedding](https://github.com/thunlp/AGE), 2020 - 
+  - [HGCN: A Heterogeneous Graph Convolutional Network-Based Deep Learning Model Toward Collective Classification](https://dl.acm.org/doi/10.1145/3394486.3403169), 2020 - Improving GCN with heterogeneity to improve classification performance. [Code](https://github.com/huazai1992/HGCN)
+  - [Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations](https://dl.acm.org/doi/10.1145/3394486.3403217), 2020 - To protect GCNs against adversarial attacks. [Code](https://www.in.tum.de/daml/robust-gcn/)
+  - [Adaptive Graph Encoder for Attributed Graph Embedding](https://arxiv.org/pdf/2007.01594.pdf), 2020 - To create better graph node embeddings. [Code](https://github.com/thunlp/AGE) 
 - **Papers without code:**
-  - Graph Structural-topic Neural Network, 2020 - 
+  - [Graph Structural-topic Neural Network](https://arxiv.org/pdf/2006.14278.pdf), 2020 - Improve the underlying structure of GCNs
   
 ### Graph Prototypical Networks
 [Seminal Paper](https://arxiv.org/pdf/2006.12739.pdf), 2020 - [Code](https://github.com/kaize0409/GPN)
