@@ -9,6 +9,7 @@ A repository of tools found in top conferences to aid in method identification a
 - [Graph Neural Networks](#Graph-Neural-Networks)
 - [Graph Attention Networks](#Graph-Attention-Networks)
 - [Graph Convolutional Networks](#Graph-Convolutional-Networks)
+- [Graph Prototypical Networks](#Graph-Prototypical-Networks)
 
 ### Graph Neural Networks
 [Seminal Paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja)
@@ -46,3 +47,6 @@ A repository of tools found in top conferences to aid in method identification a
   - [Adaptive Graph Encoder for Attributed Graph Embedding](https://github.com/thunlp/AGE)
 - Papers without code:
   - Graph Structural-topic Neural Network
+  
+### Graph Prototypical Networks
+[Seminal Paper](https://arxiv.org/pdf/2006.12739.pdf) = [Code](https://github.com/kaize0409/GPN)
