@@ -8,6 +8,7 @@ A repository of tools found in top conferences to aid in method identification a
 *Papers and Repositories For Construcing Novel Graphs.*
 - [Graph Neural Networks](#Graph-Neural-Networks)
 - [Graph Attention Networks](#Graph-Attention-Networks)
+- [Graph Convolutional Networks](#Graph-Convolutional-Networks)
 
 ### Graph Neural Networks
 [Seminal Paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja)
@@ -35,3 +36,12 @@ A repository of tools found in top conferences to aid in method identification a
   - [DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation](https://github.com/cuilimeng/DETERRENT)
 - Papers without code:
   - DisenHAN: Disentangled Heterogeneous Graph Attention Network for Recommendation
+
+### Graph Convolutional Networks
+[Seminal Paper](https://arxiv.org/pdf/1609.02907.pdf)
+- Papers with code:
+  - [HGCN: A Heterogeneous Graph Convolutional Network-Based Deep Learning Model Toward Collective Classification](https://github.com/huazai1992/HGCN)
+  - [Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations](https://www.in.tum.de/daml/robust-gcn/)
+  - [Adaptive Graph Encoder for Attributed Graph Embedding](https://github.com/thunlp/AGE)
+- Papers without code:
+  - Graph Structural-topic Neural Network
