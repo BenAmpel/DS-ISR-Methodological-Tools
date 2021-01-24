@@ -3,6 +3,7 @@ A repository of tools found in top conferences to aid in method identification a
 
 ### Topic
 - [Graphs](#Graphs)
+- [Text Classification](#Text-Classification)
 
 ## Graphs
 *Papers and Repositories For Construcing Novel Graphs.*
@@ -76,4 +77,21 @@ A repository of tools found in top conferences to aid in method identification a
   - [Towards Temporal Knowledge Graph Embeddings with Arbitrary Time Precision](https://dl.acm.org/doi/abs/10.1145/3340531.3412028), 2020 - For improved time-dependent queries. [Code](https://gitlab.com/jleblay/tokei)
 - **Papers without code:**
   - [An Adaptive Embedding Framework for Heterogeneous Information Networks](https://dl.acm.org/doi/10.1145/3340531.3411989), 2020 - For improved node classification and link prediction tasks.
+  
+## Text Classification
+*Papers and Repositories For Multi-Label and Multi-Class Classification Problems With Text.*
+- [Transformers](#Transformers)
 
+### Transformers
+[Seminal Paper](https://arxiv.org/pdf/1706.03762.pdf), 2017
+- **Papers with code:**
+  - [Encoding word order in complex embeddings](https://arxiv.org/pdf/1912.12333.pdf), 2020 - To create a custom embedding that models global absolute positions of words and their order relationships. [Code](https://github.com/iclr-complex-order/complex-order)
+  - [Tree-Structured Attention with Hierarchical Accumulation](https://arxiv.org/pdf/2002.08046.pdf), 2020 - Hierarchical Accumulation to encode parse tree structures into self-attention at a constant time complexity. [Code](https://github.com/nxphi47/tree_transformer)
+  - [Lite Transformer with Long-Short Range Attention](https://arxiv.org/pdf/2004.11886.pdf), 2020 - Models local context by convolution and long-distance relationship by attention. [Code](https://github.com/mit-han-lab/lite-transformer)
+  - [Transformer-XH: Multi-Evidence Reasoning with eXtra Hop Attention](https://openreview.net/pdf/d046083250740c4f9687e47d1df323759b66b5e4.pdf), 2020 - Enables intrinsic modeling of structured text by "hopping" around the document. [Code](https://github.com/microsoft/Transformer-XH)
+  - [Monotonic Multihead Attention](https://arxiv.org/pdf/1909.12406.pdf), 2020 - Adds a multihead monotonic attention mechanism for latency control. [Code](https://github.com/pytorch/fairseq/tree/master/examples/simultaneous_translation)
+  - [Reformer: The Efficient Transformer](https://arxiv.org/pdf/2001.04451.pdf), 2020 - Memory-efficiency and faster on long-sequences. [Code](https://github.com/google/trax/tree/master/trax/models/reformer)
+- **Papers without code:**
+  - [On Identifiability in Transformers](https://openreview.net/pdf?id=BJg1f6EFDB), 2020 - Introduces effective attention to improve explanatory interpretations based on attention.
+  - [Are Transformers universal approximators of sequence-to-sequence functions?](https://arxiv.org/pdf/1912.10077.pdf), 2020 - Proof that fixed width self-attention layers can compute contextual mappings of the input sequences.
+  - [Robustness Verification for Transformers](https://arxiv.org/pdf/2002.06622.pdf), 2020 - A robustness verification algorithm for TRansformers that shed light on the Transformer's interpretative capabilities.
