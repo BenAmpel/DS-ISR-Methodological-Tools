@@ -10,6 +10,8 @@ A repository of tools found in top conferences to aid in method identification a
 - [Graph Attention Networks](#Graph-Attention-Networks)
 - [Graph Convolutional Networks](#Graph-Convolutional-Networks)
 - [Graph Prototypical Networks](#Graph-Prototypical-Networks)
+- [Graph Summarization](#Graph-Summarization)
+- [Temporal Graph](#Temporal-Graph)
 
 ### Graph Neural Networks
 [Seminal Paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja), 2007
@@ -50,3 +52,19 @@ A repository of tools found in top conferences to aid in method identification a
   
 ### Graph Prototypical Networks
 [Seminal Paper](https://arxiv.org/pdf/2006.12739.pdf), 2020 - [Code](https://github.com/kaize0409/GPN)
+
+### Graph Summarization
+[Seminal Paper](https://arxiv.org/pdf/1612.04883.pdf), 2018
+- **Papers with code:**
+  - [Incremental and Parallel Computation of Structural Graph Summaries for Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3340531.3411878), 2020 - Finding a condensed representation of a graph. [Code](https://github.com/t-blume/fluid-spark)
+  - [Incremental Lossless Graph Summarization](https://arxiv.org/pdf/2006.09935.pdf), 2020 - To make large graphs scalable, faster processing, and effective. [Code](http://dmlab.kaist.ac.kr/mosso/)
+
+### Temporal Graph
+[Seminal Paper](https://www.tandfonline.com/doi/abs/10.1080/15427951.2016.1177801), 2016
+- **Papers with code:**
+  - [tdGraphEmbed: Temporal Dynamic Graph-Level Embedding](https://dl.acm.org/doi/abs/10.1145/3340531.3411953), 2020 - To extend random-walk based node embedding methods to improve embeddings. [Code](https://github.com/moranbel/tdGraphEmbed)
+  - [Local Motif Clustering on Time-Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3394486.3403081), 2020 - To track the temporal evolution of the local motif cluster using edge filtering. [Code](https://github.com/DongqiFu/L-MEGA)
+- **Papers without code:**
+  - [Continuous-Time Dynamic Graph Learning via Neural Interaction Processes](https://dl.acm.org/doi/abs/10.1145/3340531.3411946), 2020 - To capture the fine-grained global and local information for temporal interaction prediction.
+  - [Algorithmic Aspects of Temporal Betweenness](https://arxiv.org/pdf/2006.08668.pdf), 2020 - A systematic study of temporal betweeness variants.
+
