@@ -11,7 +11,8 @@ A repository of tools found in top conferences to aid in method identification a
 - [Graph Convolutional Networks](#Graph-Convolutional-Networks)
 - [Graph Prototypical Networks](#Graph-Prototypical-Networks)
 - [Graph Summarization](#Graph-Summarization)
-- [Temporal Graph](#Temporal-Graph)
+- [Temporal Graphs](#Temporal-Graphs)
+- [Graph Embeddings](#Graph-Embeddings)
 
 ### Graph Neural Networks
 [Seminal Paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja), 2007
@@ -59,7 +60,7 @@ A repository of tools found in top conferences to aid in method identification a
   - [Incremental and Parallel Computation of Structural Graph Summaries for Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3340531.3411878), 2020 - Finding a condensed representation of a graph. [Code](https://github.com/t-blume/fluid-spark)
   - [Incremental Lossless Graph Summarization](https://arxiv.org/pdf/2006.09935.pdf), 2020 - To make large graphs scalable, faster processing, and effective. [Code](http://dmlab.kaist.ac.kr/mosso/)
 
-### Temporal Graph
+### Temporal Graphs
 [Seminal Paper](https://www.tandfonline.com/doi/abs/10.1080/15427951.2016.1177801), 2016
 - **Papers with code:**
   - [tdGraphEmbed: Temporal Dynamic Graph-Level Embedding](https://dl.acm.org/doi/abs/10.1145/3340531.3411953), 2020 - To extend random-walk based node embedding methods to improve embeddings. [Code](https://github.com/moranbel/tdGraphEmbed)
@@ -67,4 +68,12 @@ A repository of tools found in top conferences to aid in method identification a
 - **Papers without code:**
   - [Continuous-Time Dynamic Graph Learning via Neural Interaction Processes](https://dl.acm.org/doi/abs/10.1145/3340531.3411946), 2020 - To capture the fine-grained global and local information for temporal interaction prediction.
   - [Algorithmic Aspects of Temporal Betweenness](https://arxiv.org/pdf/2006.08668.pdf), 2020 - A systematic study of temporal betweeness variants.
+
+### Graph Embeddings
+[Seminal Paper](http://proceedings.mlr.press/v48/yanga16.pdf), 2016
+- **Papers with code:**
+  - [Towards Locality-Aware Meta-Learning of Tail Node Embeddings on Networks](https://dl.acm.org/doi/10.1145/3340531.3411910), 2020 - Create tail node embedding for node classification and link prediction. [Code](https://github.com/smufang/meta-tail2vec)
+  - [Towards Temporal Knowledge Graph Embeddings with Arbitrary Time Precision](https://dl.acm.org/doi/abs/10.1145/3340531.3412028), 2020 - For improved time-dependent queries. [Code](https://gitlab.com/jleblay/tokei)
+- **Papers without code:**
+  - [An Adaptive Embedding Framework for Heterogeneous Information Networks](https://dl.acm.org/doi/10.1145/3340531.3411989), 2020 - For improved node classification and link prediction tasks.
 
