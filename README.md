@@ -4,6 +4,7 @@ A repository of tools found in top conferences to aid in method identification a
 ### Topic
 - [Graphs](#Graphs)
 - [Text Classification](#Text-Classification)
+- [Data Generation](#Data-Generation)
 
 ## Graphs
 *Papers and Repositories For Construcing Novel Graphs.*
@@ -95,3 +96,30 @@ A repository of tools found in top conferences to aid in method identification a
   - [On Identifiability in Transformers](https://openreview.net/pdf?id=BJg1f6EFDB), 2020 - Introduces effective attention to improve explanatory interpretations based on attention.
   - [Are Transformers universal approximators of sequence-to-sequence functions?](https://arxiv.org/pdf/1912.10077.pdf), 2020 - Proof that fixed width self-attention layers can compute contextual mappings of the input sequences.
   - [Robustness Verification for Transformers](https://arxiv.org/pdf/2002.06622.pdf), 2020 - A robustness verification algorithm for TRansformers that shed light on the Transformer's interpretative capabilities.
+
+## Data Generation
+[Seminal Paper](https://arxiv.org/pdf/1406.2661.pdf), 2014
+*Papers and Repositories For Image and Textual Generation Tasks.*
+
+- [Image Generation](#Image-Generation)
+- [Data Generation](#Data-Generation)
+
+### Image Generation
+- **Papers with code:**
+  - [Training Generative Adversarial Networks from Incomplete Observations using Factorised Discriminators](https://arxiv.org/pdf/1905.12660.pdf), 2020 - Splits the discriminator into parts that can be independently trained with incomplete observations. [Code](https://www.dropbox.com/s/gtc7m7pc4n2yt05/source.zip?dl=1)
+  - [On the "steerability" of generative adversarial networks](hhttps://arxiv.org/pdf/1907.07171.pdf), 2020 - Shifts the distribution of GANs to improve generalizability. [Code](https://ali-design.github.io/gan_steerability/)
+
+- **Papers without code:**
+   - [Stochastic Conditional Generative Networks with Basis Decomposition](https://arxiv.org/pdf/1909.11286.pdf), 2019 - Generate improved images for multi-mode datasets.
+   
+### Data Generation
+- **Papers with code:**
+  - [Neural Text Generation With Unlikelihood Training](https://arxiv.org/pdf/1908.04319.pdf), 2020 - On transformers, forces unlikely generations to be assigned lower probability by the model. [Code](https://github.com/facebookresearch/unlikelihood_training)
+  - [Language GANs Falling Short](https://arxiv.org/pdf/1811.02549.pdf), 2020 - A unique quality-diversity evaluation procuedure to reduce softmax temperature. [Code](https://github.com/pclucas14/GansFallingShort)
+  - [The Curious Case of Neural Text Degeneration](https://arxiv.org/pdf/1904.09751.pdf), 2020 - Nucleus sampling in a transformer can draw high quality text from neural language models. [Code](https://github.com/ari-holtzman/degen)
+  - [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/pdf/1904.09675.pdf), 2020 - An evaluative metric for text generation using similarity scores. [Code](https://github.com/Tiiiger/bert_score)
+  - [Plug and Play Language Models: A Simple Approach to Controlled Text Generation](https://arxiv.org/pdf/1912.02164.pdf), 2020 - Combines a pre-trained transformer language model with a attribute classifiers to guide text generation. [Code](https://github.com/uber-research/PPLM)
+
+- **Papers without code:**
+   - [Augmenting Non-Collaborative Dialog Systems with Explicit Semantic and Strategic Dialog History](https://arxiv.org/pdf/1909.13425.pdf), 2020 - Using finite state tranducers to explicity represent dialog history.
+   - [Self-Adversarial Learning with Comparative Discrimination for Text Generation](https://arxiv.org/pdf/2001.11691.pdf), 2020 - Self-improvement reward mechanism allows the model to avoid collapse.
