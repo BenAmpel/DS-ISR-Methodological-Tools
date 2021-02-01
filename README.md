@@ -81,6 +81,8 @@ A repository of tools found in top conferences to aid in method identification a
 - **Papers with code:**
   - [tdGraphEmbed: Temporal Dynamic Graph-Level Embedding](https://dl.acm.org/doi/abs/10.1145/3340531.3411953), 2020 - To extend random-walk based node embedding methods to improve embeddings. [Code](https://github.com/moranbel/tdGraphEmbed)
   - [Local Motif Clustering on Time-Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3394486.3403081), 2020 - To track the temporal evolution of the local motif cluster using edge filtering. [Code](https://github.com/DongqiFu/L-MEGA)
+  - [Inductive representation learning on temporal graphs](https://arxiv.org/pdf/2002.07962.pdf), 2020 - Using a temporal graph attention layer to efficiently aggreagte temproal-topological neighborhod features. [Code](https://drive.google.com/drive/folders/1GaH8vusCXJj4ucayfO-PyHpnNsJRkB78A)
+
 - **Papers without code:**
   - [Continuous-Time Dynamic Graph Learning via Neural Interaction Processes](https://dl.acm.org/doi/abs/10.1145/3340531.3411946), 2020 - To capture the fine-grained global and local information for temporal interaction prediction.
   - [Algorithmic Aspects of Temporal Betweenness](https://arxiv.org/pdf/2006.08668.pdf), 2020 - A systematic study of temporal betweeness variants.
@@ -100,6 +102,7 @@ A repository of tools found in top conferences to aid in method identification a
 ## Text Classification
 *Papers and Repositories For Multi-Label and Multi-Class Classification Problems With Text.*
 - [Transformers](#Transformers)
+- [Word Embeddings](#Word-Embeddings)
 
 ---
 
@@ -119,6 +122,16 @@ A repository of tools found in top conferences to aid in method identification a
   - [Are Transformers universal approximators of sequence-to-sequence functions?](https://arxiv.org/pdf/1912.10077.pdf), 2020 - Proof that fixed width self-attention layers can compute contextual mappings of the input sequences.
   - [Robustness Verification for Transformers](https://arxiv.org/pdf/2002.06622.pdf), 2020 - A robustness verification algorithm for TRansformers that shed light on the Transformer's interpretative capabilities.
 
+---
+
+### Word Embeddings
+- **Seminal Pre-Trained Word Embeddings**
+  - [Word2Vec](https://arxiv.org/pdf/1301.3781.pdf), 2013. [Code](https://github.com/tmikolov/word2vec)
+  - [GloVe](https://www.aclweb.org/anthology/D14-1162.pdf), 2014. [Code](https://github.com/stanfordnlp/GloVe)
+
+- **Papers with code:**
+  - [Learning from Textual Data in Database Systems](https://dl.acm.org/doi/abs/10.1145/3340531.3412056), 2020 - An optimized algorithm for creating enhanced word embeddings. [Code](https://github.com/guenthermi/postgres-retrofit)
+  
 ---
 
 ## Data Generation
@@ -173,6 +186,7 @@ A repository of tools found in top conferences to aid in method identification a
 
 - **Papers with code:**
   - [AdvMind: Inferring Adversary Intent of Black-Box Attacks](https://arxiv.org/pdf/2006.09539.pdf), 2020 - Infer the adversary intent of black-box adversarial attacks. [Code](https://github.com/ain-soph/trojanzoo)
+  - [An Embarrassingly Simple Approach for Trojan Attack in Deep Neural Networks](https://arxiv.org/pdf/2006.08131.pdf), 2020 - To show how easy it is to damage DNN systems. [Code](https://github.com/trx14/TrojanNet)
 
 - **Papers without code:**
   - [Interpretability is a Kind of Safety: An Interpreter-based Ensemble for Adversary Defense](https://dl.acm.org/doi/abs/10.1145/3394486.3403044), 2020 - Interpreter-based ensemble framework for the detection and defense of adversarial attacks to a model.
