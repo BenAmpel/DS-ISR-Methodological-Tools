@@ -1,10 +1,13 @@
 # Methodological Tools
 A repository of tools found in top conferences to aid in method identification and application to IS research.
 
-### Topic
+## Topic
 - [Graphs](#Graphs)
 - [Text Classification](#Text-Classification)
 - [Data Generation](#Data-Generation)
+- [Adversarial Defense](#Adversarial-Defense)
+
+---
 
 ## Graphs
 *Papers and Repositories For Construcing Novel Graphs.*
@@ -15,6 +18,8 @@ A repository of tools found in top conferences to aid in method identification a
 - [Graph Summarization](#Graph-Summarization)
 - [Temporal Graphs](#Temporal-Graphs)
 - [Graph Embeddings](#Graph-Embeddings)
+
+---
 
 ### Graph Neural Networks
 [Seminal Paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja), 2007
@@ -36,6 +41,8 @@ A repository of tools found in top conferences to aid in method identification a
   - [Graph Few-shot Learning with Attribute Matching](https://dl.acm.org/doi/10.1145/3340531.3411923), 2020 - To leverage attribute-level attention mechanisms to capture distinct information of each task.
   - [Streaming Graph Neural Networks via Continual Learning](https://arxiv.org/pdf/2009.10951.pdf), 2020 - To update model parameters automatically with constant data flow.
 
+---
+
 ### Graph Attention Networks
 [Seminal Paper](https://arxiv.org/pdf/1710.10903.pdf), 2018
 - **Papers with code:**
@@ -43,6 +50,7 @@ A repository of tools found in top conferences to aid in method identification a
   - [DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation](http://pike.psu.edu/publications/kdd20-deterrent.pdf), 2020 - To detect misinformation in healthcare. [Code](https://github.com/cuilimeng/DETERRENT)
 - **Papers without code:**
   - [DisenHAN: Disentangled Heterogeneous Graph Attention Network for Recommendation](https://dl.acm.org/doi/abs/10.1145/3340531.3411996), 2020 - To decompose high order connectivity between node pairs and identify major aspects of meta relations.
+---
 
 ### Graph Convolutional Networks
 [Seminal Paper](https://arxiv.org/pdf/1609.02907.pdf), 2017
@@ -52,15 +60,21 @@ A repository of tools found in top conferences to aid in method identification a
   - [Adaptive Graph Encoder for Attributed Graph Embedding](https://arxiv.org/pdf/2007.01594.pdf), 2020 - To create better graph node embeddings. [Code](https://github.com/thunlp/AGE) 
 - **Papers without code:**
   - [Graph Structural-topic Neural Network](https://arxiv.org/pdf/2006.14278.pdf), 2020 - Improve the underlying structure of GCNs
-  
+
+---
+ 
 ### Graph Prototypical Networks
 [Seminal Paper](https://arxiv.org/pdf/2006.12739.pdf), 2020 - [Code](https://github.com/kaize0409/GPN)
+
+---
 
 ### Graph Summarization
 [Seminal Paper](https://arxiv.org/pdf/1612.04883.pdf), 2018
 - **Papers with code:**
   - [Incremental and Parallel Computation of Structural Graph Summaries for Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3340531.3411878), 2020 - Finding a condensed representation of a graph. [Code](https://github.com/t-blume/fluid-spark)
   - [Incremental Lossless Graph Summarization](https://arxiv.org/pdf/2006.09935.pdf), 2020 - To make large graphs scalable, faster processing, and effective. [Code](http://dmlab.kaist.ac.kr/mosso/)
+
+---
 
 ### Temporal Graphs
 [Seminal Paper](https://www.tandfonline.com/doi/abs/10.1080/15427951.2016.1177801), 2016
@@ -71,6 +85,8 @@ A repository of tools found in top conferences to aid in method identification a
   - [Continuous-Time Dynamic Graph Learning via Neural Interaction Processes](https://dl.acm.org/doi/abs/10.1145/3340531.3411946), 2020 - To capture the fine-grained global and local information for temporal interaction prediction.
   - [Algorithmic Aspects of Temporal Betweenness](https://arxiv.org/pdf/2006.08668.pdf), 2020 - A systematic study of temporal betweeness variants.
 
+---
+
 ### Graph Embeddings
 [Seminal Paper](http://proceedings.mlr.press/v48/yanga16.pdf), 2016
 - **Papers with code:**
@@ -78,13 +94,18 @@ A repository of tools found in top conferences to aid in method identification a
   - [Towards Temporal Knowledge Graph Embeddings with Arbitrary Time Precision](https://dl.acm.org/doi/abs/10.1145/3340531.3412028), 2020 - For improved time-dependent queries. [Code](https://gitlab.com/jleblay/tokei)
 - **Papers without code:**
   - [An Adaptive Embedding Framework for Heterogeneous Information Networks](https://dl.acm.org/doi/10.1145/3340531.3411989), 2020 - For improved node classification and link prediction tasks.
-  
+
+---
+
 ## Text Classification
 *Papers and Repositories For Multi-Label and Multi-Class Classification Problems With Text.*
 - [Transformers](#Transformers)
 
+---
+
 ### Transformers
 [Seminal Paper](https://arxiv.org/pdf/1706.03762.pdf), 2017
+
 - **Papers with code:**
   - [Encoding word order in complex embeddings](https://arxiv.org/pdf/1912.12333.pdf), 2020 - To create a custom embedding that models global absolute positions of words and their order relationships. [Code](https://github.com/iclr-complex-order/complex-order)
   - [Tree-Structured Attention with Hierarchical Accumulation](https://arxiv.org/pdf/2002.08046.pdf), 2020 - Hierarchical Accumulation to encode parse tree structures into self-attention at a constant time complexity. [Code](https://github.com/nxphi47/tree_transformer)
@@ -92,18 +113,23 @@ A repository of tools found in top conferences to aid in method identification a
   - [Transformer-XH: Multi-Evidence Reasoning with eXtra Hop Attention](https://openreview.net/pdf/d046083250740c4f9687e47d1df323759b66b5e4.pdf), 2020 - Enables intrinsic modeling of structured text by "hopping" around the document. [Code](https://github.com/microsoft/Transformer-XH)
   - [Monotonic Multihead Attention](https://arxiv.org/pdf/1909.12406.pdf), 2020 - Adds a multihead monotonic attention mechanism for latency control. [Code](https://github.com/pytorch/fairseq/tree/master/examples/simultaneous_translation)
   - [Reformer: The Efficient Transformer](https://arxiv.org/pdf/2001.04451.pdf), 2020 - Memory-efficiency and faster on long-sequences. [Code](https://github.com/google/trax/tree/master/trax/models/reformer)
+
 - **Papers without code:**
   - [On Identifiability in Transformers](https://openreview.net/pdf?id=BJg1f6EFDB), 2020 - Introduces effective attention to improve explanatory interpretations based on attention.
   - [Are Transformers universal approximators of sequence-to-sequence functions?](https://arxiv.org/pdf/1912.10077.pdf), 2020 - Proof that fixed width self-attention layers can compute contextual mappings of the input sequences.
   - [Robustness Verification for Transformers](https://arxiv.org/pdf/2002.06622.pdf), 2020 - A robustness verification algorithm for TRansformers that shed light on the Transformer's interpretative capabilities.
 
+---
+
 ## Data Generation
 [Seminal Paper](https://arxiv.org/pdf/1406.2661.pdf), 2014
-*Papers and Repositories For Image and Textual Generation Tasks.*
+*Papers and Repositories For Image, Textual, and Other Generation Tasks.*
 
 - [Image Generation](#Image-Generation)
 - [Text Generation](#Data-Generation)
 - [Other Generation](#Other-Generation)
+
+---
 
 ### Image Generation
 - **Papers with code:**
@@ -113,6 +139,7 @@ A repository of tools found in top conferences to aid in method identification a
   
 - **Papers without code:**
    - [Stochastic Conditional Generative Networks with Basis Decomposition](https://arxiv.org/pdf/1909.11286.pdf), 2019 - Generate improved images for multi-mode datasets.
+---
    
 ### Text Generation
 - **Papers with code:**
@@ -126,11 +153,29 @@ A repository of tools found in top conferences to aid in method identification a
    - [Augmenting Non-Collaborative Dialog Systems with Explicit Semantic and Strategic Dialog History](https://arxiv.org/pdf/1909.13425.pdf), 2020 - Using finite state tranducers to explicity represent dialog history.
    - [Self-Adversarial Learning with Comparative Discrimination for Text Generation](https://arxiv.org/pdf/2001.11691.pdf), 2020 - Self-improvement reward mechanism allows the model to avoid collapse.
 
+---
+
 ### Other Generation
 - **Papers with code:**
   - [A Closer Look at the Optimization Landscapes of Generative Adversarial Networks](https://arxiv.org/pdf/1906.04848.pdf), 2020 - GANs exhibits significant rotations around Local Stable Stationary Points (LSSP), which can be used as a saddle point for the generator loss. [Code](https://github.com/facebookresearch/GAN-optimization-landscape)
   - [Curb-GAN: Conditional Urban Traffic Estimation through Spatio-Temporal Generative Adversarial Networks](https://dl.acm.org/doi/10.1145/3394486.3403127), 2020 - Traffic estimations in consecutive time slots based on different (unprecedented) travel demands. [Code](https://github.com/Curb-GAN/Curb-GAN)
+  - [SEAL: Learning Heuristics for Community Detection with Generative Adversarial Networks](https://dl.acm.org/doi/abs/10.1145/3394486.3403154), 2020 - Creates and predicts whether a community is real or fake for enhanced detection. [Code](https://github.com/yzhang1918/kdd2020seal)
 
 - **Papers without code:**
-  - [Smoothness and Stability in GANs](https://arxiv.org/pdf/2002.04185.pdf), 2020 - Hyperparameter tuning to improve the smoothness and stability of GANs. [Code](https://github.com/pclucas14/GansFallingShort)
+  - [Smoothness and Stability in GANs](https://arxiv.org/pdf/2002.04185.pdf), 2020 - Hyperparameter tuning to improve the smoothness and stability of GANs.
   - [Deep State-Space Generative Model For Correlated Time-to-Event Predictions](https://dl.acm.org/doi/pdf/10.1145/3394486.3403206), 2020 - A new general discrete-time formulation of the hazard rate function to estimate the survival distribution of patients with significantly improved accuracy.
+  - [Catalysis Clustering With GAN By Incorporating Domain Knowledge](https://dl.acm.org/doi/10.1145/3394486.3403187), 2020 - Creates better unsupervised clusters based on domain-defined rules and guidelines.
+
+---
+ 
+## Adversarial Defense
+*Papers and Repositories For Defense Against Machine Learning Adversarial Attacks.*
+
+- **Papers with code:**
+  - [AdvMind: Inferring Adversary Intent of Black-Box Attacks](https://arxiv.org/pdf/2006.09539.pdf), 2020 - Infer the adversary intent of black-box adversarial attacks. [Code](https://github.com/ain-soph/trojanzoo)
+
+- **Papers without code:**
+  - [Interpretability is a Kind of Safety: An Interpreter-based Ensemble for Adversary Defense](https://dl.acm.org/doi/abs/10.1145/3394486.3403044), 2020 - Interpreter-based ensemble framework for the detection and defense of adversarial attacks to a model.
+
+---
+
