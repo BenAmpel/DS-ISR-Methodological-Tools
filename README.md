@@ -135,8 +135,9 @@ A repository of tools found in top conferences to aid in method identification a
 ---
 
 ## Data Generation
-[Seminal Paper](https://arxiv.org/pdf/1406.2661.pdf), 2014
 *Papers and Repositories For Image, Textual, and Other Generation Tasks.*
+
+[Seminal Paper](https://arxiv.org/pdf/1406.2661.pdf), 2014
 
 - [Image Generation](#Image-Generation)
 - [Text Generation](#Data-Generation)
