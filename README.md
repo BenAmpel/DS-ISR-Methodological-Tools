@@ -6,6 +6,7 @@ A repository of tools found in top conferences to aid in method identification a
 - [Text Classification](#Text-Classification)
 - [Data Generation](#Data-Generation)
 - [Adversarial Defense](#Adversarial-Defense)
+- [Anomaly Detection](#Anomaly-Detection)
 
 ---
 
@@ -215,4 +216,6 @@ A repository of tools found in top conferences to aid in method identification a
   - [Interpretability is a Kind of Safety: An Interpreter-based Ensemble for Adversary Defense](https://dl.acm.org/doi/abs/10.1145/3394486.3403044), 2020 - Interpreter-based ensemble framework for the detection and defense of adversarial attacks to a model.
 
 ---
-
+## Anomaly Detection
+*Papers and Repositories For Unsupervised Detection of Anamolous Data Points.*
+[Seminal Paper: Isolation Forest](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4781136&casa_token=aF-ARk__wSYAAAAA:vorkhlIsiRjIozuS5inFpXOnmBh7YNQ6W6QmHiId7xBFfo7qWQvW-hU3MfqtZPql-LvqWcNt&tag=1), 2008
