@@ -108,6 +108,7 @@ A repository of tools found in top conferences to aid in method identification a
 - [Topic Modeling](#Topic-Modeling)
 - [Word Embeddings](#Word-Embeddings)
 - [Knowledge Distillation](#Knowledge-Distillation) 
+- [Custom Layers](#Custom-Layers) 
 
 ---
 
@@ -122,11 +123,12 @@ A repository of tools found in top conferences to aid in method identification a
   - [Monotonic Multihead Attention](https://arxiv.org/pdf/1909.12406.pdf), 2020 - Adds a multihead monotonic attention mechanism for latency control. [Code](https://github.com/pytorch/fairseq/tree/master/examples/simultaneous_translation)
   - [Reformer: The Efficient Transformer](https://arxiv.org/pdf/2001.04451.pdf), 2020 - Memory-efficiency and faster on long-sequences. [Code](https://github.com/google/trax/tree/master/trax/models/reformer)
 
+
 - **Papers without code:**
   - [On Identifiability in Transformers](https://openreview.net/pdf?id=BJg1f6EFDB), 2020 - Introduces effective attention to improve explanatory interpretations based on attention.
   - [Are Transformers universal approximators of sequence-to-sequence functions?](https://arxiv.org/pdf/1912.10077.pdf), 2020 - Proof that fixed width self-attention layers can compute contextual mappings of the input sequences.
   - [Robustness Verification for Transformers](https://arxiv.org/pdf/2002.06622.pdf), 2020 - A robustness verification algorithm for TRansformers that shed light on the Transformer's interpretative capabilities.
-
+  - [An Attention Free Transformer](https://arxiv.org/pdf/2105.14103.pdf), 2021 - An efficient variant of Transformers that eliminates the need for dot product self attention. 
 ---
 ### Topic Modeling
 [Seminal Paper: LDA](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?TB_iframe=true&width=370.8&height=658.8), 2003
@@ -149,6 +151,10 @@ A repository of tools found in top conferences to aid in method identification a
 ### Knowledge Distillation
 - **Papers with code:**
   - [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/pdf/2006.10029.pdf), 2020 - The proposed semi-supervised learning algorithm can be summarized in three steps: unsupervised pretraining of a big ResNet model using SimCLRv2, supervised fine-tuning on a few labeled examples, and distillation with unlabeled examples for refining and transferring the task-specific knowledge.  [Code](https://github.com/google-research/simclr)
+---
+### Custom Layers
+- **Papers with code:**
+  - [The Tree Ensemble Layer: Differentiability meets Conditional Computation](https://arxiv.org/pdf/2002.07772v1.pdf), 2020 - An ensemble of differentiable decision trees (a.k.a. soft trees).  [Code](https://github.com/google-research/google-research/tree/master/tf_trees)
 ---
 ## Data Generation
 *Papers and Repositories For Image, Textual, and Other Generation Tasks.*
