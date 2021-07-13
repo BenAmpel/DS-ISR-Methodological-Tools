@@ -103,6 +103,7 @@ A repository of tools found in top conferences to aid in method identification a
 *Papers and Repositories For Multi-Label and Multi-Class Classification Problems With Text.*
 - [Transformers](#Transformers)
 - [Word Embeddings](#Word-Embeddings)
+- [Knowledge Distillation](#Knowledge-Distillation) 
 
 ---
 
@@ -133,7 +134,10 @@ A repository of tools found in top conferences to aid in method identification a
   - [Learning from Textual Data in Database Systems](https://dl.acm.org/doi/abs/10.1145/3340531.3412056), 2020 - An optimized algorithm for creating enhanced word embeddings. [Code](https://github.com/guenthermi/postgres-retrofit)
   
 ---
-
+### Knowledge Distillation
+- **Papers with code:**
+  - [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/pdf/2006.10029.pdf), 2021 - The proposed semi-supervised learning algorithm can be summarized in three steps: unsupervised pretraining of a big ResNet model using SimCLRv2, supervised fine-tuning on a few labeled examples, and distillation with unlabeled examples for refining and transferring the task-specific knowledge.  [Code](https://github.com/google-research/simclr)
+---
 ## Data Generation
 *Papers and Repositories For Image, Textual, and Other Generation Tasks.*
 
