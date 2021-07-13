@@ -136,7 +136,7 @@ A repository of tools found in top conferences to aid in method identification a
 ---
 ### Knowledge Distillation
 - **Papers with code:**
-  - [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/pdf/2006.10029.pdf), 2021 - The proposed semi-supervised learning algorithm can be summarized in three steps: unsupervised pretraining of a big ResNet model using SimCLRv2, supervised fine-tuning on a few labeled examples, and distillation with unlabeled examples for refining and transferring the task-specific knowledge.  [Code](https://github.com/google-research/simclr)
+  - [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/pdf/2006.10029.pdf), 2020 - The proposed semi-supervised learning algorithm can be summarized in three steps: unsupervised pretraining of a big ResNet model using SimCLRv2, supervised fine-tuning on a few labeled examples, and distillation with unlabeled examples for refining and transferring the task-specific knowledge.  [Code](https://github.com/google-research/simclr)
 ---
 ## Data Generation
 *Papers and Repositories For Image, Textual, and Other Generation Tasks.*
