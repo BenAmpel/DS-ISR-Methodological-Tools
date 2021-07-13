@@ -54,10 +54,13 @@ A repository of tools found in top conferences to aid in method identification a
 
 ### Graph Convolutional Networks
 [Seminal Paper](https://arxiv.org/pdf/1609.02907.pdf), 2017
+
 - **Papers with code:**
   - [HGCN: A Heterogeneous Graph Convolutional Network-Based Deep Learning Model Toward Collective Classification](https://dl.acm.org/doi/10.1145/3394486.3403169), 2020 - Improving GCN with heterogeneity to improve classification performance. [Code](https://github.com/huazai1992/HGCN)
   - [Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations](https://dl.acm.org/doi/10.1145/3394486.3403217), 2020 - To protect GCNs against adversarial attacks. [Code](https://www.in.tum.de/daml/robust-gcn/)
-  - [Adaptive Graph Encoder for Attributed Graph Embedding](https://arxiv.org/pdf/2007.01594.pdf), 2020 - To create better graph node embeddings. [Code](https://github.com/thunlp/AGE) 
+  - [Adaptive Graph Encoder for Attributed Graph Embedding](https://arxiv.org/pdf/2007.01594.pdf), 2020 - To create better graph node embeddings. [Code](https://github.com/thunlp/AGE)
+  - [GIST: Distributed Training for Large-Scale Graph Convolutional Networks](https://arxiv.org/pdf/2102.10424.pdf), 2020 - Our proposed training methodology, called GIST, disjointly partitions the parameters of a GCN model into several, smaller sub-GCNs that are trained independently and in parallel. [Code](https://github.com/wolfecameron/GIST) 
+
 - **Papers without code:**
   - [Graph Structural-topic Neural Network](https://arxiv.org/pdf/2006.14278.pdf), 2020 - Improve the underlying structure of GCNs
 
