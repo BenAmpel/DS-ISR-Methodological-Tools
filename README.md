@@ -102,6 +102,7 @@ A repository of tools found in top conferences to aid in method identification a
 ## Text Classification
 *Papers and Repositories For Multi-Label and Multi-Class Classification Problems With Text.*
 - [Transformers](#Transformers)
+- [Topic Modeling](#Topic-Modeling)
 - [Word Embeddings](#Word-Embeddings)
 - [Knowledge Distillation](#Knowledge-Distillation) 
 
@@ -124,7 +125,15 @@ A repository of tools found in top conferences to aid in method identification a
   - [Robustness Verification for Transformers](https://arxiv.org/pdf/2002.06622.pdf), 2020 - A robustness verification algorithm for TRansformers that shed light on the Transformer's interpretative capabilities.
 
 ---
+### Topic Modeling
+[Seminal Paper: LDA](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?TB_iframe=true&width=370.8&height=658.8), 2003
 
+- **Papers with code:**
+  - To Be Continued
+
+- **Papers without code:**
+  - [Hierarchical Topic Modeling of Twitter Data for Online Analytical Processing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8607040), 2018 - automatically mine the hierarchical dimension of tweets’ topics, which can be further employed for text OLAP on the tweets. Furthermore, thLDA uses word2vec to analyze the semantic relationships of words in tweets to obtain a more effective dimension.
+---
 ### Word Embeddings
 - **Seminal Pre-Trained Word Embeddings**
   - [Word2Vec](https://arxiv.org/pdf/1301.3781.pdf), 2013. [Code](https://github.com/tmikolov/word2vec)
