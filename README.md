@@ -4,7 +4,7 @@
 Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
 
 ## Topic
-*More Targeted Sections for New and Exciting AI research
+*More Targeted Sections for New and Exciting AI Research.
 - [Graphs](#Graphs)
 - [Text Classification](#Text-Classification)
 - [Reinforcement Learning](#Reinforcement-Learning)
