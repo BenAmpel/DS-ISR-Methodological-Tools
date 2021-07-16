@@ -249,4 +249,4 @@ Remember to always maintain high **ethical** standards when building AI models. 
 ---
 
 ## Awesome Lists
-- [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine learning/blob/master/README.md#optimized-computation-frameworks)
+- [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning/blob/master/README.md#optimized-computation-frameworks)
