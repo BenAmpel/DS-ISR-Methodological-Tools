@@ -10,21 +10,12 @@
 Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
 
 ## Topic
-*More Targeted Sections for New and Exciting AI Research.
-- [Graphs](#Graphs)
-- [Text Classification](#Text-Classification)
-- [Reinforcement Learning](#Reinforcement-Learning)
-- [Data Generation](#Data-Generation)
-- [Adversarial Defense](#Adversarial-Defense)
-- [Anomaly Detection](#Anomaly-Detection)
-- [Awesome Lists](#Awesome-Lists)
-
-
+*More Targeted Sections for New and Exciting AI Research.*
 | | | |
 |-|-|-|
-|[🔍 Graphs](#Graphs) |[🔏 Privacy preserving ML](#privacy-preserving-machine-learning) | [📜 Text Classification](#Text-Classification)|
-|[🏁 Reinforcement Learning](#Reinforcement-Learning)|[💪 Data Generation](#Data-Generation)|[🤖 ⚔ Adversarial Defense](#Adversarial-Defense)|
-|[:red_circle: Anomaly Detection](#Anomaly-Detection) | [📓 Awesome Lists](#Awesome-Lists) | 
+| [🔍 Graphs](#Graphs) | [📜 Text Classification](#Text-Classification) | [🏁 Reinforcement Learning](#Reinforcement-Learning)
+| [💪 Data Generation](#Data-Generation)|[🤖 ⚔ Adversarial Defense](#Adversarial-Defense)| [:red_circle: Anomaly Detection](#Anomaly-Detection)
+| [📓 Awesome Lists](#Awesome-Lists) | 
 
 ---
 
