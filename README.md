@@ -19,6 +19,13 @@ Remember to always maintain high **ethical** standards when building AI models. 
 - [Anomaly Detection](#Anomaly-Detection)
 - [Awesome Lists](#Awesome-Lists)
 
+
+| | | |
+|-|-|-|
+|[🔍 Graphs](#Graphs) |[🔏 Privacy preserving ML](#privacy-preserving-machine-learning) | [📜 Text Classification](#Text-Classification)|
+|[🏁 Reinforcement Learning](#Reinforcement-Learning)|[💪 Data Generation](#Data-Generation)|[🤖 ⚔ Adversarial Defense](#Adversarial-Defense)|
+|[:red_circle: Anomaly Detection](#Anomaly-Detection) | [📓 Awesome Lists](#Awesome-Lists) | 
+
 ---
 
 ## Graphs
