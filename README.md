@@ -1,4 +1,10 @@
 # Methodological Tools
+
+[![Awesome](images/awesome.svg)](https://github.com/sindresorhus/awesome)
+![GitHub](https://img.shields.io/badge/Release-PROD-yellow.svg)
+![GitHub](https://img.shields.io/badge/Languages-MULTI-blue.svg)
+![GitHub](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
 *A repository of tools found in top conferences to aid in method identification and application to IS research.*
 
 Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
