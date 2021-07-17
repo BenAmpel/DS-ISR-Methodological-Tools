@@ -15,7 +15,7 @@ Remember to always maintain high **ethical** standards when building AI models. 
 |-|-|-|
 | [🔍 Graphs](#Graphs) | [📜 Text Classification](#Text-Classification) | [🏁 Reinforcement Learning](#Reinforcement-Learning)
 | [💪 Data Generation](#Data-Generation)|[🤖 ⚔ Adversarial Defense](#Adversarial-Defense)| [:red_circle: Anomaly Detection](#Anomaly-Detection)
-| [📓 Awesome Lists](#Awesome-Lists) | [Python Tools](:snake: PythonTools)
+| [📓 Awesome Lists](#Awesome-Lists) | [:snake: Python Tools](PythonTools)
 
 ---
 
