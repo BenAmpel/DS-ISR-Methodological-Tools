@@ -13,8 +13,8 @@ Remember to always maintain high **ethical** standards when building AI models. 
 *More Targeted Sections for New and Exciting AI Research.*
 | | | |
 |-|-|-|
-| [:chart_with_upwards_trend: Graphs](#Graphs) | [📜 Text Classification](#Text-Classification) | [:chess_pawn: Reinforcement Learning](#Reinforcement-Learning)
-| [💪 Data Generation](#Data-Generation)|[🤖 Adversarial Defense](#Adversarial-Defense)| [:red_circle: Anomaly Detection](#Anomaly-Detection)
+| [:chart_with_upwards_trend: Graphs](Graphs) | [📜 Natural Language Processing](Natural Language Processing) | [:chess_pawn: Reinforcement Learning](ReinforcementLearning)
+| [💪 Data Generation](DataGeneration)|[🤖 Adversarial Defense](AdversarialDefense)| [:red_circle: Anomaly Detection](AnomalyDetection)
 | [📓 Awesome Lists](#Awesome-Lists) | [:snake: Python Tools](PythonTools)
 
 ---
