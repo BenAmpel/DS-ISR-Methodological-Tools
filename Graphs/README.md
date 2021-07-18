@@ -10,10 +10,12 @@
 ---
 
 ### Graph Neural Networks
+Graph Neural Networks (GNNs) maps graph-based data into a Euclidean space using a supervised learning algorithm. 
 [Seminal Paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja), 2007
+
 - **Papers with code:**
   - [Graph Transformer Networks: Learning Meta-path Graphs to Improve GNNs](https://arxiv.org/pdf/2106.06218.pdf), 2021 - Capable of generating new graph structures, which preclude noisy connections and include useful connections (e.g., meta-paths) for tasks, while learning effective node representations on the new graphs in an end-to-end fashion. [Code](https://github.com/seongjunyun/Graph_Transformer_Networks)
-- [Graph Structure Learning for Robust Graph Neural Networks](https://arxiv.org/pdf/2005.10203.pdf), 2020 - Protect GNNs against adversarial attacks. [Code](https://github.com/ChandlerBang/Pro-GNN) 
+  - [Graph Structure Learning for Robust Graph Neural Networks](https://arxiv.org/pdf/2005.10203.pdf), 2020 - Protect GNNs against adversarial attacks. [Code](https://github.com/ChandlerBang/Pro-GNN) 
   - [GPT-GNN: Generative Pre-Training of Graph Neural Networks](https://arxiv.org/pdf/2006.15437.pdf), 2020 - Using GPT to fine-tune a GNN improves many downstream tasks. [Code](https://github.com/acbull/GPT-GNN) 
   - [GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training](https://arxiv.org/pdf/2006.09963.pdf), 2020 - Pre-training a GNN on ten graph datasets improves many downstream tasks. [Code](https://github.com/THUDM/GCC)
   - [Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://arxiv.org/pdf/2005.11650.pdf), 2020 - Framework designed for multi-variate time series data. [Code](https://github.com/THUDM/GCC)
@@ -33,6 +35,7 @@
 ---
 
 ### Graph Attention Networks
+Leveraging GNNs, Graph Attention Networks (GATs) add self-attention layers to effectively capture neighborhood features.
 [Seminal Paper](https://arxiv.org/pdf/1710.10903.pdf), 2018
 - **Papers with code:**
   - [Graph Attention Networks over Edge Content-Based Channels](https://dl.acm.org/doi/10.1145/3394486.3403233), 2020 - Enhanced learning by utilizing the latent semantic information in edge content. [Code](https://github.com/Louise-LuLin/topic-gcn)  
@@ -42,6 +45,7 @@
 ---
 
 ### Graph Convolutional Networks
+Leveraging GNNs, Graph Convolutional Networks (GCNs) add convolutional layers to learn layer representations through semi-supervised learning.
 [Seminal Paper](https://arxiv.org/pdf/1609.02907.pdf), 2017
 
 - **Papers with code:**
@@ -57,11 +61,13 @@
 ---
 
 ### Graph Prototypical Networks
+Adds a meta-learning component to GNNs for effective few-shot learning.
 [Seminal Paper](https://arxiv.org/pdf/2006.12739.pdf), 2020 - [Code](https://github.com/kaize0409/GPN)
 
 ---
 
 ### Graph Summarization
+Creating a summarization of a graph to reduce data, speed graph queries, and eliminate noise.
 [Seminal Paper](https://arxiv.org/pdf/1612.04883.pdf), 2018
 - **Papers with code:**
   - [Incremental and Parallel Computation of Structural Graph Summaries for Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3340531.3411878), 2020 - Finding a condensed representation of a graph. [Code](https://github.com/t-blume/fluid-spark)
@@ -70,6 +76,7 @@
 ---
 
 ### Temporal Graphs
+Graphs that change over time.
 [Seminal Paper](https://www.tandfonline.com/doi/abs/10.1080/15427951.2016.1177801), 2016
 - **Papers with code:**
   - [tdGraphEmbed: Temporal Dynamic Graph-Level Embedding](https://dl.acm.org/doi/abs/10.1145/3340531.3411953), 2020 - To extend random-walk based node embedding methods to improve embeddings. [Code](https://github.com/moranbel/tdGraphEmbed)
@@ -83,6 +90,7 @@
 ---
 
 ### Graph Embeddings
+Custom node embeddings in a semi-supervised fashion can improve model performance.
 [Seminal Paper](http://proceedings.mlr.press/v48/yanga16.pdf), 2016
 - **Papers with code:**
   - [Towards Locality-Aware Meta-Learning of Tail Node Embeddings on Networks](https://dl.acm.org/doi/10.1145/3340531.3411910), 2020 - Create tail node embedding for node classification and link prediction. [Code](https://github.com/smufang/meta-tail2vec)
