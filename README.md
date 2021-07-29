@@ -21,4 +21,4 @@ Remember to always maintain high **ethical** standards when building AI models. 
 
 ## Other Helpful Links
 * [Learney](https://app.learney.me) - Introduction and resources for statistics, machine learning, and deep learning.
-* [Connected Papers](https://www.connectedpapers.com/) - Find papers 
+* [Connected Papers](https://www.connectedpapers.com/) - Find related papers to build a comprehensive literature review. 
