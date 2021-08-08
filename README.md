@@ -9,6 +9,8 @@
 
 Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
 
+Never done machine learning before? [Read this paper](https://arxiv.org/abs/2108.02497) to avoid common pitfalls!
+
 ## Topic
 *More Targeted Sections for New and Exciting AI Research.*
 | | | |
