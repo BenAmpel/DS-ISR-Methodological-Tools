@@ -11,6 +11,8 @@
 ### Transformers
 [Seminal Paper](https://arxiv.org/pdf/1706.03762.pdf), 2017
 
+An introduction to transformers can be found [here](https://github.com/will-thompson-k/tldr-transformers).
+
 - **Papers with code:**
   - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345v2.pdf), 2021 - Decision Transformer simply outputs the optimal actions by leveraging a causally masked Transformer. By conditioning an autoregressive model on the desired return (reward), past states, and actions, our Decision Transformer model can generate future actions that achieve the desired return. [Code](https://github.com/kzl/decision-transformer)
   - [CoBERL: Contrastive BERT for Reinforcement Learning](https://arxiv.org/pdf/2107.05431v1.pdf), 2021 - An agent that combines a new contrastive loss and a hybrid LSTM-transformer architecture to tackle the challenge of improving data efficiency. COBERL enables efficient, robust learning from pixels across a wide range of domains. [Code](https://github.com/deepmind/dm_control)
