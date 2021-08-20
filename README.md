@@ -14,9 +14,9 @@
 
 ### [Techniques for Automated Machine Learning](https://dl.acm.org/doi/pdf/10.1145/3447556.3447567)
 *Adapted from Chen et al., 2021*
-| |
-|-|
-| [Feature Tools](https://github.com/Featuretools/featuretools) |
+| | |
+|-|-|
+| [Feature Tools](https://github.com/Featuretools/featuretools) | Automated feature engineering for machine learning models. Provides descriptive feature output. |
 | [Hyperopt](https://github.com/hyperopt/hyperopt) |
 | [Scikit-Optimize](https://github.com/scikit-optimize/scikit-optimize) |
 | [SMAC3](https://github.com/scikit-optimize/scikit-optimize) |
