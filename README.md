@@ -1,4 +1,4 @@
-# Methodological AI Tools
+# Methodological AI Tools For Information Systems Researchers
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ![GitHub](https://img.shields.io/github/last-commit/BenAmpel/MethodologicalTools)
@@ -9,7 +9,7 @@
 
 - Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
 - Never done machine learning before? [Read this paper](https://arxiv.org/abs/2108.02497) to avoid common pitfalls!
-
+  - Find frameworks to do the heavy lifting for you in [AutoML](AutoML)
 ---
 
 ## Topic
