@@ -13,9 +13,18 @@
 ### [Tools for automated machine and deep learning](https://dl.acm.org/doi/pdf/10.1145/3447556.3447567)
 | |
 |-|
-| Framework |
-| Feature Tools |
-| AutoCross |
+| [Feature Tools](https://github.com/Featuretools/featuretools) |
+| [Hyperopt](https://github.com/hyperopt/hyperopt) |
+| [Scikit-Optimize](https://github.com/scikit-optimize/scikit-optimize) |
+| [SMAC3](https://github.com/scikit-optimize/scikit-optimize) |
+| [Auto-Sklearn](https://github.com/automl/auto-sklearn) |
+| [TPOT](https://github.com/EpistasisLab/tpot) |
+| [Auto-Keras](https://github.com/keras-team/autokeras) |
+| [AdaNet](https://github.com/tensorflow/adanet) |
+| [Auto-PyTorch](https://github.com/automl/Auto-PyTorch) |
+| [AutoGluon](https://autogluon.mxnet.io) | 
+| [Neural Network Intelligence](https://github.com/microsoft/nni) |
+
 
 ## Topic
 *More Targeted Sections for New and Exciting AI Research.*
