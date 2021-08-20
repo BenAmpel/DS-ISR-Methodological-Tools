@@ -10,6 +10,8 @@
 - Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
 - Never done machine learning before? [Read this paper](https://arxiv.org/abs/2108.02497) to avoid common pitfalls!
 
+---
+
 ### [Techniques for Automated Machine Learning](https://dl.acm.org/doi/pdf/10.1145/3447556.3447567)
 *Adapted from Chen et al., 2021*
 | |
@@ -26,6 +28,7 @@
 | [AutoGluon](https://autogluon.mxnet.io) | 
 | [Neural Network Intelligence](https://github.com/microsoft/nni) |
 
+---
 
 ## Topic
 *More Targeted Sections for New and Exciting AI Research.*
@@ -40,3 +43,5 @@
 ## Other Helpful Links
 * [Learney](https://app.learney.me) - Introduction and resources for statistics, machine learning, and deep learning.
 * [Connected Papers](https://www.connectedpapers.com/) - Find related papers to build a comprehensive literature review. 
+
+---
