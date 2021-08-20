@@ -16,6 +16,7 @@
 *Adapted from Chen et al., 2021*
 | | |
 |-|-|
+| **Python Package** |  **Description** |
 | [Feature Tools](https://github.com/Featuretools/featuretools) | Automated feature engineering for machine learning models. Provides descriptive feature output. |
 | [Hyperopt](https://github.com/hyperopt/hyperopt) |
 | [Scikit-Optimize](https://github.com/scikit-optimize/scikit-optimize) |
