@@ -12,9 +12,9 @@
 
 ### [Tools for automated machine and deep learning](https://dl.acm.org/doi/pdf/10.1145/3447556.3447567)
 | |
-|Framework|
-|Feature Tools
-|AutoCross
+| Framework |
+| Feature Tools |
+| AutoCross |
 
 ## Topic
 *More Targeted Sections for New and Exciting AI Research.*
