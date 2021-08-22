@@ -7,7 +7,7 @@
 
 *A repository of tools found in top conferences to aid in method identification and application to IS research.*
 
-- Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
+- Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](Ethics)
 - Never done machine learning before? [Read this paper](https://arxiv.org/pdf/2108.02497.pdf) to avoid common pitfalls!
   - Find frameworks to do the heavy lifting for you in [AutoML](AutoML)
 ---
