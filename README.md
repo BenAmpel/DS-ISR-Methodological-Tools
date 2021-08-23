@@ -16,7 +16,7 @@
 *More Targeted Sections for New and Exciting AI Research.*
 | | | |
 |-|-|-|
-| [:chart_with_upwards_trend: Graphs](Graphs) | [📜 Natural Language Processing](NaturalLanguageProcessing) | [:chess_pawn: Reinforcement Learning](ReinforcementLearning)
+| [:chart_with_upwards_trend: Graphs](Files/Graphs) | [📜 Natural Language Processing](NaturalLanguageProcessing) | [:chess_pawn: Reinforcement Learning](ReinforcementLearning)
 | [💪 Data Generation](DataGeneration)|[🤖 Adversarial Defense](AdversarialDefense)| [:red_circle: Anomaly Detection](AnomalyDetection)
 | [:snake: Python Tools](PythonTools) | [:high_brightness: Attention Mechanisms](https://github.com/xmu-xiaoma666/External-Attention-pytorch) | [:arrow_right: Transfer Learning](https://github.com/jindongwang/transferlearning)
 
