@@ -9,16 +9,16 @@
 
 - Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](Ethics)
 - Never done machine learning before? [Read this paper](https://arxiv.org/pdf/2108.02497.pdf) to avoid common pitfalls and watch [tutorials](https://github.com/aladdinpersson/Machine-Learning-Collection).
-  - Find frameworks to do the heavy lifting for you in [AutoML](AutoML)
+  - Find frameworks to do the heavy lifting for you in [AutoML](Files/AutoML)
 ---
 
 ## Topic
 *More Targeted Sections for New and Exciting AI Research.*
 | | | |
 |-|-|-|
-| [:chart_with_upwards_trend: Graphs](Files/Graphs) | [📜 Natural Language Processing](NaturalLanguageProcessing) | [:chess_pawn: Reinforcement Learning](ReinforcementLearning)
-| [💪 Data Generation](DataGeneration)|[🤖 Adversarial Defense](AdversarialDefense)| [:red_circle: Anomaly Detection](AnomalyDetection)
-| [:snake: Python Tools](PythonTools) | [:high_brightness: Attention Mechanisms](https://github.com/xmu-xiaoma666/External-Attention-pytorch) | [:arrow_right: Transfer Learning](https://github.com/jindongwang/transferlearning)
+| [:chart_with_upwards_trend: Graphs](Files/Graphs) | [📜 Natural Language Processing](Files/NaturalLanguageProcessing) | [:chess_pawn: Reinforcement Learning](Files/ReinforcementLearning)
+| [💪 Data Generation](Files/DataGeneration)|[🤖 Adversarial Defense](Files/AdversarialDefense)| [:red_circle: Anomaly Detection](Files/AnomalyDetection)
+| [:snake: Python Tools](Files/PythonTools) | [:high_brightness: Attention Mechanisms](Files/https://github.com/xmu-xiaoma666/External-Attention-pytorch) | [:arrow_right: Transfer Learning](https://github.com/jindongwang/transferlearning)
 
 ---
 
