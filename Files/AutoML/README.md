@@ -15,5 +15,6 @@
 | [Auto-PyTorch](https://github.com/automl/Auto-PyTorch) | Performs an advanced neural architecture search in the PyTorch framework for fully automated deep learning. |
 | [AutoGluon](https://autogluon.mxnet.io) | Automated machine learning for text, image, and tabular data. |
 | [Neural Network Intelligence](https://github.com/microsoft/nni) | A toolkit to automate Feature Engineering, Neural Architecture Search, Hyperparameter Tuning and Model Compression. |
+| [Rasa](https://github.com/RasaHQ/rasa) | Open source machine learning framework to automate text-and voice-based conversations. |
 
 ---
