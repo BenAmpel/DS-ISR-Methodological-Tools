@@ -5,7 +5,7 @@
 |-|-|-|
 | [Graph Neural Networks](#Graph-Neural-Networks) | [Graph Attention Networks](#Graph-Attention-Networks) | [Graph Convolutional Networks](#Graph-Convolutional-Networks)
 | [Graph Prototypical Networks](#Graph-Prototypical-Networks) | [Graph Summarization](#Graph-Summarization) | [Temporal Graphs](#Temporal-Graphs)
-| [Graph Embeddings](#Graph-Embeddings)
+| [Graph Embeddings](#Graph-Embeddings) | [Graphs for NLP](https://github.com/graph4ai/graph4nlp_literature)
 
 ---
 
