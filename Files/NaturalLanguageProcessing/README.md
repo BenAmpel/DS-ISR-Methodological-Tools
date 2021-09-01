@@ -14,6 +14,7 @@
 An introduction to transformers can be found [here](https://github.com/will-thompson-k/tldr-transformers).
 
 - **Papers with code:**
+  - [Fastformer: Additive Attention Can Be All You Need](https://arxiv.org/pdf/2108.09084.pdf), 2021 - efficient Transformer variant based on additive attention that can achieve effective context modeling in linear complexity. [Code](https://github.com/wilile26811249/Fastformer-PyTorch)
   - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345v2.pdf), 2021 - Decision Transformer simply outputs the optimal actions by leveraging a causally masked Transformer. By conditioning an autoregressive model on the desired return (reward), past states, and actions, our Decision Transformer model can generate future actions that achieve the desired return. [Code](https://github.com/kzl/decision-transformer)
   - [CoBERL: Contrastive BERT for Reinforcement Learning](https://arxiv.org/pdf/2107.05431v1.pdf), 2021 - An agent that combines a new contrastive loss and a hybrid LSTM-transformer architecture to tackle the challenge of improving data efficiency. COBERL enables efficient, robust learning from pixels across a wide range of domains. [Code](https://github.com/deepmind/dm_control)
   - [Encoding word order in complex embeddings](https://arxiv.org/pdf/1912.12333.pdf), 2020 - To create a custom embedding that models global absolute positions of words and their order relationships. [Code](https://github.com/iclr-complex-order/complex-order)
