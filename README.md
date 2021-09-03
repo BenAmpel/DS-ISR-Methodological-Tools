@@ -19,7 +19,7 @@
 | [:chart_with_upwards_trend: Graphs](Files/Graphs) | [📜 Natural Language Processing](Files/NaturalLanguageProcessing) | [:chess_pawn: Reinforcement Learning](Files/ReinforcementLearning)
 | [💪 Data Generation](Files/DataGeneration)|[🤖 Adversarial Defense](Files/AdversarialDefense)| [:red_circle: Anomaly Detection](Files/AnomalyDetection)
 | [:snake: Python Tools](Files/PythonTools) | [:high_brightness: Attention Mechanisms](Files/https://github.com/xmu-xiaoma666/External-Attention-pytorch) | [:arrow_right: Transfer Learning](https://github.com/jindongwang/transferlearning) |
-| [Images](https://github.com/rwightman/pytorch-image-models) |
+| [:paintbrush:	Images](https://github.com/rwightman/pytorch-image-models) |
 
 ---
 
