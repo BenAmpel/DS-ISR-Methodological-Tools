@@ -10,6 +10,7 @@
 - Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](Ethics)
 - Never done machine learning before? [Read this paper](https://arxiv.org/pdf/2108.02497.pdf) to avoid common pitfalls and watch [tutorials](https://github.com/aladdinpersson/Machine-Learning-Collection).
   - Find frameworks to do the heavy lifting for you in [AutoML](Files/AutoML)
+- Never used Python before? [Follow these mini projects to hone your skills](https://github.com/Python-World/python-mini-projects).
 ---
 
 ## Topic
