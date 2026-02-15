@@ -1,91 +1,420 @@
 ---
 ---
 
-// Custom style overrides for Just the Docs
-// The front matter dashes above are required for Jekyll to process this file
+// ─── CUSTOM STYLES FOR DS-ISR METHODOLOGICAL TOOLS ──────────────────────────
+// Jekyll requires the front matter dashes above to process this file.
 
-// Academic blue palette
-$link-color: #1565c0;
+// ─── Color tokens ────────────────────────────────────────────────────────────
+$blue-900: #0d47a1;
+$blue-800: #1565c0;
+$blue-600: #1976d2;
+$blue-400: #42a5f5;
+$blue-100: #e3f2fd;
+$blue-50:  #f0f7ff;
+
+$green-700: #2e7d32;
+$green-100: #e8f5e9;
+$amber-700: #f57f17;
+$amber-100: #fffde7;
+$purple-700: #6a1b9a;
+$purple-100: #f3e5f5;
+
+$text-primary: #1a1a2e;
+$text-muted: #555;
+$border: #e0e4ed;
+$radius: 8px;
+$radius-sm: 5px;
+
+// ─── Hero section ─────────────────────────────────────────────────────────────
+.hero-section {
+  text-align: center;
+  padding: 2rem 0 1rem;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    border-bottom: none !important;
+    line-height: 1.2;
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  max-width: 660px;
+  margin: 0 auto 1.2rem;
+  color: $text-muted;
+  line-height: 1.6;
+}
+
+.hero-badges {
+  margin-bottom: 0.75rem;
+  img { margin: 0 3px; vertical-align: middle; }
+}
+
+.search-hint {
+  display: inline-block;
+  background: $blue-50;
+  border: 1px solid #b3d9f5;
+  border-radius: $radius-sm;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  color: $blue-800;
+  margin-top: 0.25rem;
+}
+
+// ─── Featured cards ──────────────────────────────────────────────────────────
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.featured-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid $border;
+  border-radius: $radius;
+  background: #fff;
+  text-decoration: none;
+  color: $text-primary;
+  transition: box-shadow 0.15s, border-color 0.15s, transform 0.1s;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(21, 101, 192, 0.12);
+    border-color: $blue-400;
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  p { font-size: 0.88rem; color: $text-muted; margin: 0.25rem 0 0; }
+  strong { font-size: 0.95rem; color: $text-primary; }
+}
+
+.featured-card-icon {
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.featured-card-body { flex: 1; }
+
+.featured-card-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 20px;
+  margin-bottom: 0.3rem;
+  background: $blue-100;
+  color: $blue-900;
+}
+
+// ─── Level cards (Automation-of-Invention) ────────────────────────────────────
+.level-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.85rem;
+  margin: 1.25rem 0;
+}
+
+.level-card {
+  padding: 1rem 1.1rem;
+  border-radius: $radius;
+  border-left: 4px solid;
+  background: #fff;
+  border: 1px solid $border;
+}
+
+.level-1 { border-left: 4px solid $blue-400; background: linear-gradient(135deg, #f0f7ff 0%, #fff 100%); }
+.level-2 { border-left: 4px solid $blue-600; background: linear-gradient(135deg, #e3f2fd 0%, #fff 100%); }
+.level-3 { border-left: 4px solid $blue-900; background: linear-gradient(135deg, #bbdefb 0%, #fff 100%); }
+
+.level-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  background: $blue-800;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-bottom: 0.4rem;
+}
+
+.level-role {
+  font-size: 1rem;
+  font-weight: 700;
+  color: $text-primary;
+  margin-bottom: 0.25rem;
+}
+
+.level-desc {
+  font-size: 0.875rem;
+  color: $text-muted;
+  margin-bottom: 0.4rem;
+}
+
+.level-tools {
+  font-size: 0.78rem;
+  color: $blue-800;
+  font-style: italic;
+}
+
+// ─── Topic cards ──────────────────────────────────────────────────────────────
+.topic-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.topic-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.9rem 1rem;
+  border: 1px solid $border;
+  border-radius: $radius;
+  background: #fff;
+  text-decoration: none;
+  color: $text-primary;
+  transition: box-shadow 0.15s, border-color 0.15s, transform 0.1s;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgba(21, 101, 192, 0.12);
+    border-color: $blue-400;
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+}
+
+.topic-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+  line-height: 1;
+}
+
+.topic-name {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: $text-primary;
+  margin-bottom: 0.2rem;
+  line-height: 1.3;
+}
+
+.topic-desc {
+  font-size: 0.78rem;
+  color: $text-muted;
+  line-height: 1.3;
+}
+
+// ─── Quick Start cards ────────────────────────────────────────────────────────
+.quickstart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.qs-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid $border;
+  border-radius: $radius;
+  background: #fff;
+  text-decoration: none;
+  color: $text-primary;
+  transition: box-shadow 0.15s, border-color 0.15s;
+
+  &:hover {
+    box-shadow: 0 3px 12px rgba(21, 101, 192, 0.1);
+    border-color: $blue-400;
+    text-decoration: none;
+  }
+}
+
+.qs-icon { font-size: 1.3rem; line-height: 1; }
+
+.qs-goal {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: $text-primary;
+  line-height: 1.3;
+}
+
+.qs-where {
+  font-size: 0.8rem;
+  color: $blue-800;
+  font-style: italic;
+}
+
+.qs-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-top: 0.3rem;
+  width: fit-content;
+
+  &.beginner   { background: $green-100; color: $green-700; }
+  &.intermediate { background: $amber-100; color: $amber-700; }
+  &.advanced   { background: $purple-100; color: $purple-700; }
+}
+
+// ─── Resource cards ───────────────────────────────────────────────────────────
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.resource-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.9rem 1rem;
+  border: 1px solid $border;
+  border-radius: $radius;
+  background: #fff;
+  text-decoration: none;
+  color: $text-primary;
+  transition: box-shadow 0.15s, border-color 0.15s;
+
+  &:hover {
+    box-shadow: 0 3px 12px rgba(21, 101, 192, 0.1);
+    border-color: $blue-400;
+    text-decoration: none;
+  }
+
+  strong { font-size: 0.9rem; display: block; margin: 0.35rem 0 0.2rem; }
+  p { font-size: 0.82rem; color: $text-muted; margin: 0; line-height: 1.4; }
+}
+
+.resource-type {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 8px;
+  border-radius: 20px;
+  width: fit-content;
+
+  &.paper    { background: #fce4ec; color: #c62828; }
+  &.course   { background: $green-100; color: $green-700; }
+  &.notebook { background: $amber-100; color: $amber-700; }
+  &.tool     { background: $blue-100; color: $blue-900; }
+}
+
+// ─── Cookbook cards ───────────────────────────────────────────────────────────
+.cookbook-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.cookbook-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid $border;
+  border-radius: $radius;
+  background: #fff;
+  text-decoration: none;
+  color: $text-primary;
+  transition: box-shadow 0.15s, border-color 0.15s;
+
+  &:hover {
+    box-shadow: 0 3px 12px rgba(21, 101, 192, 0.1);
+    border-color: $blue-400;
+    text-decoration: none;
+  }
+
+  strong { font-size: 0.9rem; display: block; margin: 0.4rem 0 0.25rem; }
+  p { font-size: 0.82rem; color: $text-muted; margin: 0; line-height: 1.4; }
+}
+
+.cookbook-step {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: $blue-100;
+  line-height: 1;
+  font-family: monospace;
+}
+
+// ─── Ethics banner ────────────────────────────────────────────────────────────
+.ethics-banner {
+  background: linear-gradient(135deg, #e8f4fd, #f0f7ff);
+  border: 1px solid $blue-100;
+  border-left: 4px solid $blue-800;
+  border-radius: $radius;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  color: $blue-900;
+
+  a { color: $blue-800; font-weight: 600; }
+}
 
 // ─── Tables ───────────────────────────────────────────────────────────────────
 .main-content table {
   font-size: 0.9rem;
 
   th {
-    background-color: #e3f2fd;
-    color: #0d47a1;
+    background-color: $blue-100;
+    color: $blue-900;
     font-weight: 600;
   }
 
-  td, th {
-    padding: 0.5rem 0.75rem;
-    vertical-align: top;
-  }
-
-  tr:hover td {
-    background-color: #f5f9ff;
-  }
-}
-
-// Dark mode table overrides
-@media (prefers-color-scheme: dark) {
-  .main-content table th {
-    background-color: #0d2a4a;
-    color: #90caf9;
-  }
-  .main-content table tr:hover td {
-    background-color: #0a1929;
-  }
+  td, th { padding: 0.5rem 0.75rem; vertical-align: top; }
+  tr:hover td { background-color: $blue-50; }
 }
 
 // ─── Blockquote callouts ──────────────────────────────────────────────────────
 .main-content blockquote {
-  border-left: 4px solid #1565c0;
-  background: #e8f4fd;
+  border-left: 4px solid $blue-800;
+  background: $blue-50;
   padding: 0.75rem 1rem;
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 $radius-sm $radius-sm 0;
   margin: 1rem 0;
   color: #1a3a5c;
 
   p { margin: 0; }
 }
 
-@media (prefers-color-scheme: dark) {
-  .main-content blockquote {
-    background: #0d2a4a;
-    color: #90caf9;
-  }
-}
-
 // ─── SVG diagrams ─────────────────────────────────────────────────────────────
 svg[role="img"] {
-  border-radius: 8px;
+  border-radius: $radius;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   margin: 1.5rem 0;
 }
 
 // ─── Navigation sidebar ───────────────────────────────────────────────────────
-.nav-list-item {
-  font-size: 0.875rem;
-}
+.nav-list-item { font-size: 0.875rem; }
 
-// ─── Section footer ───────────────────────────────────────────────────────────
+// ─── Section nav footer ───────────────────────────────────────────────────────
 .section-nav-footer {
   margin-top: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid #e0e4ed;
+  border-top: 1px solid $border;
   font-size: 0.875rem;
   color: #666;
 }
 
-@media (prefers-color-scheme: dark) {
-  .section-nav-footer {
-    border-top-color: #2a3a4a;
-    color: #aaa;
-  }
-}
-
-// ─── Keyboard key styling ─────────────────────────────────────────────────────
+// ─── Keyboard key ─────────────────────────────────────────────────────────────
 kbd {
   background: #fff;
   border: 1px solid #ccc;
@@ -95,43 +424,46 @@ kbd {
   box-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  kbd {
-    background: #1a2a3a;
-    border-color: #3a4a5a;
-    color: #ccc;
-  }
-}
-
-// ─── Badge row spacing ────────────────────────────────────────────────────────
-.main-content p img + img {
-  margin-left: 4px;
-}
-
-// ─── 404 page button ─────────────────────────────────────────────────────────
+// ─── 404 buttons ─────────────────────────────────────────────────────────────
 .btn {
   display: inline-block;
   padding: 0.5rem 1.25rem;
-  border-radius: 6px;
+  border-radius: $radius-sm;
   font-size: 0.95rem;
   text-decoration: none;
-  border: 1px solid #1565c0;
-  color: #1565c0;
+  border: 1px solid $blue-800;
+  color: $blue-800;
   transition: background 0.15s, color 0.15s;
-
-  &:hover {
-    background: #1565c0;
-    color: #fff;
-    text-decoration: none;
-  }
+  &:hover { background: $blue-800; color: #fff; text-decoration: none; }
+}
+.btn-primary {
+  background: $blue-800;
+  color: #fff;
+  &:hover { background: $blue-900; color: #fff; }
 }
 
-.btn-primary {
-  background: #1565c0;
-  color: #fff;
-
-  &:hover {
-    background: #0d47a1;
-    color: #fff;
+// ─── Dark mode ────────────────────────────────────────────────────────────────
+@media (prefers-color-scheme: dark) {
+  .topic-card, .qs-card, .resource-card, .cookbook-card,
+  .featured-card, .level-card {
+    background: #1a2333;
+    border-color: #2a3a4a;
+    color: #e0e8f0;
   }
+
+  .topic-name, .qs-goal, .level-role { color: #e0e8f0; }
+  .topic-desc, .qs-where, .level-desc, .level-tools,
+  .resource-card p, .cookbook-card p, .featured-card p { color: #8aa0b8; }
+
+  .main-content table th {
+    background-color: #0d2a4a;
+    color: #90caf9;
+  }
+  .main-content table tr:hover td { background-color: #0a1929; }
+  .main-content blockquote { background: #0d2a4a; color: #90caf9; }
+  .ethics-banner { background: #0d2233; border-color: #1e3a5a; color: #90caf9; }
+  .search-hint { background: #0d2233; border-color: #1e3a5a; color: #90caf9; }
+
+  .section-nav-footer { border-top-color: #2a3a4a; color: #aaa; }
+  kbd { background: #1a2a3a; border-color: #3a4a5a; color: #ccc; }
 }
