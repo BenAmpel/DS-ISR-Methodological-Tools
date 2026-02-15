@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" role="img"
+     aria-label="DSR Research Workflow mapped to AI tool categories"
+     style="width:100%; max-width:800px; display:block; margin:1.5rem auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <title>DSR Research Workflow and AI Tool Categories</title>
+  <defs>
+    <marker id="tm-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#1976d2"/>
+    </marker>
+    <filter id="tm-shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#00000018"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="220" rx="10" fill="#f8f9fc" stroke="#e0e4ed" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="400" y="24" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="700">
+    DSR Research Workflow → AI Tool Categories
+  </text>
+
+  <!-- Node dimensions: width=126, height=72, gap=18, start x=18 -->
+
+  <!-- Node 1: Literature Discovery -->
+  <rect x="18" y="42" width="126" height="72" rx="7" fill="#1565c0" filter="url(#tm-shadow)"/>
+  <text x="81" y="64" text-anchor="middle" fill="white" font-size="11" font-weight="700">Literature</text>
+  <text x="81" y="78" text-anchor="middle" fill="white" font-size="11" font-weight="700">Discovery</text>
+  <text x="81" y="96" text-anchor="middle" fill="#90c6f0" font-size="9">Elicit · Research Rabbit</text>
+  <text x="81" y="108" text-anchor="middle" fill="#90c6f0" font-size="9">Semantic Scholar</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="145" y1="78" x2="161" y2="78" stroke="#1976d2" stroke-width="2" marker-end="url(#tm-arrow)"/>
+
+  <!-- Node 2: Artifact Construction -->
+  <rect x="163" y="42" width="126" height="72" rx="7" fill="#1565c0" filter="url(#tm-shadow)"/>
+  <text x="226" y="64" text-anchor="middle" fill="white" font-size="11" font-weight="700">Artifact</text>
+  <text x="226" y="78" text-anchor="middle" fill="white" font-size="11" font-weight="700">Construction</text>
+  <text x="226" y="96" text-anchor="middle" fill="#90c6f0" font-size="9">LLMs · RAG · Fine-Tuning</text>
+  <text x="226" y="108" text-anchor="middle" fill="#90c6f0" font-size="9">Graphs · Multimodal</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="290" y1="78" x2="306" y2="78" stroke="#1976d2" stroke-width="2" marker-end="url(#tm-arrow)"/>
+
+  <!-- Node 3: Evaluation -->
+  <rect x="308" y="42" width="126" height="72" rx="7" fill="#1565c0" filter="url(#tm-shadow)"/>
+  <text x="371" y="64" text-anchor="middle" fill="white" font-size="11" font-weight="700">Evaluation &amp;</text>
+  <text x="371" y="78" text-anchor="middle" fill="white" font-size="11" font-weight="700">Benchmarking</text>
+  <text x="371" y="96" text-anchor="middle" fill="#90c6f0" font-size="9">RAGAS · LLM-as-Judge</text>
+  <text x="371" y="108" text-anchor="middle" fill="#90c6f0" font-size="9">Interpretability · Causal</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="435" y1="78" x2="451" y2="78" stroke="#1976d2" stroke-width="2" marker-end="url(#tm-arrow)"/>
+
+  <!-- Node 4: Ethics & Responsibility -->
+  <rect x="453" y="42" width="126" height="72" rx="7" fill="#1565c0" filter="url(#tm-shadow)"/>
+  <text x="516" y="64" text-anchor="middle" fill="white" font-size="11" font-weight="700">Ethics &amp;</text>
+  <text x="516" y="78" text-anchor="middle" fill="white" font-size="11" font-weight="700">Responsibility</text>
+  <text x="516" y="96" text-anchor="middle" fill="#90c6f0" font-size="9">Fairness · Adversarial</text>
+  <text x="516" y="108" text-anchor="middle" fill="#90c6f0" font-size="9">Defense · Compliance</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="580" y1="78" x2="596" y2="78" stroke="#1976d2" stroke-width="2" marker-end="url(#tm-arrow)"/>
+
+  <!-- Node 5: Deployment & Iteration -->
+  <rect x="598" y="42" width="184" height="72" rx="7" fill="#1565c0" filter="url(#tm-shadow)"/>
+  <text x="690" y="64" text-anchor="middle" fill="white" font-size="11" font-weight="700">Deployment</text>
+  <text x="690" y="78" text-anchor="middle" fill="white" font-size="11" font-weight="700">&amp; Iteration</text>
+  <text x="690" y="96" text-anchor="middle" fill="#90c6f0" font-size="9">Streamlit · Python Tools</text>
+  <text x="690" y="108" text-anchor="middle" fill="#90c6f0" font-size="9">Prompt Engineering · RL</text>
+
+  <!-- Section tags below each node -->
+  <text x="81" y="138" text-anchor="middle" fill="#444" font-size="9" font-weight="600">AI for Research</text>
+  <text x="81" y="149" text-anchor="middle" fill="#444" font-size="9">Productivity</text>
+
+  <text x="226" y="138" text-anchor="middle" fill="#444" font-size="9" font-weight="600">NLP · DataGen · AutoML</text>
+  <text x="226" y="149" text-anchor="middle" fill="#444" font-size="9">Graphs · Multimodal</text>
+
+  <text x="371" y="138" text-anchor="middle" fill="#444" font-size="9" font-weight="600">Evaluation</text>
+  <text x="371" y="149" text-anchor="middle" fill="#444" font-size="9">Interpretability · Causal</text>
+
+  <text x="516" y="138" text-anchor="middle" fill="#444" font-size="9" font-weight="600">Ethics · Adversarial</text>
+  <text x="516" y="149" text-anchor="middle" fill="#444" font-size="9">Defense · Anomaly</text>
+
+  <text x="690" y="138" text-anchor="middle" fill="#444" font-size="9" font-weight="600">Python Tools</text>
+  <text x="690" y="149" text-anchor="middle" fill="#444" font-size="9">Prompt Engineering · RL</text>
+
+  <!-- Feedback arrow (iteration loop) -->
+  <path d="M 782 78 Q 800 170 400 200 Q 0 170 18 78" fill="none" stroke="#42a5f5" stroke-width="1.5"
+        stroke-dasharray="5,3" marker-end="url(#tm-arrow)" opacity="0.5"/>
+  <text x="400" y="213" text-anchor="middle" fill="#888" font-size="9" font-style="italic">
+    Iterative DSR cycle
+  </text>
+</svg>

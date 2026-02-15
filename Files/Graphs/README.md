@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "Graph Neural Networks"
+parent: Topics
+nav_order: 6
+---
+-->
 # Graphs
 *Papers and Repositories For Constructing Novel Graphs.*
 

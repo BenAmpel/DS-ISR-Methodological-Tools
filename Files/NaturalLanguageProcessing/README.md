@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "LLMs & Natural Language Processing"
+parent: Topics
+nav_order: 2
+---
+-->
 # LLMs & Natural Language Processing
 *Papers, Models, and Repositories for Large Language Models, Text Understanding, and Generation.*
 

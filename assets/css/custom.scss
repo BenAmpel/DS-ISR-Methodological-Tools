@@ -1,0 +1,63 @@
+---
+---
+
+// Custom style overrides for Just the Docs
+// The front matter dashes above are required for Jekyll to process this file
+
+// Academic blue palette
+$link-color: #1565c0;
+
+// Improve table readability for dense reference tables
+.main-content table {
+  font-size: 0.9rem;
+
+  th {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    font-weight: 600;
+  }
+
+  td, th {
+    padding: 0.5rem 0.75rem;
+    vertical-align: top;
+  }
+
+  tr:hover td {
+    background-color: #f5f9ff;
+  }
+}
+
+// Style blockquote callouts
+.main-content blockquote {
+  border-left: 4px solid #1565c0;
+  background: #e8f4fd;
+  padding: 0.75rem 1rem;
+  border-radius: 0 6px 6px 0;
+  margin: 1rem 0;
+  color: #1a3a5c;
+
+  p { margin: 0; }
+}
+
+// SVG diagram polish
+svg[role="img"] {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin: 1.5rem 0;
+}
+
+// Navigation sidebar — compact for 16 sections
+.nav-list-item {
+  font-size: 0.875rem;
+}
+
+// Hero section on home page
+.main-content h1:first-of-type {
+  border-bottom: 3px solid #1565c0;
+  padding-bottom: 0.4rem;
+}
+
+// Badge row spacing
+.main-content p img + img {
+  margin-left: 4px;
+}

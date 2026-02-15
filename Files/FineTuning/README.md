@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "Fine-Tuning"
+parent: Topics
+nav_order: 4
+---
+-->
 # Fine-Tuning Foundation Models
 *Techniques, Libraries, and Best Practices for Adapting Pre-Trained LLMs and Vision Models to Domain-Specific Tasks.*
 

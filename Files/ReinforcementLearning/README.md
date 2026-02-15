@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "Reinforcement Learning"
+parent: Topics
+nav_order: 13
+---
+-->
 # Reinforcement Learning
 *Papers and Repositories For Reinforcement Learning Tasks.*
 

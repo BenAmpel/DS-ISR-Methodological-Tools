@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img"
+     aria-label="Automation-of-Invention Framework: three levels of AI assistance for IS researchers"
+     style="width:100%; max-width:760px; display:block; margin:1.5rem auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <title>Automation-of-Invention Framework (ISR 2025)</title>
+  <defs>
+    <linearGradient id="aif-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d47a1"/>
+      <stop offset="100%" style="stop-color:#1565c0"/>
+    </linearGradient>
+    <linearGradient id="aif-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565c0"/>
+      <stop offset="100%" style="stop-color:#1976d2"/>
+    </linearGradient>
+    <linearGradient id="aif-grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976d2"/>
+      <stop offset="100%" style="stop-color:#42a5f5"/>
+    </linearGradient>
+    <filter id="aif-shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#00000022"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="760" height="300" rx="10" fill="#f8f9fc" stroke="#e0e4ed" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="380" y="30" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="700">
+    Automation-of-Invention Framework
+  </text>
+  <text x="380" y="48" text-anchor="middle" fill="#555" font-size="11" font-style="italic">
+    Information Systems Research, 2025
+  </text>
+
+  <!-- Y-axis label -->
+  <text x="22" y="175" text-anchor="middle" fill="#888" font-size="10" font-weight="600"
+        transform="rotate(-90, 22, 175)">← AUTONOMY</text>
+
+  <!-- Level III pyramid row (top / apex) -->
+  <polygon points="380,68 520,130 240,130" fill="url(#aif-grad1)" filter="url(#aif-shadow)"/>
+  <text x="380" y="97" text-anchor="middle" fill="white" font-size="11" font-weight="700">Level III</text>
+  <text x="380" y="112" text-anchor="middle" fill="#b3d1f5" font-size="10">Super-Collaborator</text>
+
+  <!-- Level II pyramid row (middle) -->
+  <polygon points="240,138 520,138 580,200 160,200" fill="url(#aif-grad2)" filter="url(#aif-shadow)"/>
+  <text x="380" y="163" text-anchor="middle" fill="white" font-size="11" font-weight="700">Level II</text>
+  <text x="380" y="179" text-anchor="middle" fill="#cce4f9" font-size="10">Research Assistant</text>
+  <text x="380" y="193" text-anchor="middle" fill="#9dc8f0" font-size="9">Elicit · Research Rabbit · LangChain · LlamaIndex</text>
+
+  <!-- Level I pyramid row (base) -->
+  <polygon points="160,208 580,208 660,270 80,270" fill="url(#aif-grad3)" filter="url(#aif-shadow)"/>
+  <text x="380" y="232" text-anchor="middle" fill="white" font-size="11" font-weight="700">Level I</text>
+  <text x="380" y="248" text-anchor="middle" fill="#ddeffe" font-size="10">Copy Editor</text>
+  <text x="380" y="262" text-anchor="middle" fill="#b8daf8" font-size="9">DeepL Write · GrammarlyGO · Lex · Writefull</text>
+
+  <!-- Level III tool labels (small space — shown outside) -->
+  <text x="380" y="87" text-anchor="middle" fill="#c8e0fa" font-size="9">Multi-Agent Systems · DSPy · Generative Agents</text>
+
+  <!-- Right-side role descriptions -->
+  <line x1="522" y1="99" x2="560" y2="99" stroke="#ccc" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="564" y="95" fill="#333" font-size="10" font-weight="600">Autonomous Invention</text>
+  <text x="564" y="107" fill="#666" font-size="9">Simulates stakeholders, co-generates artifacts</text>
+
+  <line x1="582" y1="169" x2="612" y2="169" stroke="#ccc" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="616" y="165" fill="#333" font-size="10" font-weight="600">Assisted Research</text>
+  <text x="616" y="177" fill="#666" font-size="9">Literature, data collection, pipelines</text>
+
+  <line x1="661" y1="239" x2="680" y2="239" stroke="#ccc" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="684" y="235" fill="#333" font-size="10" font-weight="600">Writing Support</text>
+  <text x="684" y="247" fill="#666" font-size="9">Drafting, polishing, translating</text>
+
+  <!-- Bottom caption -->
+  <text x="380" y="292" text-anchor="middle" fill="#aaa" font-size="9">
+    AI tools classified by their role in the IS research process
+  </text>
+</svg>

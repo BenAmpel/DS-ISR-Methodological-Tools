@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "Generative Media & Synthetic Data"
+parent: Topics
+nav_order: 5
+---
+-->
 # Generative Media & Synthetic Data
 *Papers and Repositories for Image, Video, Text, and Synthetic Data Generation.*
 

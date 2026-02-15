@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "AI for Research Productivity"
+parent: Topics
+nav_order: 1
+---
+-->
 # AI for Research Productivity
 *Tools for accelerating the research workflow: literature discovery, coding assistance, writing, and data analysis.*
 

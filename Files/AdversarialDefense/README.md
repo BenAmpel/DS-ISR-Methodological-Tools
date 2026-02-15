@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "LLM Safety & Adversarial Defense"
+parent: Topics
+nav_order: 11
+---
+-->
 # LLM Safety & Adversarial Defense
 *Papers and Repositories for Defending Against Adversarial Attacks on ML Models and Ensuring LLM Safety.*
 

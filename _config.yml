@@ -1,0 +1,67 @@
+title: "Methodological AI Tools for Design Science & IS Researchers"
+description: >
+  A curated, living reference of AI/ML methods, tools, and tutorials —
+  drawn from top IS conferences and journals — to support rigorous
+  design science research.
+
+baseurl: "/DS-ISR-Methodological-Tools"
+url: "https://benampel.github.io"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+# Just the Docs configuration
+color_scheme: light
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  rel_url: true
+  button: false
+
+# Navigation
+nav_sort: order
+nav_external_links:
+  - title: GitHub Repository
+    url: https://github.com/BenAmpel/DS-ISR-Methodological-Tools
+    hide_icon: false
+
+# Footer
+footer_content: >
+  Maintained by <a href="https://github.com/BenAmpel">Ben Ampel</a>.
+
+# Exclude from Jekyll processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.gemspec"
+  - vendor/
+  - .git/
+  - .DS_Store
+
+# Plugins (all whitelisted on GitHub Pages)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jemoji
+
+relative_links:
+  enabled: true
+  collections: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed

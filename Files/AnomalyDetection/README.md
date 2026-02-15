@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "Anomaly Detection"
+parent: Topics
+nav_order: 10
+---
+-->
 # Anomaly Detection
 *Papers, Libraries, and Tools for Unsupervised and Semi-Supervised Detection of Anomalous Data Points.*
 

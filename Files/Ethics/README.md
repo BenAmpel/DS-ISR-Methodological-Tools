@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "Ethics & Responsible AI"
+parent: Topics
+nav_order: 14
+---
+-->
 # Ethics in AI
 *Guidelines, Frameworks, and Tools for Responsible AI Development and Deployment.*
 

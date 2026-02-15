@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "Multimodal Models"
+parent: Topics
+nav_order: 12
+---
+-->
 # Multimodal Models
 *Papers, Models, and Tools for Vision-Language Understanding, Image-Text Alignment, and Multimodal AI.*
 

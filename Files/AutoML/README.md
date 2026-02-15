@@ -1,3 +1,11 @@
+<\!--
+---
+layout: default
+title: "AutoML"
+parent: Topics
+nav_order: 16
+---
+-->
 
 # [Techniques for Automated Machine Learning](https://dl.acm.org/doi/pdf/10.1145/3447556.3447567)
 *Adapted from Chen et al., 2021 — updated for the current AutoML landscape.*
