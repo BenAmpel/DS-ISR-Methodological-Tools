@@ -75,4 +75,34 @@ Translating principles into practice requires concrete tools for documentation, 
 
 ---
 
-**Related Sections:** [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)
+### AI Governance & Policy Bodies
+Researchers and practitioners should be aware of the institutional landscape producing AI governance standards.
+
+| **Organization** | **Mandate** | **Key Resource** |
+|-|-|-|
+| [NIST AI Safety Institute (AISI)](https://www.nist.gov/artificial-intelligence) | US federal body coordinating AI safety research and standards. Produces voluntary guidelines and technical frameworks. | [AI RMF Playbook](https://airc.nist.gov/Docs/2) |
+| [UK AI Safety Institute](https://www.gov.uk/government/organisations/ai-safety-institute) | UK government body for AI safety evaluation. Pioneered pre-deployment evaluations of frontier models. | [Evaluations](https://www.gov.uk/government/publications/ai-safety-institute-overview) |
+| [Partnership on AI](https://partnershiponai.org/) | Multi-stakeholder consortium (Meta, Google, Apple, Amazon, etc.) developing responsible AI practices. | [Resources](https://partnershiponai.org/resources/) |
+| [IEEE Standards Association](https://standards.ieee.org/ieee/7000/) | Developing technical standards for algorithmically nudged behaviors (7001), data privacy (7002), and autonomous systems ethics (7010). | [IEEE 7000 Series](https://standards.ieee.org/) |
+
+---
+
+### Responsible AI for IS Research: Practical Checklist
+
+Before deploying an AI artifact in IS research, consider:
+
+- [ ] **Transparency**: Can you explain the model's decisions to research participants and reviewers?
+- [ ] **Fairness**: Have you tested for performance disparities across demographic subgroups?
+- [ ] **Privacy**: Does your data collection comply with GDPR/CCPA and institutional IRB requirements?
+- [ ] **Consent**: Are research participants informed that AI is being used in the study?
+- [ ] **Documentation**: Have you completed a Model Card and Datasheet for your artifact?
+- [ ] **Regulatory compliance**: Does your use case fall under EU AI Act high-risk categories?
+- [ ] **Environmental impact**: Have you estimated the carbon footprint of model training/inference?
+
+**Environmental Impact Tools:**
+- [CodeCarbon](https://github.com/mlco2/codecarbon) - Tracks CO₂ emissions from Python code. Add to training scripts to measure and report environmental footprint in IS papers.
+- [ML CO₂ Impact](https://mlco2.github.io/impact/) - Calculator for estimating training emissions based on hardware and location.
+
+---
+
+**Related Sections:** [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

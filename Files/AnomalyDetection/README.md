@@ -93,4 +93,29 @@ LLMs bring semantic understanding to anomaly detection, enabling detection of co
 
 ---
 
-**Related Sections:** [Graphs](../Graphs/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [Python Tools](../PythonTools/README.md)
+### Foundation Models for Anomaly Detection
+A 2024–2025 trend: using pre-trained foundation models as zero-shot or few-shot anomaly detectors, eliminating the need for domain-specific training data.
+
+- **Papers with code:**
+  - [AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models](https://arxiv.org/abs/2308.15366), 2023 - Prompts GPT-4V-style models to identify visual defects with natural language descriptions. [Code](https://github.com/CASIA-IVA-Lab/AnomalyGPT)
+  - [WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation](https://arxiv.org/abs/2303.14814), 2023 - Uses CLIP's vision-language alignment for zero-shot visual anomaly detection without any anomaly training examples. [Code](https://github.com/caoyunkang/WinClip)
+  - [UniFormaly: Towards Task-Agnostic Unified Framework for Visual Anomaly Detection](https://arxiv.org/abs/2307.12325), 2023 - Unified framework combining reconstruction- and embedding-based methods under one architecture. [Code](https://github.com/zhiyuanyou/UniFormaly)
+
+- **IS Research Note:** Foundation model anomaly detectors enable IS researchers to detect unusual patterns in new domains (e.g., atypical UI interactions, unusual enterprise system logs) without collecting labeled anomaly examples — a major practical advantage.
+
+---
+
+### Graph-Based Anomaly Detection
+When IS data has inherent relational structure (transaction networks, social networks, supply chains), graph methods substantially outperform tabular approaches.
+
+- **Papers with code:**
+  - [DOMINANT: Deep Anomaly Detection on Attributed Networks](https://epubs.siam.org/doi/abs/10.1137/1.9781611975673.67), 2019 - Graph autoencoder that reconstructs both network structure and node attributes; anomalies have high reconstruction error. [Code](https://github.com/kaize0409/GCN_AnomalyDetection)
+  - [CoLA: Contrastive Self-Supervised Learning for Graph Anomaly Detection](https://arxiv.org/abs/2103.00859), 2021 - Contrastive learning between local subgraph and global graph context for node-level anomaly detection. [Code](https://github.com/tianxiangzhao/cola)
+  - [GRADATE: Graph Anomaly Detection via Multi-Scale Contrastive Learning Networks](https://arxiv.org/abs/2212.00535), 2023 - Multi-scale contrastive learning across node, subgraph, and graph levels. [Code](https://github.com/FelixDJC/GRADATE)
+
+- **Tools:**
+  - [PyGOD](https://github.com/pygod-team/pygod) - The primary Python library for graph outlier detection. Implements 10+ algorithms with a unified API. [Paper](https://arxiv.org/abs/2204.12095)
+
+---
+
+**Related Sections:** [Graphs](../Graphs/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [Python Tools](../PythonTools/README.md) [Graphs](../Graphs/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [Python Tools](../PythonTools/README.md)

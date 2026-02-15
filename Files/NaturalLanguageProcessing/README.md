@@ -123,4 +123,39 @@ LLMs can generate synthetic text data (e.g., resumes, reviews, survey responses)
 
 ---
 
-**Related Sections:** [Reinforcement Learning](../ReinforcementLearning/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Multimodal Models](../MultimodalModels/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [Graphs](../Graphs/README.md)
+### Text Embedding Models
+Modern embedding models produce dense vectors for semantic search, clustering, and similarity tasks. They are a core component of RAG pipelines and classification systems.
+
+- **Papers with code:**
+  - [E5: Text Embeddings by Weakly-Supervised Contrastive Pre-training](https://arxiv.org/abs/2212.03533), 2022 - Trains general-purpose text embeddings using weakly supervised contrastive learning on (query, passage) pairs mined from the web. Strong baseline for most NLP tasks. [Code](https://github.com/microsoft/unilm/tree/master/e5)
+  - [GTE: Generalized Text Embeddings](https://arxiv.org/abs/2308.03281), 2023 - Multi-stage contrastive training pipeline producing state-of-the-art dense embeddings on MTEB. [Code](https://huggingface.co/thenlper/gte-large)
+  - [Nomic Embed: Training a Reproducible Long Context Text Embedder](https://arxiv.org/abs/2402.01613), 2024 - Fully open-source, long-context (8192 token) embedding model competitive with OpenAI's text-embedding-3. [Code](https://github.com/nomic-ai/nomic)
+
+- **Leaderboards & Benchmarks:**
+  - [MTEB: Massive Text Embedding Benchmark](https://huggingface.co/spaces/mteb/leaderboard) - The standard benchmark for comparing embedding models across retrieval, clustering, classification, and reranking tasks. Essential reference before choosing an embedding model for IS research. [Code](https://github.com/embeddings-benchmark/mteb)
+
+- **Tools:**
+  - [SentenceTransformers](https://www.sbert.net/) - The standard Python library for computing and using text embeddings. Integrates with all major embedding models and supports fine-tuning. [Code](https://github.com/UKPLab/sentence-transformers)
+
+---
+
+### Long-Context LLMs
+Many IS research tasks require processing entire documents, codebases, or interview transcripts — exceeding standard context limits.
+
+- **Models & Papers:**
+  - [Gemini 1.5 Pro: 1M Token Context Window](https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf), 2024 - Demonstrates that 1M-token context enables processing of entire books, codebases, and research corpora in a single pass. Directly applicable to full-document IS research.
+  - [LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/abs/2402.13753), 2024 - Extends transformer context via non-uniform positional interpolation. Enables training-efficient long-context extension of any RoPE-based model. [Code](https://github.com/microsoft/LongRoPE)
+  - [RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654), 2024 - Benchmark revealing that effective context utilization degrades well before the nominal context limit is reached. [Code](https://github.com/hsiehjackson/RULER)
+
+---
+
+### Agent Memory & Persistence
+LLM agents for IS research artifacts need to remember past interactions, accumulate knowledge, and maintain state across sessions.
+
+- **Papers with code:**
+  - [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560), 2023 - Manages unlimited context via a tiered memory architecture (in-context, external storage, archival). Enables perpetual conversational agents with growing knowledge bases. [Code](https://github.com/cpacker/MemGPT)
+  - [Cognitive Architectures for Language Agents (CoALA)](https://arxiv.org/abs/2309.02427), 2023 - A systematic framework classifying agent memory (working, episodic, semantic, procedural) and decision processes. Foundational for IS researchers designing intelligent artifact architectures.
+
+---
+
+**Related Sections:** [Reinforcement Learning](../ReinforcementLearning/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Multimodal Models](../MultimodalModels/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [Graphs](../Graphs/README.md) [Reinforcement Learning](../ReinforcementLearning/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Multimodal Models](../MultimodalModels/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [Graphs](../Graphs/README.md)

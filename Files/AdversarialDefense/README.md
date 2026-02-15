@@ -78,4 +78,31 @@ The foundational literature on adversarial examples and defenses for vision and 
 
 ---
 
-**Related Sections:** [Ethics](../Ethics/README.md) | [Interpretability](../Interpretability/README.md) | [Graphs](../Graphs/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md)
+### AI-Generated Content Detection & Watermarking
+As LLMs are used to assist IS research, detecting AI-generated text and attributing synthetic content becomes critical for academic integrity and peer review.
+
+- **Papers with code:**
+  - [A Watermark for Large Language Models](https://arxiv.org/abs/2301.10226), 2023 - Embeds a statistical watermark into LLM outputs by biasing token selection during decoding. The watermark is detectable with a secret key but imperceptible to humans. [Code](https://github.com/jwkirchenbauer/lm-watermarking)
+  - [GPTZero: Detecting LLM-Generated Text via Entropy Analysis](https://arxiv.org/abs/2310.05746), 2023 - Analyzes perplexity and burstiness of text to classify human vs. AI authorship. [Tool](https://gptzero.me/)
+  - [Detecting AI-Generated Text in Academic Writing Using Machine Learning](https://arxiv.org/abs/2305.18649), 2023 - Evaluates multiple detection methods on scientific writing; important for IS conference and journal integrity.
+
+- **Tools:**
+  - [Originality.ai](https://originality.ai/) - Commercial AI content detector trained specifically on academic writing styles.
+  - [Winston AI](https://gowinston.ai/) - AI detection with plagiarism checking; supports academic citation verification.
+
+---
+
+### Deepfake & Synthetic Media Detection
+The proliferation of synthetic images and video created by diffusion models requires robust detection methods — critical for IS research using visual stimuli or analyzing user-generated content.
+
+- **Papers with code:**
+  - [UniversalFakeDetect: Towards Universal Fake Image Detection](https://arxiv.org/abs/2302.10174), 2023 - A CLIP-based universal detector that generalizes across GAN, diffusion, and VLM-generated fakes. [Code](https://github.com/Yuheng-Li/UniversalFakeDetect)
+  - [Detecting Diffusion-Generated Images](https://arxiv.org/abs/2303.14075), 2023 - Shows that artifacts from diffusion model upsampling steps serve as detectable fingerprints. [Code](https://github.com/grip-unina/DMimageDetection)
+
+- **Resources:**
+  - [Deepfake Detection Challenge (DFDC)](https://ai.facebook.com/datasets/dfdc/) - Meta's large-scale dataset and benchmark for face manipulation detection. [Dataset](https://www.kaggle.com/c/deepfake-detection-challenge)
+  - [FaceForensics++](https://github.com/ondyari/FaceForensics) - Benchmark dataset for face manipulation detection covering GAN-based and reenactment methods.
+
+---
+
+**Related Sections:** [Ethics](../Ethics/README.md) | [Interpretability](../Interpretability/README.md) | [Graphs](../Graphs/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) [Ethics](../Ethics/README.md) | [Interpretability](../Interpretability/README.md) | [Graphs](../Graphs/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md)

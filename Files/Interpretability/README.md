@@ -110,4 +110,30 @@ Explanations themselves must be evaluated — faithfulness, stability, and human
 
 ---
 
-**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Graphs](../Graphs/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Ethics](../Ethics/README.md)
+### Sparse Autoencoders (SAEs) for LLM Interpretability
+A 2024 breakthrough in mechanistic interpretability: sparse autoencoders decompose superposed LLM representations into interpretable monosemantic features.
+
+- **Papers with code:**
+  - [Scaling and Evaluating Sparse Autoencoders](https://arxiv.org/abs/2406.04093), 2024 - OpenAI's systematic study of SAE scaling; identifies millions of interpretable features in GPT-4-scale models. [Code](https://github.com/openai/sparse_autoencoder)
+  - [Improving Dictionary Learning with Gated Sparse Autoencoders](https://arxiv.org/abs/2404.16014), 2024 - Introduces gated SAEs that better separate feature detection from magnitude estimation. [Code](https://github.com/EleutherAI/sae-utils)
+  - [Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 Small](https://arxiv.org/abs/2211.00593), 2022 - Foundational circuit analysis work identifying specific attention heads responsible for a syntactic task. [Code](https://github.com/redwoodresearch/Easy-Transformer)
+
+- **Tools:**
+  - [SAELens](https://github.com/jbloomAus/SAELens) - Toolkit for training, analyzing, and visualizing sparse autoencoders on any transformer model.
+  - [Neuronpedia](https://www.neuronpedia.org/) - Interactive web interface for exploring SAE features in Claude and GPT-2 models. Enables rapid exploration of what individual neurons and features represent.
+
+---
+
+### Concept Bottleneck Models
+A glass-box approach where the model first predicts human-interpretable concepts, then uses those concepts to make a final prediction — enabling human-in-the-loop oversight.
+
+- **Papers with code:**
+  - [Concept Bottleneck Models](https://arxiv.org/abs/2007.04612), 2020 - Trains models to predict predefined human concepts as intermediate representations. Final prediction depends only on concepts, providing full interpretability. [Code](https://github.com/yewsiang/ConceptBottleneck)
+  - [Label-free Concept Bottleneck Models](https://arxiv.org/abs/2304.06129), 2023 - Automatically discovers concept sets from a language model without requiring manual concept annotation. [Code](https://github.com/Trustworthy-ML-Lab/Label-free-CBM)
+  - [Post-hoc Concept Bottleneck Models](https://arxiv.org/abs/2205.15480), 2022 - Retrofits concept bottleneck explanations onto any pre-trained model without retraining. [Code](https://github.com/mertyg/post-hoc-cbm)
+
+- **IS Research Application:** Concept bottleneck models are particularly suited for IS research where domain experts need to validate model reasoning (e.g., "this loan application was rejected because concept X = high-risk, concept Y = insufficient-history").
+
+---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Graphs](../Graphs/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Ethics](../Ethics/README.md) [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Graphs](../Graphs/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Ethics](../Ethics/README.md)

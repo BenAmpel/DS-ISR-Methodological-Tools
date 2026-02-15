@@ -98,4 +98,31 @@ Models that generate images, video, or interleaved image-text content from text 
 
 ---
 
-**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Generative Media & Synthetic Data](../DataGeneration/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Interpretability](../Interpretability/README.md)
+### Audio-Language Models
+Models that process audio (speech, music, environmental sounds) alongside text, enabling transcription, understanding, and generation.
+
+- **Models:**
+  - [Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356), 2022 - OpenAI's state-of-the-art speech-to-text model trained on 680K hours of multilingual audio. Near-human accuracy on clean speech; strong on accented speech. Essential for IS research transcribing interviews. [Code](https://github.com/openai/whisper)
+  - [Qwen-Audio: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models](https://arxiv.org/abs/2311.07919), 2023 - Extends LLMs to audio reasoning across speech, sound, and music. [Code](https://github.com/QwenLM/Qwen-Audio)
+  - [Gemini 1.5 Pro Native Audio](https://deepmind.google/technologies/gemini/), 2024 - Natively processes audio input alongside text and images in a single model call — enabling transcription, sentiment analysis, and content understanding simultaneously.
+
+- **IS Research Applications:**
+  - Automated transcription and thematic coding of qualitative interviews at scale
+  - Sentiment and tone analysis of earnings calls, customer service recordings, and focus groups
+  - Creating multimodal research instruments that combine spoken instructions with visual stimuli
+
+---
+
+### Video Understanding
+Models that process video as sequences of frames with temporal context — distinct from text-to-video *generation*.
+
+- **Papers with code:**
+  - [VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs](https://arxiv.org/abs/2406.07476), 2024 - Unified video + audio + text understanding model. Handles temporal reasoning over video content. [Code](https://github.com/DAMO-NLP-SG/VideoLLaMA2)
+  - [Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models](https://arxiv.org/abs/2306.05424), 2023 - Adapts LLaVA to video via temporal pooling of frame features. [Code](https://github.com/mbzuai-oryx/Video-ChatGPT)
+
+- **Tools:**
+  - [Twelve Labs](https://twelvelabs.io/) - Video understanding API that enables semantic search, summarization, and Q&A over video content. Relevant for IS research analyzing instructional or interface videos.
+
+---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Generative Media & Synthetic Data](../DataGeneration/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Interpretability](../Interpretability/README.md) [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Generative Media & Synthetic Data](../DataGeneration/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Interpretability](../Interpretability/README.md)

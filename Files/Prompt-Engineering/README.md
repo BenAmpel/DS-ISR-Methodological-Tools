@@ -98,4 +98,35 @@ Reliable IS research artifacts require LLM outputs in predictable, parseable for
 
 ---
 
-**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Fine-Tuning](../FineTuning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md)
+### Meta-Prompting & Self-Refinement
+Using LLMs to generate, evaluate, and improve their own prompts — automating the prompt engineering process itself.
+
+- **Papers with code:**
+  - [Large Language Models as Optimizers (OPRO)](https://arxiv.org/abs/2309.03409), 2023 - Uses an LLM as a black-box optimizer: describe the optimization problem in natural language and have the model iteratively propose improved solutions (or prompts). [Code](https://github.com/google-deepmind/opro)
+  - [Automatic Prompt Optimization with "Gradient Descent" and Beam Search (APO)](https://arxiv.org/abs/2305.03495), 2023 - Treats prompt optimization as a text-based gradient descent — the LLM generates textual gradients (critiques) and proposes improved prompts. [Code](https://github.com/microsoft/LMOps/tree/main/prompt_optimization)
+  - [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651), 2023 - Single model iteratively generates output, critiques it, then refines based on its own critique. Improves generation quality without additional training. [Code](https://github.com/madaan/self-refine)
+
+---
+
+### Prompt Compression & Efficiency
+Long prompts are expensive. Compression techniques reduce token counts while preserving semantic content — critical for cost-effective RAG and agentic IS systems.
+
+- **Papers with code:**
+  - [LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models](https://arxiv.org/abs/2310.05736), 2023 - Trains a small model to identify and remove redundant tokens from prompts. Achieves 20x compression with minimal quality degradation. [Code](https://github.com/microsoft/LLMLingua)
+  - [Selective Context: Compressing Long Prompts by Selective Filtering](https://arxiv.org/abs/2304.01373), 2023 - Scores prompt segments by self-information and filters low-value content. Training-free compression. [Code](https://github.com/liyucheng09/Selective_Context)
+
+---
+
+### Prompt Evaluation & Red Teaming
+Systematic evaluation of prompt effectiveness and robustness before deploying LLM-based IS artifacts.
+
+- **Papers with code:**
+  - [PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts](https://arxiv.org/abs/2306.04528), 2023 - Evaluates LLM performance under adversarial prompt perturbations (character, word, sentence, semantic attacks). [Code](https://github.com/microsoft/promptbench)
+  - [HELM: Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110), 2022 - Comprehensive benchmark framework. Standardized evaluation methodology for comparing prompting strategies across multiple metrics. [Code](https://github.com/stanford-crfm/helm)
+
+- **Tools:**
+  - [PromptFoo](https://github.com/promptfoo/promptfoo) - Open-source prompt testing framework. Define test cases, run evals, and compare prompt variants systematically. Essential for IS researchers validating LLM-based artifact behavior.
+
+---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Fine-Tuning](../FineTuning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Fine-Tuning](../FineTuning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md)

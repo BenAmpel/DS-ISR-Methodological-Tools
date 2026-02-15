@@ -99,4 +99,27 @@ Adapting models to IS-relevant domains (healthcare, finance, legal, organization
 
 ---
 
-**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AutoML](../AutoML/README.md)
+### Model Merging
+Merging multiple fine-tuned models into a single model — combining task-specific expertise without additional training. Particularly useful when fine-tuning data from multiple IS domains is siloed.
+
+- **Papers with code:**
+  - [Model Soups: Averaging Weights of Multiple Fine-Tuned Models Improves Accuracy and Robustness](https://arxiv.org/abs/2203.05482), 2022 - Averaging weights of models fine-tuned from the same base improves robustness over any single model. [Code](https://github.com/mlfoundations/model-soups)
+  - [TIES-Merging: Resolving Interference When Merging Models](https://arxiv.org/abs/2306.01708), 2023 - Addresses sign conflicts between merged model parameters, improving multi-task merging. [Code](https://github.com/prateeky2806/ties-merging)
+  - [DARE: Language Model Arithmetic with Weight Disentanglement](https://arxiv.org/abs/2311.03099), 2023 - Prunes and rescales task vectors before merging to reduce parameter interference. [Code](https://github.com/yule-BUAA/MergeLM)
+
+- **Tools:**
+  - [MergeKit](https://github.com/arcee-ai/mergekit) - The standard toolkit for model merging. Supports linear, SLERP, TIES, DARE, and evolutionary merge strategies. Used to create most merged models on HuggingFace Hub.
+
+---
+
+### Alignment Beyond RLHF
+New alignment methods that are simpler, more stable, or more data-efficient than standard RLHF/PPO.
+
+- **Papers with code:**
+  - [ORPO: Monolithic Preference Optimization without Reference Model](https://arxiv.org/abs/2403.07691), 2024 - Incorporates preference alignment directly into the standard SFT loss via an odds ratio penalty. No reference model required — simpler and more memory-efficient than DPO. [Code](https://github.com/xfactlab/orpo)
+  - [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734), 2024 - Simplifies DPO using average log-probability as the reward signal and a margin term. Outperforms DPO on AlpacaEval benchmarks. [Code](https://github.com/princeton-nlp/SimPO)
+  - [SPIN: Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335), 2024 - Uses the model's own outputs as the "weak" reference for contrastive fine-tuning — iterative self-improvement without external preference data. [Code](https://github.com/uclaml/SPIN)
+
+---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AutoML](../AutoML/README.md) [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AutoML](../AutoML/README.md)

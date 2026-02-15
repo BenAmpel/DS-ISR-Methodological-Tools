@@ -108,4 +108,43 @@ Generative agents simulate human users computationally, enabling IS researchers 
 
 ---
 
-**Related Sections:** [Multimodal Models](../MultimodalModels/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)
+### Audio Generation
+AI-generated speech and music enable creation of research stimuli, narration for video abstracts, and synthetic interview data.
+
+- **Models & Tools:**
+  - [ElevenLabs](https://elevenlabs.io/) - State-of-the-art voice cloning and text-to-speech. Widely used for research narration and creating diverse synthetic interview stimuli with consistent personas.
+  - [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech) - High-quality text-to-speech API with 6 voice variants. Cost-effective for generating spoken research stimuli.
+  - [Bark](https://github.com/suno-ai/bark) - Open-source generative audio model capable of realistic speech, music, and sound effects. Runs locally. [Code](https://github.com/suno-ai/bark)
+  - [Stable Audio](https://stability.ai/stable-audio) - Diffusion-based music and sound generation from text prompts.
+
+- **Papers with code:**
+  - [VoiceBox: Text-Guided Multilingual Universal Speech Generation at Scale](https://arxiv.org/abs/2306.15687), 2023 - Meta's flow-matching-based TTS model with strong zero-shot voice cloning and style transfer. [Code](https://voicebox.metademolab.com/)
+  - [NaturalSpeech 3: Zero-Shot Lifelike Speech Synthesis](https://arxiv.org/abs/2403.03100), 2024 - Microsoft's factorized codec + diffusion approach achieving near-human prosody and expressiveness.
+
+---
+
+### 3D & Spatial Generation
+Emerging tools for generating 3D objects and environments — relevant for IS research on virtual spaces, digital twins, and immersive technology studies.
+
+- **Papers with code:**
+  - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934), 2020 - Foundational method for learning 3D scene representations from 2D images. Enables rendering novel viewpoints from photograph collections. [Code](https://github.com/bmild/nerf)
+  - [Instant NGP: Instant Neural Graphics Primitives](https://arxiv.org/abs/2201.05989), 2022 - Reduces NeRF training from hours to seconds via multiresolution hash encoding. [Code](https://github.com/NVlabs/instant-ngp)
+  - [Gaussian Splatting: 3D Gaussian Splatting for Real-Time Novel View Synthesis](https://arxiv.org/abs/2308.04079), 2023 - Represents scenes as explicit 3D Gaussians instead of implicit neural networks, enabling real-time rendering. Rapidly replacing NeRF in practice. [Code](https://github.com/graphdeco-inria/gaussian-splatting)
+
+---
+
+### Generative AI Evaluation Metrics
+Assessing the quality of generative outputs is as methodologically important as the generation itself.
+
+| **Metric** | **Modality** | **Measures** | **Reference** |
+|-|-|-|-|
+| FID (Fréchet Inception Distance) | Image | Distribution similarity between real and generated images | [Paper](https://arxiv.org/abs/1706.08500) |
+| CLIP Score | Image+Text | Alignment between generated image and text prompt | [Paper](https://arxiv.org/abs/2104.08718) |
+| FVD (Fréchet Video Distance) | Video | Temporal quality of generated video | [Paper](https://arxiv.org/abs/1812.01717) |
+| BLEU / ROUGE | Text | N-gram overlap between generated and reference text | Standard NLP metrics |
+| BERTScore | Text | Semantic similarity via contextual BERT embeddings | [Paper](https://arxiv.org/abs/1904.09675) |
+| MOS (Mean Opinion Score) | Audio | Human-rated perceptual quality of synthesized speech | ITU-T P.800 standard |
+
+---
+
+**Related Sections:** [Multimodal Models](../MultimodalModels/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) [Multimodal Models](../MultimodalModels/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

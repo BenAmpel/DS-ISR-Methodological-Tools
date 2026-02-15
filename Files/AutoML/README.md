@@ -37,4 +37,21 @@ The emergence of LLMs has introduced a new paradigm where natural language is us
 
 ---
 
-**Related Sections:** [Python Tools](../PythonTools/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)
+## Tabular Foundation Models
+A major 2024–2025 development: foundation models pre-trained on large collections of tabular datasets that can be fine-tuned or prompted for new tabular tasks — analogous to LLMs for text. Particularly relevant for IS research using survey, transaction, and enterprise data.
+
+| **Tool** | **Description** |
+|-|-|
+| [TabPFN](https://github.com/automl/TabPFN) | A prior-fitted network trained on synthetic tabular data. Performs in-context learning on small tabular datasets (<1000 rows) in milliseconds without fitting. State-of-the-art on small-data IS tasks. [Paper](https://arxiv.org/abs/2207.01848) |
+| [TabPFN v2](https://github.com/automl/tabpfn-client) | Updated version with improved scalability and performance, competitive with gradient-boosted trees on medium-sized datasets. [Paper](https://arxiv.org/abs/2501.02945) |
+| [CARTE](https://github.com/soda-inria/carte) | Foundation model for heterogeneous tabular data that handles text-heavy columns via pretrained language encoders. Strong on real-world IS datasets with mixed types. [Paper](https://arxiv.org/abs/2402.16785) |
+
+## AutoML Surveys & Meta-Learning
+
+- [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/abs/1908.00709), 2019 - Comprehensive survey of the AutoML landscape covering NAS, HPO, and meta-learning. Classic reference for IS papers using AutoML.
+- [Why does AutoML fail? A Study on AutoML Failure Modes](https://arxiv.org/abs/2301.00978), 2023 - Systematic analysis of when AutoML underperforms manual pipelines — essential reading for IS researchers reporting AutoML baselines.
+- [TabZilla: A Large-Scale Benchmark of Tabular Data Methods](https://arxiv.org/abs/2305.02997), 2023 - Comprehensive benchmark comparing 19 methods on 176 datasets. Reveals that tree-based methods (XGBoost, CatBoost) still often outperform deep learning and AutoML on tabular data. [Code](https://github.com/naszilla/tabzilla)
+
+---
+
+**Related Sections:** [Python Tools](../PythonTools/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) [Python Tools](../PythonTools/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

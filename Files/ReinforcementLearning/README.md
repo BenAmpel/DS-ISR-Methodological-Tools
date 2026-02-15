@@ -75,4 +75,28 @@ MARL studies how multiple agents learn and interact in a shared environment. It 
 
 ---
 
-**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Generative Media & Synthetic Data](../DataGeneration/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md)
+### Test-Time Compute & Search
+A major 2024–2025 shift: rather than only scaling *training* compute, models now expend additional compute *at inference time* to search for better answers. This is the mechanism behind o1/R1-style "thinking."
+
+- **Papers:**
+  - [Scaling LLM Test-Time Compute Optimally Outperforms RLVR on Hard Reasoning](https://arxiv.org/abs/2408.03314), 2024 - Shows that best-of-N sampling with a process reward model (PRM) can match or exceed RL-trained reasoning models when inference budget is sufficient. Key trade-off: training cost vs. inference cost.
+  - [Thinking LLMs: General Instruction Following with Thought Generation](https://arxiv.org/abs/2410.10630), 2024 - Fine-tunes models to generate internal "thoughts" before answering, without RL — a supervised alternative to o1-style training. [Code](https://github.com/thought-gen/thinking-llms)
+  - [MCTS-based Reasoning: Enhancing LLMs with Monte Carlo Tree Search](https://arxiv.org/abs/2406.07394), 2024 - Applies MCTS to LLM decoding, treating each reasoning step as a tree node and using a value function to guide search. Applicable to complex IS research tasks requiring multi-step analysis.
+
+- **Benchmarks for Reasoning:**
+  - [AIME (American Invitational Mathematics Examination)](https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions) - Competition math benchmark used to evaluate o1/R1 reasoning capability; now standard for measuring reasoning model progress.
+  - [LiveCodeBench](https://livecodebench.github.io/) - Contamination-free coding benchmark that continuously updates with new competitive programming problems. [Code](https://github.com/LiveCodeBench/LiveCodeBench)
+
+---
+
+### Offline RL & Decision Making from Data
+RL without environment interaction — learning policies from fixed logged datasets. Relevant for IS research where real-time interaction is impossible (e.g., learning from historical user clickstreams).
+
+- **Papers with code:**
+  - [Conservative Q-Learning (CQL) for Offline Reinforcement Learning](https://arxiv.org/abs/2006.04779), 2020 - Trains a conservative Q-function that lower-bounds values on out-of-distribution actions, enabling safe offline learning. [Code](https://github.com/aviralkumar2907/CQL)
+  - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345v2.pdf), 2021 - Reframes offline RL as conditional sequence generation (already in NLP section; also foundational here). [Code](https://github.com/kzl/decision-transformer)
+  - [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/abs/2106.02039), 2021 - Treats entire trajectories as sequences, enabling transformer architectures to learn from diverse offline datasets. [Code](https://github.com/JannerM/trajectory-transformer)
+
+---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Generative Media & Synthetic Data](../DataGeneration/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Generative Media & Synthetic Data](../DataGeneration/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md)

@@ -76,4 +76,39 @@ Tools for managing notes, references, and knowledge bases.
 
 ---
 
-**Related Sections:** [Prompt Engineering](../Prompt-Engineering/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Python Tools](../PythonTools/README.md) | [Ethics](../Ethics/README.md)
+### Deep Research & Autonomous Literature Agents
+A new category of tools (emerging 2024–2025) that can autonomously conduct multi-step research tasks — searching, reading, synthesizing, and reporting — with minimal human guidance.
+
+| **Tool** | **Description** | **Best For** |
+|-|-|-|
+| [Google Gemini Deep Research](https://gemini.google.com/app) | Gemini 1.5-powered agent that autonomously conducts web research over 5–30 minutes, produces structured multi-page reports with citations. | Initial literature surveys, competitive landscape analysis |
+| [NotebookLM](https://notebooklm.google.com/) | Google's AI notebook that grounds all responses in your uploaded documents (PDFs, slides, papers). Generates audio overviews, FAQs, and study guides from research corpora. | Processing large paper collections; creating podcast-style summaries of your own papers |
+| [OpenAI Deep Research](https://openai.com/index/introducing-deep-research/) | o3-based agent that autonomously browses the web, synthesizes findings, and produces detailed research reports. Strong on technical topics. | Complex multi-step research questions requiring web synthesis |
+| [Perplexity Deep Research](https://www.perplexity.ai/hub/blog/introducing-deep-research) | Web-search-grounded research agent producing structured reports with inline citations. | Rapid factual research with full source attribution |
+
+---
+
+### AI Video & Lecture Tools
+Tools for processing, summarizing, and creating educational content from video lectures and research talks.
+
+| **Tool** | **Description** | **Best For** |
+|-|-|-|
+| [Otter.ai](https://otter.ai/) | Real-time transcription and AI meeting notes with speaker identification. | Transcribing qualitative interviews, conference talks, and focus groups |
+| [Tactiq](https://tactiq.io/) | AI meeting transcription with automatic action item extraction and summary. | Lab meetings, research seminars, advisor sessions |
+| [Descript](https://www.descript.com/) | Video/audio editor where you edit by editing the transcript text. Add captions, create clips, remove filler words automatically. | Editing research presentation recordings and video abstracts |
+| [VideoAsk](https://www.videoask.com/) | Async video-based survey/interview tool. Useful for IS research collecting video responses from participants. | Asynchronous qualitative data collection |
+
+---
+
+### AI-Assisted Statistical Analysis
+Tools that bring natural language interfaces to statistical analysis — lowering the barrier for IS researchers conducting quantitative studies.
+
+| **Tool** | **Description** | **Best For** |
+|-|-|-|
+| [Julius AI](https://julius.ai/) | Upload data and ask questions in natural language; generates and executes Python/R code with charts. | Rapid EDA and hypothesis testing without coding |
+| [JASP](https://jasp-stats.org/) | Free, open-source statistics software with Bayesian analysis. AI-assisted interpretation of results. Increasingly used in IS behavioral research. | Bayesian hypothesis testing; survey data analysis |
+| [Statsbot](https://statsbot.co/) | Natural language interface to databases and analytics. Connect to your research data warehouse and ask questions in English. | Querying large IS datasets without SQL expertise |
+
+---
+
+**Related Sections:** [Prompt Engineering](../Prompt-Engineering/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Python Tools](../PythonTools/README.md) | [Ethics](../Ethics/README.md) [Prompt Engineering](../Prompt-Engineering/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Python Tools](../PythonTools/README.md) | [Ethics](../Ethics/README.md)

@@ -64,4 +64,28 @@
 
 ---
 
-**Related Sections:** [AutoML](../AutoML/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)
+## Modern Python Developer Tooling
+The Python ecosystem has undergone significant tooling modernization in 2023–2025. These tools dramatically improve developer experience for IS researchers writing Python code.
+
+| **Category** | **Tool** | **Description** | **Link** |
+|-|-|-|-|
+| Package Manager | **uv** | Ultra-fast Python package installer and resolver (10–100x faster than pip). Written in Rust. Replaces pip, pip-tools, virtualenv, and pyenv with a single tool. The new standard for Python project management. | [GitHub](https://github.com/astral-sh/uv) |
+| Linter/Formatter | **Ruff** | Extremely fast Python linter and formatter (100x faster than Flake8/Black). Written in Rust. Replaces Black, isort, Flake8, and pylint in one tool. | [GitHub](https://github.com/astral-sh/ruff) |
+| Analytics DB | **DuckDB** | In-process analytical database for Python. Query CSV, Parquet, and pandas DataFrames with SQL at blazing speed. Ideal for large IS datasets without setting up a database server. | [Docs](https://duckdb.org/) |
+| Notebooks | **Marimo** | Reactive Python notebook — cells automatically re-run when dependencies change. Notebooks are pure Python files (version-controllable, testable). Strong replacement for Jupyter for IS research codebases. | [GitHub](https://github.com/marimo-team/marimo) |
+| Data Validation | **Pydantic v2** | Data validation and settings management using Python type annotations. 5–50x faster than v1 (Rust core). Standard for LLM output validation in IS artifacts. | [Docs](https://docs.pydantic.dev/) |
+| Task Runner | **Just** | Simple command runner (makefile alternative). Define `justfile` with common research commands (train, evaluate, reproduce). Cross-platform. | [GitHub](https://github.com/casey/just) |
+
+---
+
+## Data Formats & Storage
+
+| **Category** | **Tool** | **Description** | **Link** |
+|-|-|-|-|
+| Columnar Format | **Parquet** | Apache's columnar storage format. Read/write with Pandas or Polars. 5–20x smaller than CSV for typical IS datasets; dramatically faster queries. | [PyArrow](https://arrow.apache.org/docs/python/) |
+| Vector Storage | **ChromaDB** | Lightweight embedded vector database for RAG applications. Store and query text embeddings locally with zero infrastructure setup. | [GitHub](https://github.com/chroma-core/chroma) |
+| Data Version Control | **DVC** | Git extension for tracking large data files, models, and experiments. Enables reproducible IS research pipelines with versioned datasets. | [Docs](https://dvc.org/) |
+
+---
+
+**Related Sections:** [AutoML](../AutoML/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) [AutoML](../AutoML/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

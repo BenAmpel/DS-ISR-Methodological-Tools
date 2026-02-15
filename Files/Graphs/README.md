@@ -133,4 +133,42 @@ Custom node embeddings in a semi-supervised fashion can improve model performanc
 
 ---
 
-**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Anomaly Detection](../AnomalyDetection/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md)
+### Knowledge Graphs
+Knowledge graphs represent entities and their relationships as structured triples (subject, predicate, object). They are foundational for enterprise IS systems and provide structured context for LLM reasoning.
+
+- **Seminal Paper:**
+  - [Knowledge Graph Embedding by Translating on Hyperplanes (TransH)](https://ojs.aaai.org/index.php/AAAI/article/view/8870), 2014 - Models relationships as translations in embedding space, enabling link prediction and entity alignment in large knowledge graphs.
+
+- **Papers with code:**
+  - [ERNIE: Enhanced Language Representation with Informative Entities](https://arxiv.org/abs/1905.07129), 2019 - Fuses knowledge graph entity embeddings into BERT pretraining, improving entity-aware NLP tasks. [Code](https://github.com/thunlp/ERNIE)
+  - [Knowledge Graph Completion with Pre-trained Multimodal Transformer and Twins Knowledge Distillation](https://arxiv.org/abs/2112.08771), 2022 - Combines text, image, and structural features for multimodal knowledge graph completion. [Code](https://github.com/zxlzr/MKGformer)
+  - [KGRAG: Knowledge Graph-Augmented Retrieval for LLMs](https://arxiv.org/abs/2404.16130), 2024 - Integrates knowledge graph traversal into RAG pipelines for structured fact retrieval. [Code](https://github.com/microsoft/graphrag)
+
+- **Tools:**
+  - [Wikidata](https://www.wikidata.org/) - The world's largest open knowledge graph with 100M+ entities. Provides structured, machine-readable facts for grounding LLM research artifacts.
+  - [Neo4j](https://neo4j.com/) - The most widely deployed graph database. Integrates with LangChain/LlamaIndex for knowledge graph RAG pipelines.
+  - [PyKEEN](https://github.com/pykeen/pykeen) - Python library for training and evaluating knowledge graph embedding models (TransE, RotatE, ComplEx, etc.).
+
+---
+
+### Heterogeneous Graphs
+Real-world IS data (e.g., citation networks with authors, papers, and venues; e-commerce with users, items, and categories) involves multiple node and edge types — heterogeneous graphs.
+
+- **Papers with code:**
+  - [HAN: Heterogeneous Attention Network](https://arxiv.org/abs/1903.07293), 2019 - Applies hierarchical attention (node-level + semantic-level) over meta-paths in heterogeneous graphs. [Code](https://github.com/Jhy1993/HAN)
+  - [HGT: Heterogeneous Graph Transformer](https://arxiv.org/abs/2003.01332), 2020 - Type-conditioned attention heads that parameterize different weights per node/edge type. State-of-the-art on Web-scale heterogeneous graphs. [Code](https://github.com/acbull/pyHGT)
+  - [SimpleHGN: Simple Heterogeneous Graph Neural Network](https://arxiv.org/abs/2112.14936), 2021 - Demonstrates that simple graph attention with type embeddings matches complex meta-path methods. [Code](https://github.com/THUDM/HGB)
+
+---
+
+### GNN Benchmarks & Datasets
+
+| **Benchmark** | **Description** | **Link** |
+|-|-|-|
+| [OGB (Open Graph Benchmark)](https://ogb.stanford.edu/) | Stanford's standardized large-scale graph datasets for node, link, and graph property prediction. The standard evaluation benchmark for GNN papers. | [Code](https://github.com/snap-stanford/ogb) |
+| [Heterogeneous Graph Benchmark (HGB)](https://github.com/THUDM/HGB) | Standardized benchmark for heterogeneous GNN evaluation across 11 datasets with multiple node/edge types. | [Code](https://github.com/THUDM/HGB) |
+| [SNAP (Stanford Network Analysis Project)](https://snap.stanford.edu/data/) | Large collection of real-world network datasets from social, citation, web, and biological domains. | [Datasets](https://snap.stanford.edu/data/) |
+
+---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Anomaly Detection](../AnomalyDetection/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Anomaly Detection](../AnomalyDetection/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md)
