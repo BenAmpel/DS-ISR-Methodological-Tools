@@ -12,6 +12,7 @@ remote_theme: just-the-docs/just-the-docs@v0.10.0
 
 # Just the Docs configuration
 color_scheme: light
+color_scheme_dark: dark
 
 # Search
 search_enabled: true

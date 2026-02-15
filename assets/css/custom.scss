@@ -7,7 +7,7 @@
 // Academic blue palette
 $link-color: #1565c0;
 
-// Improve table readability for dense reference tables
+// ─── Tables ───────────────────────────────────────────────────────────────────
 .main-content table {
   font-size: 0.9rem;
 
@@ -27,7 +27,18 @@ $link-color: #1565c0;
   }
 }
 
-// Style blockquote callouts
+// Dark mode table overrides
+@media (prefers-color-scheme: dark) {
+  .main-content table th {
+    background-color: #0d2a4a;
+    color: #90caf9;
+  }
+  .main-content table tr:hover td {
+    background-color: #0a1929;
+  }
+}
+
+// ─── Blockquote callouts ──────────────────────────────────────────────────────
 .main-content blockquote {
   border-left: 4px solid #1565c0;
   background: #e8f4fd;
@@ -39,25 +50,88 @@ $link-color: #1565c0;
   p { margin: 0; }
 }
 
-// SVG diagram polish
+@media (prefers-color-scheme: dark) {
+  .main-content blockquote {
+    background: #0d2a4a;
+    color: #90caf9;
+  }
+}
+
+// ─── SVG diagrams ─────────────────────────────────────────────────────────────
 svg[role="img"] {
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   margin: 1.5rem 0;
 }
 
-// Navigation sidebar — compact for 16 sections
+// ─── Navigation sidebar ───────────────────────────────────────────────────────
 .nav-list-item {
   font-size: 0.875rem;
 }
 
-// Hero section on home page
-.main-content h1:first-of-type {
-  border-bottom: 3px solid #1565c0;
-  padding-bottom: 0.4rem;
+// ─── Section footer ───────────────────────────────────────────────────────────
+.section-nav-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e4ed;
+  font-size: 0.875rem;
+  color: #666;
 }
 
-// Badge row spacing
+@media (prefers-color-scheme: dark) {
+  .section-nav-footer {
+    border-top-color: #2a3a4a;
+    color: #aaa;
+  }
+}
+
+// ─── Keyboard key styling ─────────────────────────────────────────────────────
+kbd {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: 0.85rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  kbd {
+    background: #1a2a3a;
+    border-color: #3a4a5a;
+    color: #ccc;
+  }
+}
+
+// ─── Badge row spacing ────────────────────────────────────────────────────────
 .main-content p img + img {
   margin-left: 4px;
+}
+
+// ─── 404 page button ─────────────────────────────────────────────────────────
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 1px solid #1565c0;
+  color: #1565c0;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: #1565c0;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.btn-primary {
+  background: #1565c0;
+  color: #fff;
+
+  &:hover {
+    background: #0d47a1;
+    color: #fff;
+  }
 }

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d47a1"/>
+      <stop offset="100%" style="stop-color:#1976d2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Accent bar -->
+  <rect x="80" y="200" width="6" height="180" rx="3" fill="#90caf9"/>
+
+  <!-- Main title -->
+  <text x="116" y="265" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="52" font-weight="700" fill="white" letter-spacing="-0.5">
+    Methodological AI Tools
+  </text>
+  <text x="116" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="52" font-weight="700" fill="white" letter-spacing="-0.5">
+    for Design Science &amp;
+  </text>
+  <text x="116" y="395" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="52" font-weight="700" fill="white" letter-spacing="-0.5">
+    IS Researchers
+  </text>
+
+  <!-- Subtitle -->
+  <text x="116" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="24" fill="rgba(255,255,255,0.75)">
+    A curated reference of AI/ML tools drawn from top IS conferences
+  </text>
+
+  <!-- URL badge -->
+  <rect x="116" y="490" width="600" height="44" rx="22" fill="rgba(255,255,255,0.12)"/>
+  <text x="416" y="518" text-anchor="middle" font-family="monospace" font-size="18" fill="rgba(255,255,255,0.85)">
+    benampel.github.io/DS-ISR-Methodological-Tools
+  </text>
+
+  <!-- Decorative circles (top right) -->
+  <circle cx="1050" cy="180" r="120" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="1100" cy="280" r="80" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="980" cy="320" r="50" fill="rgba(255,255,255,0.04)"/>
+</svg>

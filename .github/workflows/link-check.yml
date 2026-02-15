@@ -1,0 +1,47 @@
+name: Link Checker
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Run every Monday at 9am UTC to catch link rot
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    name: Check for broken links
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Run Lychee link checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >
+            --cache
+            --max-cache-age 1d
+            --exclude-loopback
+            --exclude "linkedin\.com"
+            --exclude "twitter\.com"
+            --exclude "x\.com"
+            --exclude "mailto:"
+            --exclude "https://img\.shields\.io"
+            --exclude "https://awesome\.re"
+            --timeout 30
+            --max-retries 3
+            --accept 200,429
+            './**/*.md'
+          fail: false
+          jobSummary: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

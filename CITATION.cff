@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this resource in your research, please cite it as below."
+type: software
+title: "Methodological AI Tools for Design Science & IS Researchers"
+abstract: >
+  A curated, living reference of AI/ML methods, tools, and tutorials drawn
+  from top IS conferences and journals, organized to support rigorous Design
+  Science Research (DSR) in Information Systems.
+authors:
+  - family-names: Ampel
+    given-names: Benjamin
+    orcid: ""
+    affiliation: ""
+repository-code: "https://github.com/BenAmpel/DS-ISR-Methodological-Tools"
+url: "https://benampel.github.io/DS-ISR-Methodological-Tools/"
+license: CC-BY-4.0
+version: "2026.02"
+date-released: "2026-02-15"
+keywords:
+  - information systems
+  - design science research
+  - machine learning
+  - deep learning
+  - artificial intelligence
+  - methodology
+  - curated list

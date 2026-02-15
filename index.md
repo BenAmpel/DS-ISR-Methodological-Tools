@@ -19,6 +19,12 @@ permalink: /
   <a href="{{ site.baseurl }}/contributing"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen" alt="Contributions Welcome" style="margin: 0 3px;"></a>
 </div>
 
+<div style="text-align:center; margin: 0.5rem 0 1.5rem;">
+  <span style="display:inline-block; background:#e8f4fd; border:1px solid #b3d9f5; border-radius:6px; padding:0.4rem 1rem; font-size:0.9rem; color:#1565c0;">
+    🔍 Press <kbd style="background:#fff; border:1px solid #ccc; border-radius:3px; padding:1px 5px; font-size:0.85rem;">/</kbd> to search across all 16 topic sections
+  </span>
+</div>
+
 ---
 
 ## The Automation-of-Invention Framework

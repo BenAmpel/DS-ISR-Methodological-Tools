@@ -1,0 +1,13 @@
+{% if page.parent %}
+<div class="section-nav-footer" style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e0e4ed; font-size: 0.875rem; color: #666;">
+  <a href="{{ site.baseurl }}/topics/" style="text-decoration: none;">← Back to Topic Index</a>
+  {% if page.nav_order and page.nav_order > 1 %}
+    &nbsp;·&nbsp;
+    <a href="{{ site.baseurl }}/" style="text-decoration: none;">Home</a>
+  {% endif %}
+  <span style="float: right;">
+    <a href="https://github.com/BenAmpel/DS-ISR-Methodological-Tools/blob/main/Files/{{ page.title | replace: ' ', '' }}/README.md"
+       style="text-decoration: none;">Edit on GitHub ✎</a>
+  </span>
+</div>
+{% endif %}
