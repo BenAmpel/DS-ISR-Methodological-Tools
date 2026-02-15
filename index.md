@@ -5,6 +5,7 @@ nav_order: 1
 permalink: /
 ---
 
+{::nomarkdown}
 <div class="hero-section">
   <h1>Methodological AI Tools<br>for Design Science &amp; IS Researchers</h1>
   <p class="hero-subtitle">
@@ -21,11 +22,13 @@ permalink: /
     🔍 Press <kbd>/</kbd> to search across all 16 topic sections
   </div>
 </div>
+{:/}
 
 ---
 
 ## 🔥 Featured This Month
 
+{::nomarkdown}
 <div class="featured-grid">
   <a class="featured-card" href="{{ site.baseurl }}/Files/NaturalLanguageProcessing/">
     <div class="featured-card-icon">📜</div>
@@ -52,6 +55,7 @@ permalink: /
     </div>
   </a>
 </div>
+{:/}
 
 ---
 
@@ -61,6 +65,7 @@ permalink: /
 
 {% include automation-framework.svg %}
 
+{::nomarkdown}
 <div class="level-cards">
   <div class="level-card level-1">
     <div class="level-badge">Level I</div>
@@ -81,6 +86,7 @@ permalink: /
     <div class="level-tools">Multi-Agent Systems · Generative Agents · DSPy</div>
   </div>
 </div>
+{:/}
 
 > At **Level III**, AI moves from assisting the researcher to actively participating in the invention process — simulating stakeholders, stress-testing theory, and generating novel design alternatives.
 
@@ -94,6 +100,7 @@ permalink: /
 
 ## Browse by Topic
 
+{::nomarkdown}
 <div class="topic-cards">
   <a class="topic-card" href="{{ site.baseurl }}/Files/AI-for-Research-Productivity/">
     <span class="topic-icon">💡</span>
@@ -176,11 +183,13 @@ permalink: /
     <span class="topic-desc">Automated model selection, HPO</span>
   </a>
 </div>
+{:/}
 
 ---
 
 ## Quick Start: I Want To...
 
+{::nomarkdown}
 <div class="quickstart-grid">
   <a class="qs-card" href="{{ site.baseurl }}/Files/AI-for-Research-Productivity/">
     <span class="qs-icon">📚</span>
@@ -243,6 +252,7 @@ permalink: /
     <span class="qs-badge intermediate">Intermediate</span>
   </a>
 </div>
+{:/}
 
 ---
 
@@ -252,6 +262,7 @@ permalink: /
 
 Start here before diving into the topic sections. Curated for IS researchers — not CS students.
 
+{::nomarkdown}
 <div class="resource-grid">
   <a class="resource-card" href="https://arxiv.org/abs/2108.02497" target="_blank">
     <div class="resource-type paper">📄 Paper</div>
@@ -279,6 +290,7 @@ Start here before diving into the topic sections. Curated for IS researchers —
     <p>Automated model selection and tuning — useful when ML is not your primary research contribution.</p>
   </a>
 </div>
+{:/}
 
 ### Literature Discovery
 
@@ -295,6 +307,7 @@ Start here before diving into the topic sections. Curated for IS researchers —
 
 ## Cookbooks & Tutorials
 
+{::nomarkdown}
 <div class="cookbook-grid">
   <a class="cookbook-card" href="https://python.langchain.com/docs/tutorials/rag/" target="_blank">
     <div class="cookbook-step">01</div>
@@ -327,10 +340,13 @@ Start here before diving into the topic sections. Curated for IS researchers —
     <p>Deployed artifact examples to inspire DSR prototype designs.</p>
   </a>
 </div>
+{:/}
 
 ---
 
+{::nomarkdown}
 <div class="ethics-banner">
   ⚖️ <strong>Ethics First.</strong> Always maintain high ethical standards when building AI models. &nbsp;
   <a href="{{ site.baseurl }}/Files/Ethics/">→ Ethical Guidelines & Responsible AI Checklist</a>
 </div>
+{:/}
