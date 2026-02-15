@@ -1,11 +1,10 @@
-<\!--
 ---
 layout: default
 title: "Evaluation & Benchmarking"
 parent: Topics
 nav_order: 8
 ---
--->
+
 # Evaluation & Benchmarking for GenAI Artifacts
 *Methods and Tools for Assessing the Performance, Faithfulness, and Safety of LLM-based IS Artifacts.*
 

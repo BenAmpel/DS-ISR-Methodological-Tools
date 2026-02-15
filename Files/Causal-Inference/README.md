@@ -1,11 +1,10 @@
-<\!--
 ---
 layout: default
 title: "Causal Inference"
 parent: Topics
 nav_order: 9
 ---
--->
+
 # Causal Inference & Causal AI
 *Methods and Libraries for Moving from Correlation to Causation in IS Research.*
 

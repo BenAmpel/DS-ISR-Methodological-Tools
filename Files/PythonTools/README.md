@@ -1,11 +1,10 @@
-<\!--
 ---
 layout: default
 title: "Python Tools & Infrastructure"
 parent: Topics
 nav_order: 15
 ---
--->
+
 # Python Data Mining Tools
 *A curated collection of Python tools for data processing, visualization, machine learning, and LLM orchestration in IS research.*
 
