@@ -54,4 +54,4 @@ A major 2024–2025 development: foundation models pre-trained on large collecti
 
 ---
 
-**Related Sections:** [Python Tools](../PythonTools/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) [Python Tools](../PythonTools/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)
+**Related Sections:** [Python Tools](../PythonTools/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

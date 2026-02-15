@@ -88,4 +88,19 @@ The Python ecosystem has undergone significant tooling modernization in 2023–2
 
 ---
 
-**Related Sections:** [AutoML](../AutoML/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) [AutoML](../AutoML/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)
+## Artifact Deployment & Hosting
+A major DSR pain point: *how do I let anonymous reviewers interact with my artifact?* These tools solve the deployment problem with minimal infrastructure.
+
+| **Category** | **Tool** | **Description** | **Link** |
+|-|-|-|-|
+| ML Demo | **Gradio** | The fastest way to wrap any Python model in a web UI. Create a shareable demo in ~10 lines of code. Better than Streamlit for pure model demos. | [Docs](https://www.gradio.app/) |
+| App Hosting | **Hugging Face Spaces** | Free hosting for Streamlit and Gradio apps. Share a live link with reviewers — no server setup. The standard for IS artifact demos. | [Spaces](https://huggingface.co/spaces) |
+| Tunnel | **ngrok** | Expose a locally running agent or API to a public URL instantly. Ideal for temporary reviewer access to a local LLM-based artifact. | [Docs](https://ngrok.com/) |
+| Full-Stack | **Vercel** | Deploy Next.js/React-based artifact UIs for free. Connects to Python backends via API routes. | [Docs](https://vercel.com/) |
+| Container | **Docker** | Package your artifact and all dependencies into a reproducible container. Essential for artifacts requiring specific GPU/CUDA environments. | [Docs](https://www.docker.com/) |
+
+- **Recommended pattern for DSR submission:** Build your artifact logic in Python → wrap with Gradio → deploy to Hugging Face Spaces → include the live URL in your paper's artifact appendix. Reviewers can interact with it directly without any installation.
+
+---
+
+**Related Sections:** [AutoML](../AutoML/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) | [Evaluation & Benchmarking](../Evaluation/README.md)

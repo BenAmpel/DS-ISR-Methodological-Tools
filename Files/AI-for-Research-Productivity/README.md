@@ -111,4 +111,20 @@ Tools that bring natural language interfaces to statistical analysis — lowerin
 
 ---
 
-**Related Sections:** [Prompt Engineering](../Prompt-Engineering/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Python Tools](../PythonTools/README.md) | [Ethics](../Ethics/README.md) [Prompt Engineering](../Prompt-Engineering/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Python Tools](../PythonTools/README.md) | [Ethics](../Ethics/README.md)
+### AI for Qualitative Analysis
+DSR frequently involves qualitative interviews, think-aloud protocols, and thematic analysis. These tools bring AI assistance to grounded theory and qualitative coding workflows.
+
+| **Tool** | **Description** | **Best For** |
+|-|-|-|
+| [Atlas.ti](https://atlasti.com/) | Industry-standard qualitative analysis software with AI-assisted coding, sentiment analysis, and concept network visualization. | Grounded theory, thematic analysis of IS interview data |
+| [NVivo](https://lumivero.com/products/nvivo/) | Qualitative data analysis with built-in AI features for auto-coding, sentiment analysis, and word frequency queries. | Mixed-method IS research combining survey and interview data |
+| [Taguette](https://www.taguette.org/) | Free, open-source qualitative coding tool. Can be paired with local LLMs (via Ollama) for AI-assisted code suggestion. | Privacy-sensitive IS research where data cannot leave your institution |
+| [Reduct.Video](https://reduct.video/) | Video-based qualitative coding — transcribe and highlight video interviews, tag segments, and export for analysis. | Think-aloud protocols, screen recordings, focus group videos |
+
+- **LLM-Assisted Coding Workflow:** Use Whisper (see [Multimodal Models](../MultimodalModels/README.md)) to transcribe interviews → use an LLM with a grounded theory prompt to generate initial code suggestions → import into Atlas.ti or NVivo for human review and saturation analysis.
+
+- **IS Research Note:** AI-generated codes should be treated as *initial suggestions*, not final codes. Validate with a second human coder and report inter-rater reliability (Cohen's κ ≥ 0.70 is the standard threshold for IS qualitative research).
+
+---
+
+**Related Sections:** [Prompt Engineering](../Prompt-Engineering/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Python Tools](../PythonTools/README.md) | [Ethics](../Ethics/README.md) | [Evaluation & Benchmarking](../Evaluation/README.md)

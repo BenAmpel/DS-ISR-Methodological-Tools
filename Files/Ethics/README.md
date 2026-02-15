@@ -105,4 +105,4 @@ Before deploying an AI artifact in IS research, consider:
 
 ---
 
-**Related Sections:** [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)
+**Related Sections:** [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

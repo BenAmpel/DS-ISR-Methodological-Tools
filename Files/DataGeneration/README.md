@@ -147,4 +147,4 @@ Assessing the quality of generative outputs is as methodologically important as 
 
 ---
 
-**Related Sections:** [Multimodal Models](../MultimodalModels/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) [Multimodal Models](../MultimodalModels/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)
+**Related Sections:** [Multimodal Models](../MultimodalModels/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

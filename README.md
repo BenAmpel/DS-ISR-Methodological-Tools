@@ -7,6 +7,8 @@
 
 *A repository of tools found in top conferences to aid in method identification and application to IS research.*
 
+*Last updated: February 2026*
+
 - Remember to always maintain high **ethical** standards when building AI models. Read more about [ethical guidelines for AI here](Files/Ethics).
 - New to machine learning? [Read this paper](https://arxiv.org/abs/2108.02497) to avoid common pitfalls and work through [hands-on tutorials](https://github.com/aladdinpersson/Machine-Learning-Collection). Find frameworks that do the heavy lifting in [AutoML](Files/AutoML).
 - New to Python? [Follow these mini projects to hone your skills](https://github.com/Python-World/python-mini-projects).
@@ -34,8 +36,25 @@
 | [💪 Generative Media & Synthetic Data](Files/DataGeneration)|[🤖 LLM Safety & Adversarial Defense](Files/AdversarialDefense)| [:red_circle: Anomaly Detection](Files/AnomalyDetection)
 | [:snake: Python Tools](Files/PythonTools) | [:bulb: AI for Research Productivity](Files/AI-for-Research-Productivity) | [:speech_balloon: Prompt Engineering](Files/Prompt-Engineering) |
 | [:eyes: Multimodal Models](Files/MultimodalModels) | [:wrench: Fine-Tuning](Files/FineTuning) | [:mag: Interpretability](Files/Interpretability) |
-| [:balance_scale: Ethics](Files/Ethics) | [:high_brightness: Attention Mechanisms](https://github.com/xmu-xiaoma666/External-Attention-pytorch) | [:arrow_right: Transfer Learning](https://github.com/jindongwang/transferlearning) |
-| [:paintbrush: Images](https://github.com/rwightman/pytorch-image-models) | | |
+| [:balance_scale: Ethics](Files/Ethics) | [:triangular_ruler: Evaluation & Benchmarking](Files/Evaluation) | [:seedling: Causal Inference](Files/Causal-Inference) |
+| [:high_brightness: Attention Mechanisms](https://github.com/xmu-xiaoma666/External-Attention-pytorch) | [:arrow_right: Transfer Learning](https://github.com/jindongwang/transferlearning) | [:paintbrush: Images](https://github.com/rwightman/pytorch-image-models) |
+
+---
+
+## Quick Start: I Want To...
+
+| Goal | Where to Start |
+|-|-|
+| Review the literature on a topic | [AI for Research Productivity](Files/AI-for-Research-Productivity) → Literature Review |
+| Build a chatbot that answers questions over documents | [Prompt Engineering](Files/Prompt-Engineering) → Agentic Frameworks (RAG) |
+| Fine-tune a model on my domain data | [Fine-Tuning](Files/FineTuning) → When to Fine-Tune decision table |
+| Generate synthetic survey respondents for IS experiments | [Generative Media & Synthetic Data](Files/DataGeneration) → Synthetic Users |
+| Detect fraud or anomalous behavior in enterprise data | [Anomaly Detection](Files/AnomalyDetection) or [Graphs](Files/Graphs) → GraphRAG |
+| Explain why my model made a prediction | [Interpretability](Files/Interpretability) → SHAP / Counterfactuals |
+| Evaluate whether my LLM artifact actually works | [Evaluation & Benchmarking](Files/Evaluation) → RAG Evaluation / LLM-as-a-Judge |
+| Understand causal effects (not just correlations) in IS data | [Causal Inference](Files/Causal-Inference) → DoWhy / EconML |
+| Ensure my AI artifact is fair, ethical, and compliant | [Ethics](Files/Ethics) → Responsible AI Checklist |
+| Deploy a prototype for anonymous reviewers to test | [Python Tools](Files/PythonTools) → Artifact Deployment |
 
 ---
 
@@ -59,6 +78,20 @@
 | [Python Mini Projects](https://github.com/Python-World/python-mini-projects) | Beginner Python projects to build fluency before tackling data pipelines. |
 | [fast.ai Practical Deep Learning](https://course.fast.ai/) | The most accessible deep learning course. Top-down, code-first approach ideal for IS researchers. |
 | [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/) | Free end-to-end course on transformers, fine-tuning, and deploying NLP models with HuggingFace. |
+
+---
+
+## Cookbooks & End-to-End Tutorials
+Practical, step-by-step guides for common IS research workflows — bridging tools into complete pipelines.
+
+| Tutorial | Description |
+|-|-|
+| [LangChain RAG Cookbook](https://python.langchain.com/docs/tutorials/rag/) | Build a retrieval-augmented generation pipeline over a document corpus — end-to-end from ingestion to response. |
+| [OpenAI Cookbook: Building Agents](https://cookbook.openai.com/examples/agents_sdk/multi-agent-portfolio-collaboration) | How to build multi-step tool-using agents with the OpenAI API. |
+| [HuggingFace Fine-Tuning Tutorials](https://huggingface.co/docs/transformers/training) | Official step-by-step guide to fine-tuning transformers on custom datasets. |
+| [RAGAS: Evaluating RAG Pipelines](https://docs.ragas.io/en/stable/getstarted/) | How to measure faithfulness, relevance, and context precision in RAG-based IS artifacts. |
+| [DoWhy Causal Inference Tutorial](https://py-why.github.io/dowhy/main/example_notebooks/dowhy_simple_example.html) | End-to-end causal effect estimation from observational IS data using the four-step DoWhy framework. |
+| [Streamlit App Gallery](https://streamlit.io/gallery) | Deployed examples to inspire DSR artifact prototypes — find patterns similar to your artifact design. |
 
 ---
 

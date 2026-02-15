@@ -105,4 +105,4 @@ The proliferation of synthetic images and video created by diffusion models requ
 
 ---
 
-**Related Sections:** [Ethics](../Ethics/README.md) | [Interpretability](../Interpretability/README.md) | [Graphs](../Graphs/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) [Ethics](../Ethics/README.md) | [Interpretability](../Interpretability/README.md) | [Graphs](../Graphs/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md)
+**Related Sections:** [Ethics](../Ethics/README.md) | [Interpretability](../Interpretability/README.md) | [Graphs](../Graphs/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md)
