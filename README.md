@@ -7,10 +7,9 @@
 
 *A repository of tools found in top conferences to aid in method identification and application to IS research.*
 
-- Remember to always maintain high **ethical** standards when building AI models. You can read more about [ethical guidelines for AI here](Ethics)
-- Never done machine learning before? [Read this paper](https://arxiv.org/pdf/2108.02497.pdf) to avoid common pitfalls and watch [tutorials](https://github.com/aladdinpersson/Machine-Learning-Collection).
-  - Find frameworks to do the heavy lifting for you in [AutoML](Files/AutoML)
-- Never used Python before? [Follow these mini projects to hone your skills](https://github.com/Python-World/python-mini-projects).
+- Remember to always maintain high **ethical** standards when building AI models. Read more about [ethical guidelines for AI here](Files/Ethics).
+- New to machine learning? [Read this paper](https://arxiv.org/abs/2108.02497) to avoid common pitfalls and work through [hands-on tutorials](https://github.com/aladdinpersson/Machine-Learning-Collection). Find frameworks that do the heavy lifting in [AutoML](Files/AutoML).
+- New to Python? [Follow these mini projects to hone your skills](https://github.com/Python-World/python-mini-projects).
 
 ---
 
@@ -40,11 +39,26 @@
 
 ---
 
-## Other Helpful Links
-* [Learney](https://app.learney.me) - Introduction and resources for statistics, machine learning, and deep learning.
-* [Connected Papers](https://www.connectedpapers.com/) - Find related papers to build a comprehensive literature review.
-* [Elicit](https://elicit.com/) - AI research assistant for literature synthesis.
-* [Research Rabbit](https://www.researchrabbit.ai/) - Discover related papers and map citation networks.
+## Learning Resources & Getting Started
+
+### Literature Discovery
+| Tool | Description |
+|-|-|
+| [Connected Papers](https://www.connectedpapers.com/) | Visual graph of papers related to a seed paper — rapidly orient to a new field. |
+| [Elicit](https://elicit.com/) | LLM-powered research assistant that searches Semantic Scholar and builds comparison tables. |
+| [Research Rabbit](https://www.researchrabbit.ai/) | Discover related papers and map forward/backward citation networks. |
+| [Semantic Scholar](https://www.semanticscholar.org/) | AI-powered search engine with paper summarization and influence metrics. |
+
+> For a full list of AI-powered literature tools, see [AI for Research Productivity](Files/AI-for-Research-Productivity).
+
+### Foundational Learning
+| Resource | Description |
+|-|-|
+| [ML Pitfalls Paper](https://arxiv.org/abs/2108.02497) | Practical guide to avoiding common machine learning mistakes — essential reading before starting any IS+ML project. |
+| [Machine Learning Collection](https://github.com/aladdinpersson/Machine-Learning-Collection) | Hands-on PyTorch tutorials from basics through advanced architectures, with runnable notebooks. |
+| [Python Mini Projects](https://github.com/Python-World/python-mini-projects) | Beginner Python projects to build fluency before tackling data pipelines. |
+| [fast.ai Practical Deep Learning](https://course.fast.ai/) | The most accessible deep learning course. Top-down, code-first approach ideal for IS researchers. |
+| [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/) | Free end-to-end course on transformers, fine-tuning, and deploying NLP models with HuggingFace. |
 
 ---
 
