@@ -1,6 +1,8 @@
 # Generative Media & Synthetic Data
 *Papers and Repositories for Image, Video, Text, and Synthetic Data Generation.*
 
+*Last updated: February 2026*
+
 > **Note:** As of 2022, diffusion models have largely superseded GANs for image and video generation tasks due to superior image quality, training stability, and diversity. GAN literature remains relevant for tabular and time-series generation and for understanding the generative modeling landscape.
 
 | | | |
@@ -8,6 +10,10 @@
 | [Diffusion Models](#Diffusion-Models) | [Image Generation (GANs)](#Image-Generation-GANs) | [Text Generation](#Text-Generation) |
 | [Text-to-Video](#Text-to-Video) | [Synthetic Users & Generative Agents](#Synthetic-Users--Generative-Agents) | [Research Dissemination Tools](#Research-Dissemination-Tools) |
 | [Other Generation](#Other-Generation) | | |
+
+---
+
+> **IS Research Applications:** Generate experimental stimuli (images, videos) for behavioral IS studies without filming budgets; create synthetic survey respondents and user personas for experimental design; produce research dissemination videos from paper abstracts; generate realistic fake data for system testing; create visual vignettes for technology acceptance experiments.
 
 ---
 
@@ -101,3 +107,5 @@ Generative agents simulate human users computationally, enabling IS researchers 
   - [Catalysis Clustering With GAN By Incorporating Domain Knowledge](https://dl.acm.org/doi/10.1145/3394486.3403187), 2020 - Unsupervised clusters based on domain-defined rules.
 
 ---
+
+**Related Sections:** [Multimodal Models](../MultimodalModels/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

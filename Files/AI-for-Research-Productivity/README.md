@@ -1,6 +1,8 @@
 # AI for Research Productivity
 *Tools for accelerating the research workflow: literature discovery, coding assistance, writing, and data analysis.*
 
+*Last updated: February 2026*
+
 > *This section maps to **Level I (Copy Editor)** and **Level II (Research Assistant)** of the Automation-of-Invention Framework (ISR, 2025).*
 
 | | | |
@@ -73,3 +75,5 @@ Tools for managing notes, references, and knowledge bases.
 | [Logseq](https://logseq.com/) | Open-source outliner with bidirectional links; privacy-focused Obsidian alternative. | Personal research journals, networked literature notes |
 
 ---
+
+**Related Sections:** [Prompt Engineering](../Prompt-Engineering/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Python Tools](../PythonTools/README.md) | [Ethics](../Ethics/README.md)

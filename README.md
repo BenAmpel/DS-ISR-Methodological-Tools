@@ -34,7 +34,9 @@
 | [:chart_with_upwards_trend: Graphs](Files/Graphs) | [📜 LLMs & Natural Language Processing](Files/NaturalLanguageProcessing) | [:chess_pawn: Reinforcement Learning](Files/ReinforcementLearning)
 | [💪 Generative Media & Synthetic Data](Files/DataGeneration)|[🤖 LLM Safety & Adversarial Defense](Files/AdversarialDefense)| [:red_circle: Anomaly Detection](Files/AnomalyDetection)
 | [:snake: Python Tools](Files/PythonTools) | [:bulb: AI for Research Productivity](Files/AI-for-Research-Productivity) | [:speech_balloon: Prompt Engineering](Files/Prompt-Engineering) |
-| [:high_brightness: Attention Mechanisms](https://github.com/xmu-xiaoma666/External-Attention-pytorch) | [:arrow_right: Transfer Learning](https://github.com/jindongwang/transferlearning) | [:paintbrush: Images](https://github.com/rwightman/pytorch-image-models) |
+| [:eyes: Multimodal Models](Files/MultimodalModels) | [:wrench: Fine-Tuning](Files/FineTuning) | [:mag: Interpretability](Files/Interpretability) |
+| [:balance_scale: Ethics](Files/Ethics) | [:high_brightness: Attention Mechanisms](https://github.com/xmu-xiaoma666/External-Attention-pytorch) | [:arrow_right: Transfer Learning](https://github.com/jindongwang/transferlearning) |
+| [:paintbrush: Images](https://github.com/rwightman/pytorch-image-models) | | |
 
 ---
 
@@ -43,5 +45,10 @@
 * [Connected Papers](https://www.connectedpapers.com/) - Find related papers to build a comprehensive literature review.
 * [Elicit](https://elicit.com/) - AI research assistant for literature synthesis.
 * [Research Rabbit](https://www.researchrabbit.ai/) - Discover related papers and map citation networks.
+
+---
+
+## Contributing
+Want to suggest a paper, tool, or new section? See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Contributions that connect AI/ML methods to IS and DSR research are especially welcome.
 
 ---

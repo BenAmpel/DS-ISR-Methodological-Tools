@@ -2,7 +2,11 @@
 # [Techniques for Automated Machine Learning](https://dl.acm.org/doi/pdf/10.1145/3447556.3447567)
 *Adapted from Chen et al., 2021 — updated for the current AutoML landscape.*
 
+*Last updated: February 2026*
+
 > **Note:** The AutoML ecosystem has consolidated since 2021. Several academic projects have been abandoned or superseded. The tools below represent the active, maintained packages most relevant to IS researchers.
+
+> **IS Research Applications:** Rapidly prototype IS artifact classifiers without deep ML expertise; run reproducible hyperparameter searches for fair model comparison in IS papers; automate feature engineering for tabular IS datasets (survey data, log data, transaction records).
 
 | **Python Package** | **Description** | **Status** |
 |-|-|-|
@@ -32,3 +36,5 @@ The emergence of LLMs has introduced a new paradigm where natural language is us
 | [Weights & Biases (W&B)](https://wandb.ai/) | Cloud-based experiment tracking with sweep (hyperparameter search) functionality. Integrates with all major ML frameworks. |
 
 ---
+
+**Related Sections:** [Python Tools](../PythonTools/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md)

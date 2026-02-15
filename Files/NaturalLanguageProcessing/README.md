@@ -1,11 +1,17 @@
 # LLMs & Natural Language Processing
 *Papers, Models, and Repositories for Large Language Models, Text Understanding, and Generation.*
 
+*Last updated: February 2026*
+
 | | | |
 |-|-|-|
 | [Large Language Models](#Large-Language-Models) | [Retrieval-Augmented Generation (RAG)](#Retrieval-Augmented-Generation-RAG) | [Transformers](#Transformers) |
 | [Topic Modeling](#Topic-Modeling) | [Knowledge Distillation](#Knowledge-Distillation) | [Custom Layers](#Custom-Layers) |
 | [Hallucination & Evaluation](#Hallucination--Evaluation) | [Synthetic Data Generation](#Synthetic-Data-Generation) | |
+
+---
+
+> **IS Research Applications:** Build domain-specific chatbots and Q&A systems over IS literature corpora (RAG); classify open-ended survey responses at scale; detect sentiment in online reviews or social media; generate synthetic respondents for IS experiments; automate systematic literature review extraction.
 
 ---
 
@@ -70,11 +76,16 @@ An introduction to transformers can be found [here](https://github.com/will-thom
 ### Topic Modeling
 [Seminal Paper: LDA](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?TB_iframe=true&width=370.8&height=658.8), 2003
 
+> **IS Research Application:** Topic modeling discovers latent themes across large text corpora (e.g., app store reviews, forum posts, interview transcripts) without requiring predefined categories — enabling inductive theory building from qualitative data at scale.
+
 - **Papers with code:**
-  - To Be Continued
+  - [BERTopic: Leveraging BERT and c-TF-IDF to Create Easily Interpretable Topics](https://arxiv.org/abs/2203.05794), 2022 - The modern standard for topic modeling. Uses sentence embeddings (BERT/SentenceTransformers) to cluster documents, then extracts interpretable topic labels via a class-based TF-IDF variant. Dramatically more coherent and interpretable than LDA on short texts. [Code](https://github.com/MaartenGr/BERTopic)
+  - [Top2Vec: Distributed Representations of Topics](https://arxiv.org/abs/2008.09470), 2020 - Jointly learns document, word, and topic vectors. Topics emerge naturally from the embedding space without requiring the number of topics to be specified in advance. [Code](https://github.com/ddangelov/Top2Vec)
+  - [CTM: Combined Topic Model](https://arxiv.org/abs/2004.14914), 2021 - Combines contextual BERT embeddings with neural topic models (ProdLDA) for improved topic coherence on short texts. [Code](https://github.com/MilaNLProc/contextualized-topic-models)
 
 - **Papers without code:**
   - [Hierarchical Topic Modeling of Twitter Data for Online Analytical Processing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8607040), 2018 - Mines hierarchical topic dimensions of tweets using LDA + word2vec for semantic analysis.
+  - [Dynamic Topic Models](https://dl.acm.org/doi/10.1145/1143844.1143859), 2006 - Extends LDA to capture how topics evolve over time — applicable to longitudinal IS research on technology discourse.
 
 ---
 
@@ -111,3 +122,5 @@ LLMs can generate synthetic text data (e.g., resumes, reviews, survey responses)
   - [The Tree Ensemble Layer: Differentiability meets Conditional Computation](https://arxiv.org/pdf/2002.07772v1.pdf), 2020 - An ensemble of differentiable decision trees (soft trees) as a neural network layer. [Code](https://github.com/google-research/google-research/tree/master/tf_trees)
 
 ---
+
+**Related Sections:** [Reinforcement Learning](../ReinforcementLearning/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Multimodal Models](../MultimodalModels/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md) | [Graphs](../Graphs/README.md)

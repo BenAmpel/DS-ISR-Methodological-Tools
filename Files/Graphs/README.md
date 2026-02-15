@@ -1,11 +1,17 @@
 # Graphs
 *Papers and Repositories For Constructing Novel Graphs.*
 
+*Last updated: February 2026*
+
 | | | |
 |-|-|-|
 | [Graph Neural Networks](#Graph-Neural-Networks) | [Graph Attention Networks](#Graph-Attention-Networks) | [Graph Convolutional Networks](#Graph-Convolutional-Networks)
 | [GraphRAG & LLM Integration](#GraphRAG--LLM-Integration) | [Graph Prototypical Networks](#Graph-Prototypical-Networks) | [Graph Summarization](#Graph-Summarization)
 | [Temporal Graphs](#Temporal-Graphs) | [Graph Embeddings](#Graph-Embeddings) | [Graphs for NLP](https://github.com/graph4ai/graph4nlp_literature)
+
+---
+
+> **IS Research Applications:** Model organizational social networks and information diffusion; detect fraud in transaction networks; represent knowledge bases and ontologies for enterprise systems; analyze citation networks for literature review; model supply chain relationships; build knowledge graphs for LLM-powered IS artifacts (GraphRAG).
 
 ---
 
@@ -126,3 +132,5 @@ Custom node embeddings in a semi-supervised fashion can improve model performanc
   - [An Adaptive Embedding Framework for Heterogeneous Information Networks](https://dl.acm.org/doi/10.1145/3340531.3411989), 2020 - Improves node classification and link prediction tasks.
 
 ---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Anomaly Detection](../AnomalyDetection/README.md) | [LLM Safety & Adversarial Defense](../AdversarialDefense/README.md) | [Interpretability](../Interpretability/README.md)

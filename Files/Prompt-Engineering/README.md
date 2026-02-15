@@ -1,6 +1,8 @@
 # Prompt Engineering
 *Guides, Frameworks, and Libraries for Effectively Communicating with Large Language Models.*
 
+*Last updated: February 2026*
+
 > *Prompt engineering is the practice of crafting inputs to LLMs to elicit desired outputs reliably and consistently. As LLMs become core components of DSR artifacts, prompt engineering is an essential methodological skill for IS researchers.*
 
 | | | |
@@ -95,3 +97,5 @@ Reliable IS research artifacts require LLM outputs in predictable, parseable for
 - [Learn Prompting](https://learnprompting.org/) - Beginner-friendly curriculum for prompt engineering with interactive examples.
 
 ---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Fine-Tuning](../FineTuning/README.md) | [AI for Research Productivity](../AI-for-Research-Productivity/README.md) | [Reinforcement Learning](../ReinforcementLearning/README.md)

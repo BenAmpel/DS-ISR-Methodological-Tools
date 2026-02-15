@@ -1,10 +1,16 @@
 # Reinforcement Learning
 *Papers and Repositories For Reinforcement Learning Tasks.*
 
+*Last updated: February 2026*
+
 | | | |
 |-|-|-|
 | [Reasoning Models](#Reasoning-Models) | [RLHF & Alignment](#RLHF--Alignment) | [RLVR & Verifiable Rewards](#RLVR--Verifiable-Rewards) |
 | [Multi-Agent RL (MARL)](#Multi-Agent-RL-MARL) | [Tools & Environments](#Tools--Environments) | |
+
+---
+
+> **IS Research Applications:** Simulate complex organizational and market behaviors with MARL; fine-tune LLMs for domain-specific IS applications via RLHF; build adaptive DSR artifacts that improve through user feedback; model user behavior sequences and decision-making processes; create synthetic experimental participants using generative agents.
 
 ---
 
@@ -68,3 +74,5 @@ MARL studies how multiple agents learn and interact in a shared environment. It 
   - [PettingZoo](https://github.com/Farama-Foundation/PettingZoo) - The standard multi-agent environment library (analogous to Gymnasium for single-agent RL). Provides competitive, cooperative, and mixed environments.
 
 ---
+
+**Related Sections:** [LLMs & NLP](../NaturalLanguageProcessing/README.md) | [Fine-Tuning](../FineTuning/README.md) | [Generative Media & Synthetic Data](../DataGeneration/README.md) | [Prompt Engineering](../Prompt-Engineering/README.md)

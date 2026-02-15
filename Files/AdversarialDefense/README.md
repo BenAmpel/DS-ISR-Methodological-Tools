@@ -1,10 +1,14 @@
 # LLM Safety & Adversarial Defense
 *Papers and Repositories for Defending Against Adversarial Attacks on ML Models and Ensuring LLM Safety.*
 
+*Last updated: February 2026*
+
 > **Note:** The adversarial ML landscape has shifted significantly. While pixel-perturbation attacks on vision models remain relevant, the dominant safety challenges in 2025 are **LLM-specific**: jailbreaking, prompt injection, hallucination, and alignment failures. This section covers both classical adversarial defense and the emerging LLM safety literature.
 
 | | | |
 |-|-|-|
+> **IS Research Applications:** Assess robustness of AI-powered IS artifacts before deployment; satisfy IRB requirements for AI safety in research systems; protect LLM-based artifacts from adversarial users; evaluate trustworthiness of GNN models used in fraud detection or recommendation systems; comply with emerging AI safety regulations.
+
 | [LLM Safety & Alignment](#LLM-Safety--Alignment) | [Jailbreaking & Red Teaming](#Jailbreaking--Red-Teaming) | [Prompt Injection](#Prompt-Injection) |
 | [Trustworthy GNNs](#Trustworthy-GNNs) | [Classical Adversarial Defense](#Classical-Adversarial-Defense) | |
 
@@ -73,3 +77,5 @@ The foundational literature on adversarial examples and defenses for vision and 
   - [Interpretability is a Kind of Safety: An Interpreter-based Ensemble for Adversary Defense](https://dl.acm.org/doi/abs/10.1145/3394486.3403044), 2020 - Interpreter-based ensemble framework for detecting and defending adversarial attacks.
 
 ---
+
+**Related Sections:** [Ethics](../Ethics/README.md) | [Interpretability](../Interpretability/README.md) | [Graphs](../Graphs/README.md) | [LLMs & NLP](../NaturalLanguageProcessing/README.md)
