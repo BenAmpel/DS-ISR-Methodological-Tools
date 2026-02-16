@@ -492,12 +492,21 @@ kbd {
     pre { background-color: #302d36; }
   }
 
-  // Tables
-  .main-content table {
-    th { background-color: #1a2a3f; color: #90caf9; }
-    td { border-color: #44434d; color: #e6e1e8; }
-    tr:hover td { background-color: #302d36; }
+  // Tables — override the global th,td{background-color:#fff} from Just the Docs
+  th, td {
+    background-color: #27262b;
+    color: #e6e1e8;
+    border-bottom-color: #44434d !important;
+    border-left-color: #44434d !important;
   }
+  thead th {
+    background-color: #1e2d3d;
+    color: #90caf9;
+    border-bottom-color: #44434d !important;
+  }
+  tbody tr:hover th,
+  tbody tr:hover td { background-color: #302d36 !important; }
+  .main-content table a { color: #2c84fa; }
 
   // Blockquotes
   .main-content blockquote {
