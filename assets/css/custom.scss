@@ -3,6 +3,11 @@
 
 // ─── CUSTOM STYLES FOR DS-ISR METHODOLOGICAL TOOLS ──────────────────────────
 // Jekyll requires the front matter dashes above to process this file.
+// LOAD ORDER NOTE: This file is served as custom.css and linked AFTER
+// just-the-docs-default.css. Therefore ALL colour rules must be wrapped in
+// @media (prefers-color-scheme: light) or @media (prefers-color-scheme: dark)
+// so they cannot accidentally override the dark-mode rules in
+// _sass/custom/custom.scss (which is compiled last into just-the-docs-default.css).
 
 // ─── Color tokens ────────────────────────────────────────────────────────────
 $blue-900: #0d47a1;
@@ -38,11 +43,11 @@ $radius-sm: 5px;
   }
 }
 
+// Layout only — colour in media queries below
 .hero-subtitle {
   font-size: 1.05rem;
   max-width: 660px;
   margin: 0 auto 1.2rem;
-  color: $text-muted;
   line-height: 1.6;
 }
 
@@ -51,23 +56,22 @@ $radius-sm: 5px;
   img { margin: 0 3px; vertical-align: middle; }
 }
 
+// Layout only
 .search-hint {
   display: inline-block;
-  background: $blue-50;
-  border: 1px solid #b3d9f5;
   border-radius: $radius-sm;
   padding: 0.4rem 1rem;
   font-size: 0.9rem;
-  color: $blue-800;
   margin-top: 0.25rem;
 }
 
+// Layout only
 .hero-links {
   margin-top: 0.75rem;
   font-size: 0.88rem;
-  a { color: $blue-800; text-decoration: none; font-weight: 600;
+  a { text-decoration: none; font-weight: 600;
       &:hover { text-decoration: underline; } }
-  .hero-sep { color: #bbb; margin: 0 0.4rem; }
+  .hero-sep { margin: 0 0.4rem; }
 }
 
 // ─── Featured cards ──────────────────────────────────────────────────────────
@@ -78,6 +82,7 @@ $radius-sm: 5px;
   margin: 1rem 0;
 }
 
+// Layout only — colours in media queries below
 .featured-card {
   display: flex;
   align-items: flex-start;
@@ -85,9 +90,7 @@ $radius-sm: 5px;
   padding: 1rem 1.1rem;
   border: 1px solid $border;
   border-radius: $radius;
-  background: #fff;
   text-decoration: none;
-  color: $text-primary;
   transition: box-shadow 0.15s, border-color 0.15s, transform 0.1s;
 
   &:hover {
@@ -97,8 +100,8 @@ $radius-sm: 5px;
     text-decoration: none;
   }
 
-  p { font-size: 0.88rem; color: $text-muted; margin: 0.25rem 0 0; }
-  strong { font-size: 0.95rem; color: $text-primary; }
+  p { font-size: 0.88rem; margin: 0.25rem 0 0; }
+  strong { font-size: 0.95rem; }
 }
 
 .featured-card-icon {
@@ -110,6 +113,7 @@ $radius-sm: 5px;
 
 .featured-card-body { flex: 1; }
 
+// Layout only — colours in media queries below
 .featured-card-tag {
   display: inline-block;
   font-size: 0.7rem;
@@ -119,8 +123,6 @@ $radius-sm: 5px;
   padding: 2px 7px;
   border-radius: 20px;
   margin-bottom: 0.3rem;
-  background: $blue-100;
-  color: $blue-900;
 }
 
 // ─── Level cards (Automation-of-Invention) ────────────────────────────────────
@@ -131,26 +133,25 @@ $radius-sm: 5px;
   margin: 1.25rem 0;
 }
 
+// Layout only — colours in media queries below
 .level-card {
   padding: 1rem 1.1rem;
   border-radius: $radius;
   border-left: 4px solid;
-  background: #fff;
   border: 1px solid $border;
 }
 
-.level-1 { border-left: 4px solid $blue-400; background: linear-gradient(135deg, #f0f7ff 0%, #fff 100%); }
-.level-2 { border-left: 4px solid $blue-600; background: linear-gradient(135deg, #e3f2fd 0%, #fff 100%); }
-.level-3 { border-left: 4px solid $blue-900; background: linear-gradient(135deg, #bbdefb 0%, #fff 100%); }
+.level-1 { border-left: 4px solid $blue-400; }
+.level-2 { border-left: 4px solid $blue-600; }
+.level-3 { border-left: 4px solid $blue-900; }
 
+// Layout only — colours in media queries below
 .level-badge {
   display: inline-block;
   font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  background: $blue-800;
-  color: #fff;
   padding: 2px 8px;
   border-radius: 20px;
   margin-bottom: 0.4rem;
@@ -159,19 +160,16 @@ $radius-sm: 5px;
 .level-role {
   font-size: 1rem;
   font-weight: 700;
-  color: $text-primary;
   margin-bottom: 0.25rem;
 }
 
 .level-desc {
   font-size: 0.875rem;
-  color: $text-muted;
   margin-bottom: 0.4rem;
 }
 
 .level-tools {
   font-size: 0.78rem;
-  color: $blue-800;
   font-style: italic;
 }
 
@@ -183,6 +181,7 @@ $radius-sm: 5px;
   margin: 1rem 0;
 }
 
+// Layout only — colours in media queries below
 .topic-card {
   display: flex;
   flex-direction: column;
@@ -190,9 +189,7 @@ $radius-sm: 5px;
   padding: 0.9rem 1rem;
   border: 1px solid $border;
   border-radius: $radius;
-  background: #fff;
   text-decoration: none;
-  color: $text-primary;
   transition: box-shadow 0.15s, border-color 0.15s, transform 0.1s;
 
   &:hover {
@@ -212,23 +209,20 @@ $radius-sm: 5px;
 .topic-name {
   font-size: 0.875rem;
   font-weight: 700;
-  color: $text-primary;
   margin-bottom: 0.2rem;
   line-height: 1.3;
 }
 
 .topic-desc {
   font-size: 0.78rem;
-  color: $text-muted;
   line-height: 1.3;
 }
 
+// Layout only — colours in media queries below
 .topic-counts {
   font-size: 0.7rem;
-  color: #999;
   margin-top: auto;
   padding-top: 0.4rem;
-  border-top: 1px solid #f0f0f0;
   width: 100%;
   line-height: 1.4;
 }
@@ -241,6 +235,7 @@ $radius-sm: 5px;
   margin: 1rem 0;
 }
 
+// Layout only — colours in media queries below
 .qs-card {
   display: flex;
   flex-direction: column;
@@ -248,9 +243,7 @@ $radius-sm: 5px;
   padding: 0.9rem 1rem;
   border: 1px solid $border;
   border-radius: $radius;
-  background: #fff;
   text-decoration: none;
-  color: $text-primary;
   transition: box-shadow 0.15s, border-color 0.15s;
 
   &:hover {
@@ -265,16 +258,15 @@ $radius-sm: 5px;
 .qs-goal {
   font-size: 0.9rem;
   font-weight: 700;
-  color: $text-primary;
   line-height: 1.3;
 }
 
 .qs-where {
   font-size: 0.8rem;
-  color: $blue-800;
   font-style: italic;
 }
 
+// Layout only — colours in media queries below
 .qs-badge {
   display: inline-block;
   font-size: 0.68rem;
@@ -285,10 +277,6 @@ $radius-sm: 5px;
   border-radius: 20px;
   margin-top: 0.3rem;
   width: fit-content;
-
-  &.beginner   { background: $green-100; color: $green-700; }
-  &.intermediate { background: $amber-100; color: $amber-700; }
-  &.advanced   { background: $purple-100; color: $purple-700; }
 }
 
 // ─── Resource cards ───────────────────────────────────────────────────────────
@@ -299,15 +287,14 @@ $radius-sm: 5px;
   margin: 1rem 0;
 }
 
+// Layout only — colours in media queries below
 .resource-card {
   display: flex;
   flex-direction: column;
   padding: 0.9rem 1rem;
   border: 1px solid $border;
   border-radius: $radius;
-  background: #fff;
   text-decoration: none;
-  color: $text-primary;
   transition: box-shadow 0.15s, border-color 0.15s;
 
   &:hover {
@@ -317,9 +304,10 @@ $radius-sm: 5px;
   }
 
   strong { font-size: 0.9rem; display: block; margin: 0.35rem 0 0.2rem; }
-  p { font-size: 0.82rem; color: $text-muted; margin: 0; line-height: 1.4; }
+  p { font-size: 0.82rem; margin: 0; line-height: 1.4; }
 }
 
+// Layout only — colours in media queries below
 .resource-type {
   display: inline-block;
   font-size: 0.7rem;
@@ -329,11 +317,6 @@ $radius-sm: 5px;
   padding: 2px 8px;
   border-radius: 20px;
   width: fit-content;
-
-  &.paper    { background: #fce4ec; color: #c62828; }
-  &.course   { background: $green-100; color: $green-700; }
-  &.notebook { background: $amber-100; color: $amber-700; }
-  &.tool     { background: $blue-100; color: $blue-900; }
 }
 
 // ─── Cookbook cards ───────────────────────────────────────────────────────────
@@ -344,15 +327,14 @@ $radius-sm: 5px;
   margin: 1rem 0;
 }
 
+// Layout only — colours in media queries below
 .cookbook-card {
   display: flex;
   flex-direction: column;
   padding: 1rem;
   border: 1px solid $border;
   border-radius: $radius;
-  background: #fff;
   text-decoration: none;
-  color: $text-primary;
   transition: box-shadow 0.15s, border-color 0.15s;
 
   &:hover {
@@ -362,54 +344,42 @@ $radius-sm: 5px;
   }
 
   strong { font-size: 0.9rem; display: block; margin: 0.4rem 0 0.25rem; }
-  p { font-size: 0.82rem; color: $text-muted; margin: 0; line-height: 1.4; }
+  p { font-size: 0.82rem; margin: 0; line-height: 1.4; }
 }
 
+// Layout only — colour in media queries below
 .cookbook-step {
   font-size: 1.5rem;
   font-weight: 900;
-  color: $blue-100;
   line-height: 1;
   font-family: monospace;
 }
 
 // ─── Ethics banner ────────────────────────────────────────────────────────────
+// Layout only — colours in media queries below
 .ethics-banner {
-  background: linear-gradient(135deg, #e8f4fd, #f0f7ff);
-  border: 1px solid $blue-100;
   border-left: 4px solid $blue-800;
   border-radius: $radius;
   padding: 1rem 1.25rem;
   margin: 1.5rem 0;
   font-size: 0.95rem;
-  color: $blue-900;
-
-  a { color: $blue-800; font-weight: 600; }
+  a { font-weight: 600; }
 }
 
 // ─── Tables ───────────────────────────────────────────────────────────────────
+// Layout only — no colours here so dark mode isn't clobbered
 .main-content table {
   font-size: 0.9rem;
-
-  th {
-    background-color: $blue-100;
-    color: $blue-900;
-    font-weight: 600;
-  }
-
   td, th { padding: 0.5rem 0.75rem; vertical-align: top; }
-  tr:hover td { background-color: $blue-50; }
 }
 
 // ─── Blockquote callouts ──────────────────────────────────────────────────────
+// Layout only
 .main-content blockquote {
   border-left: 4px solid $blue-800;
-  background: $blue-50;
   padding: 0.75rem 1rem;
   border-radius: 0 $radius-sm $radius-sm 0;
   margin: 1rem 0;
-  color: #1a3a5c;
-
   p { margin: 0; }
 }
 
@@ -424,25 +394,23 @@ svg[role="img"] {
 .nav-list-item { font-size: 0.875rem; }
 
 // ─── Section nav footer ───────────────────────────────────────────────────────
+// Layout only — colours in media queries below
 .section-nav-footer {
   margin-top: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid $border;
   font-size: 0.875rem;
-  color: #666;
 }
 
 // ─── Keyboard key ─────────────────────────────────────────────────────────────
+// Layout only — colours in media queries below
 kbd {
-  background: #fff;
-  border: 1px solid #ccc;
   border-radius: 3px;
   padding: 1px 5px;
   font-size: 0.85rem;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 // ─── 404 buttons ─────────────────────────────────────────────────────────────
+// These are safe as-is (not overriding table/card dark mode)
 .btn {
   display: inline-block;
   padding: 0.5rem 1.25rem;
@@ -460,11 +428,112 @@ kbd {
   &:hover { background: $blue-900; color: #fff; }
 }
 
-// ─── Dark mode (custom card components only) ──────────────────────────────────
-// Layout/theme overrides live in _sass/custom/custom.scss which is imported
-// last by Just the Docs and therefore beats theme specificity without !important.
+// ═══════════════════════════════════════════════════════════════════════════════
+// LIGHT MODE — All component colour rules scoped here so they never override
+// the dark-mode rules in _sass/custom/custom.scss (compiled into JTD CSS last).
+// ═══════════════════════════════════════════════════════════════════════════════
+@media (prefers-color-scheme: light) {
+
+  // Hero
+  .hero-subtitle { color: $text-muted; }
+  .search-hint { background: $blue-50; border: 1px solid #b3d9f5; color: $blue-800; }
+  .hero-links { a { color: $blue-800; } .hero-sep { color: #bbb; } }
+
+  // Featured cards
+  .featured-card {
+    background: #fff;
+    color: $text-primary;
+    p { color: $text-muted; }
+    strong { color: $text-primary; }
+  }
+  .featured-card-tag { background: $blue-100; color: $blue-900; }
+
+  // Level cards
+  .level-card { background: #fff; }
+  .level-1 { background: linear-gradient(135deg, #f0f7ff 0%, #fff 100%); }
+  .level-2 { background: linear-gradient(135deg, #e8f4fd 0%, #fff 100%); }
+  .level-3 { background: linear-gradient(135deg, #e0effc 0%, #fff 100%); }
+  .level-badge { background: $blue-800; color: #fff; }
+  .level-role  { color: $text-primary; }
+  .level-desc  { color: $text-muted; }
+  .level-tools { color: $text-muted; }
+
+  // Topic cards
+  .topic-card {
+    background: #fff;
+    color: $text-primary;
+  }
+  .topic-name { color: $text-primary; }
+  .topic-desc { color: $text-muted; }
+  .topic-counts { color: #999; border-top: 1px solid #f0f0f0; }
+
+  // Quick-start cards
+  .qs-card {
+    background: #fff;
+    color: $text-primary;
+  }
+  .qs-goal  { color: $text-primary; }
+  .qs-where { color: $text-muted; }
+  .qs-badge {
+    &.beginner     { background: $green-100; color: $green-700; }
+    &.intermediate { background: $amber-100; color: $amber-700; }
+    &.advanced     { background: $purple-100; color: $purple-700; }
+  }
+
+  // Resource cards
+  .resource-card {
+    background: #fff;
+    color: $text-primary;
+    p { color: $text-muted; }
+  }
+  .resource-type {
+    &.paper    { background: #fce4ec; color: #c62828; }
+    &.course   { background: $green-100; color: $green-700; }
+    &.notebook { background: $amber-100; color: $amber-700; }
+    &.tool     { background: $blue-100; color: $blue-900; }
+  }
+
+  // Cookbook cards
+  .cookbook-card {
+    background: #fff;
+    color: $text-primary;
+    p { color: $text-muted; }
+  }
+  .cookbook-step { color: $blue-100; }
+
+  // Ethics banner
+  .ethics-banner {
+    background: linear-gradient(135deg, #e8f4fd, #f0f7ff);
+    border: 1px solid $blue-100;
+    border-left: 4px solid $blue-800;
+    color: $blue-900;
+    a { color: $blue-800; }
+  }
+
+  // Tables
+  .main-content table {
+    th { background-color: $blue-100; color: $blue-900; font-weight: 600; }
+    tr:hover td { background-color: $blue-50; }
+  }
+
+  // Blockquotes
+  .main-content blockquote { background: $blue-50; color: #1a3a5c; }
+
+  // Section nav footer
+  .section-nav-footer { border-top: 1px solid $border; color: #666; }
+
+  // Keyboard key
+  kbd { background: #fff; border: 1px solid #ccc; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// DARK MODE — Card & component colours only.
+// Page chrome / table / blockquote dark rules live in _sass/custom/custom.scss
+// (compiled last into JTD CSS) so they always win over theme selectors.
+// ═══════════════════════════════════════════════════════════════════════════════
 @media (prefers-color-scheme: dark) {
 
+  // Cards
   .topic-card, .qs-card, .resource-card, .cookbook-card,
   .featured-card, .level-card {
     background: #302d36;
@@ -477,12 +546,38 @@ kbd {
   .topic-desc, .qs-where, .level-desc, .level-tools,
   .resource-card p, .cookbook-card p, .featured-card p { color: #959396; }
 
-  .topic-counts { color: #6b7280; border-top-color: #44434d; }
+  .topic-counts { color: #6b7280; border-top: 1px solid #44434d; }
 
+  // Level gradients
   .level-1 { background: linear-gradient(135deg, #1a2333 0%, #302d36 100%); border-left-color: #42a5f5; }
   .level-2 { background: linear-gradient(135deg, #152030 0%, #302d36 100%); border-left-color: #1976d2; }
   .level-3 { background: linear-gradient(135deg, #0d1a2a 0%, #302d36 100%); border-left-color: #0d47a1; }
 
+  // Level badge
+  .level-badge { background: #1976d2; color: #fff; }
+
+  // Featured tag
+  .featured-card-tag { background: #1e3a5a; color: #90caf9; }
+
+  // QS badges
+  .qs-badge {
+    &.beginner     { background: #0d2a14; color: #a5d6a7; }
+    &.intermediate { background: #2a1f00; color: #ffe082; }
+    &.advanced     { background: #2a0d0d; color: #ef9a9a; }
+  }
+
+  // Resource type pills
+  .resource-type {
+    &.paper    { background: #2a0d14; color: #ef9a9a; }
+    &.course   { background: #0d2a14; color: #a5d6a7; }
+    &.notebook { background: #2a1f00; color: #ffe082; }
+    &.tool     { background: #1e3a5a; color: #90caf9; }
+  }
+
+  // Cookbook step number
+  .cookbook-step { color: #44434d; }
+
+  // Ethics banner
   .ethics-banner {
     background: linear-gradient(135deg, #0d1a2a, #1a2333);
     border-color: #1e3a5a;
@@ -491,8 +586,12 @@ kbd {
     a { color: #2c84fa; }
   }
 
+  // Hero
+  .hero-subtitle { color: #959396; }
   .search-hint { background: #1a2333; border-color: #1e3a5a; color: #90caf9; }
   .hero-links { a { color: #90caf9; } .hero-sep { color: #44434d; } }
+
+  // Misc
   .section-nav-footer { border-top-color: #44434d; color: #959396; }
   kbd { background: #302d36; border-color: #44434d; color: #e6e1e8; }
 }
