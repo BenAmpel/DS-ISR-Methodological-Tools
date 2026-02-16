@@ -7,6 +7,16 @@ permalink: /Files/AutoML/
 ---
 
 
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~5 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-beginner">📊 Beginner</span>
+  <span class="meta-pill meta-prereq">🔑 Python basics</span>
+</div>
+{:/}
+
+
 # [Techniques for Automated Machine Learning](https://dl.acm.org/doi/pdf/10.1145/3447556.3447567)
 *Adapted from Chen et al., 2021 — updated for the current AutoML landscape.*
 

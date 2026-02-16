@@ -6,6 +6,16 @@ nav_order: 9
 permalink: /Files/Causal-Inference/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~7 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-advanced">📊 Advanced</span>
+  <span class="meta-pill meta-prereq">🔑 Stats, Python</span>
+</div>
+{:/}
+
 # Causal Inference & Causal AI
 *Methods and Libraries for Moving from Correlation to Causation in IS Research.*
 

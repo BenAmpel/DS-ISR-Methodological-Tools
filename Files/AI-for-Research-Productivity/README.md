@@ -6,6 +6,16 @@ nav_order: 1
 permalink: /Files/AI-for-Research-Productivity/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~10 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-beginner">📊 Beginner</span>
+  <span class="meta-pill meta-prereq">🔑 None</span>
+</div>
+{:/}
+
 # AI for Research Productivity
 *Tools for accelerating the research workflow: literature discovery, coding assistance, writing, and data analysis.*
 

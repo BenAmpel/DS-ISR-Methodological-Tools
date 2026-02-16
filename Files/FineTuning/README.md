@@ -6,6 +6,16 @@ nav_order: 4
 permalink: /Files/FineTuning/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~9 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-advanced">📊 Advanced</span>
+  <span class="meta-pill meta-prereq">🔑 PyTorch, Transformers</span>
+</div>
+{:/}
+
 # Fine-Tuning Foundation Models
 *Techniques, Libraries, and Best Practices for Adapting Pre-Trained LLMs and Vision Models to Domain-Specific Tasks.*
 

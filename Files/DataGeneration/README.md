@@ -6,6 +6,16 @@ nav_order: 5
 permalink: /Files/DataGeneration/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~10 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-intermediate">📊 Intermediate</span>
+  <span class="meta-pill meta-prereq">🔑 ML basics</span>
+</div>
+{:/}
+
 # Generative Media & Synthetic Data
 *Papers and Repositories for Image, Video, Text, and Synthetic Data Generation.*
 

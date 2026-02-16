@@ -6,6 +6,16 @@ nav_order: 14
 permalink: /Files/Ethics/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~8 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-beginner">📊 Beginner</span>
+  <span class="meta-pill meta-prereq">🔑 None</span>
+</div>
+{:/}
+
 # Ethics in AI
 *Guidelines, Frameworks, and Tools for Responsible AI Development and Deployment.*
 

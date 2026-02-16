@@ -6,6 +6,16 @@ nav_order: 2
 permalink: /Files/NaturalLanguageProcessing/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~11 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-intermediate">📊 Intermediate</span>
+  <span class="meta-pill meta-prereq">🔑 Python, ML basics</span>
+</div>
+{:/}
+
 # LLMs & Natural Language Processing
 *Papers, Models, and Repositories for Large Language Models, Text Understanding, and Generation.*
 

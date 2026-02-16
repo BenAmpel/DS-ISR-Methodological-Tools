@@ -1,3 +1,10 @@
+---
+layout: default
+title: Contributing
+nav_order: 4
+permalink: /contributing/
+---
+
 # Contributing to DS-ISR Methodological Tools
 
 Thank you for your interest in contributing! This repository curates AI/ML tools and papers specifically for Design Science Information Systems (DSR/IS) researchers. Contributions that add value for this audience are warmly welcome.

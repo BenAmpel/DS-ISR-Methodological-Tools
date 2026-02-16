@@ -6,6 +6,16 @@ nav_order: 6
 permalink: /Files/Graphs/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~12 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-advanced">📊 Advanced</span>
+  <span class="meta-pill meta-prereq">🔑 Python, ML basics</span>
+</div>
+{:/}
+
 # Graphs
 *Papers and Repositories For Constructing Novel Graphs.*
 

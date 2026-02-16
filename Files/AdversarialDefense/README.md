@@ -6,6 +6,16 @@ nav_order: 11
 permalink: /Files/AdversarialDefense/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~7 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-advanced">📊 Advanced</span>
+  <span class="meta-pill meta-prereq">🔑 ML basics, PyTorch</span>
+</div>
+{:/}
+
 # LLM Safety & Adversarial Defense
 *Papers and Repositories for Defending Against Adversarial Attacks on ML Models and Ensuring LLM Safety.*
 

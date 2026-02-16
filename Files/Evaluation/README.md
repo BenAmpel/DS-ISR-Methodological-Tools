@@ -6,6 +6,16 @@ nav_order: 8
 permalink: /Files/Evaluation/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~7 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-intermediate">📊 Intermediate</span>
+  <span class="meta-pill meta-prereq">🔑 LLM basics</span>
+</div>
+{:/}
+
 # Evaluation & Benchmarking for GenAI Artifacts
 *Methods and Tools for Assessing the Performance, Faithfulness, and Safety of LLM-based IS Artifacts.*
 

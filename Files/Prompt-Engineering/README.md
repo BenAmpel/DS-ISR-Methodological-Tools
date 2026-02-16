@@ -6,6 +6,16 @@ nav_order: 3
 permalink: /Files/Prompt-Engineering/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~9 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-beginner">📊 Beginner</span>
+  <span class="meta-pill meta-prereq">🔑 LLM basics</span>
+</div>
+{:/}
+
 # Prompt Engineering
 *Guides, Frameworks, and Libraries for Effectively Communicating with Large Language Models.*
 

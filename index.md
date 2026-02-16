@@ -21,6 +21,13 @@ permalink: /
   <div class="search-hint">
     🔍 Press <kbd>/</kbd> to search across all 16 topic sections
   </div>
+  <div class="hero-links">
+    <a href="{{ site.baseurl }}/compare/">📊 Compare Sections</a>
+    <span class="hero-sep">·</span>
+    <a href="{{ site.baseurl }}/changelog/">🆕 What's New</a>
+    <span class="hero-sep">·</span>
+    <a href="{{ site.baseurl }}/suggest/">💡 Suggest a Resource</a>
+  </div>
 </div>
 {:/}
 
@@ -106,81 +113,97 @@ permalink: /
     <span class="topic-icon">💡</span>
     <span class="topic-name">AI for Research Productivity</span>
     <span class="topic-desc">Literature discovery, writing, review automation</span>
+    <span class="topic-counts">📄 12 papers · 🔧 15 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/NaturalLanguageProcessing/">
     <span class="topic-icon">📜</span>
     <span class="topic-name">LLMs & NLP</span>
     <span class="topic-desc">Large language models, RAG, transformers</span>
+    <span class="topic-counts">📄 18 papers · 🔧 20 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/Prompt-Engineering/">
     <span class="topic-icon">💬</span>
     <span class="topic-name">Prompt Engineering</span>
     <span class="topic-desc">CoT, RAG, agents, structured output</span>
+    <span class="topic-counts">📄 14 papers · 🔧 12 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/FineTuning/">
     <span class="topic-icon">🔧</span>
     <span class="topic-name">Fine-Tuning</span>
     <span class="topic-desc">LoRA, PEFT, domain adaptation</span>
+    <span class="topic-counts">📄 16 papers · 🔧 11 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/DataGeneration/">
     <span class="topic-icon">💪</span>
     <span class="topic-name">Generative Media & Synthetic Data</span>
     <span class="topic-desc">Synthetic users, diffusion models, GANs</span>
+    <span class="topic-counts">📄 20 papers · 🔧 14 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/Graphs/">
     <span class="topic-icon">📈</span>
     <span class="topic-name">Graph Neural Networks</span>
     <span class="topic-desc">GNNs, knowledge graphs, GraphRAG</span>
+    <span class="topic-counts">📄 22 papers · 🔧 16 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/Interpretability/">
     <span class="topic-icon">🔍</span>
     <span class="topic-name">Interpretability</span>
     <span class="topic-desc">SHAP, LIME, counterfactuals, saliency</span>
+    <span class="topic-counts">📄 15 papers · 🔧 13 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/Evaluation/">
     <span class="topic-icon">📐</span>
     <span class="topic-name">Evaluation & Benchmarking</span>
     <span class="topic-desc">RAGAS, LLM-as-a-Judge, human eval</span>
+    <span class="topic-counts">📄 12 papers · 🔧 10 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/Causal-Inference/">
     <span class="topic-icon">🌱</span>
     <span class="topic-name">Causal Inference</span>
     <span class="topic-desc">DoWhy, EconML, causal graphs</span>
+    <span class="topic-counts">📄 11 papers · 🔧 8 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/AnomalyDetection/">
     <span class="topic-icon">🔴</span>
     <span class="topic-name">Anomaly Detection</span>
     <span class="topic-desc">Fraud, outliers, time-series anomalies</span>
+    <span class="topic-counts">📄 14 papers · 🔧 11 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/AdversarialDefense/">
     <span class="topic-icon">🛡️</span>
     <span class="topic-name">LLM Safety & Adversarial Defense</span>
     <span class="topic-desc">Jailbreaks, prompt injection, red-teaming</span>
+    <span class="topic-counts">📄 16 papers · 🔧 10 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/MultimodalModels/">
     <span class="topic-icon">👁️</span>
     <span class="topic-name">Multimodal Models</span>
     <span class="topic-desc">Vision-language, audio, cross-modal</span>
+    <span class="topic-counts">📄 13 papers · 🔧 12 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/ReinforcementLearning/">
     <span class="topic-icon">♟️</span>
     <span class="topic-name">Reinforcement Learning</span>
     <span class="topic-desc">RLHF, policy optimization, simulation</span>
+    <span class="topic-counts">📄 14 papers · 🔧 10 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/Ethics/">
     <span class="topic-icon">⚖️</span>
     <span class="topic-name">Ethics & Responsible AI</span>
     <span class="topic-desc">Fairness, bias, compliance, checklists</span>
+    <span class="topic-counts">📄 10 papers · 🔧 9 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/PythonTools/">
     <span class="topic-icon">🐍</span>
     <span class="topic-name">Python Tools & Infrastructure</span>
     <span class="topic-desc">Deployment, dashboards, pipelines</span>
+    <span class="topic-counts">📄 5 papers · 🔧 22 tools</span>
   </a>
   <a class="topic-card" href="{{ site.baseurl }}/Files/AutoML/">
     <span class="topic-icon">🤖</span>
     <span class="topic-name">AutoML</span>
     <span class="topic-desc">Automated model selection, HPO</span>
+    <span class="topic-counts">📄 8 papers · 🔧 12 tools</span>
   </a>
 </div>
 {:/}

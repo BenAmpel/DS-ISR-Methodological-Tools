@@ -6,6 +6,16 @@ nav_order: 7
 permalink: /Files/Interpretability/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~10 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-intermediate">📊 Intermediate</span>
+  <span class="meta-pill meta-prereq">🔑 ML basics, scikit-learn</span>
+</div>
+{:/}
+
 # Interpretability & Explainability
 *Methods, Papers, and Tools for Understanding What Machine Learning Models Have Learned and Why They Make Predictions.*
 

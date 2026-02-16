@@ -1,3 +1,79 @@
+// ─── Callout boxes ────────────────────────────────────────────────────────────
+// Usage: {: .callout-tip } or wrap in a blockquote with a bold emoji prefix
+.callout {
+  padding: 0.85rem 1.1rem;
+  border-radius: 6px;
+  border-left: 4px solid;
+  margin: 1.25rem 0;
+  font-size: 0.93rem;
+  line-height: 1.55;
+  p { margin: 0; }
+  p + p { margin-top: 0.5rem; }
+}
+.callout-tip   { background: #e8f5e9; border-color: #2e7d32; color: #1b5e20;
+  &::before { content: "💡 Tip — "; font-weight: 700; } }
+.callout-note  { background: #e3f2fd; border-color: #1565c0; color: #0d3c75;
+  &::before { content: "📌 Note — "; font-weight: 700; } }
+.callout-warning { background: #fff8e1; border-color: #f9a825; color: #7c5a00;
+  &::before { content: "⚠️ Warning — "; font-weight: 700; } }
+.callout-important { background: #fce4ec; border-color: #c62828; color: #7f0000;
+  &::before { content: "🔴 Important — "; font-weight: 700; } }
+
+// ─── Back-to-top button ───────────────────────────────────────────────────────
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: #1565c0;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s, visibility 0.25s, transform 0.2s;
+  z-index: 999;
+  text-decoration: none;
+  &:hover { background: #0d47a1; transform: translateY(-2px); }
+  &.visible { opacity: 1; visibility: visible; }
+}
+
+// ─── Section meta bar (reading time, last updated, difficulty) ────────────────
+.section-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin: 0.5rem 0 1.5rem;
+  font-size: 0.82rem;
+  color: #666;
+}
+.meta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.meta-reading  { background: #e3f2fd; color: #1565c0; }
+.meta-updated  { background: #f3e5f5; color: #6a1b9a; }
+.meta-beginner     { background: #e8f5e9; color: #2e7d32; }
+.meta-intermediate { background: #fff8e1; color: #f57f17; }
+.meta-advanced     { background: #fce4ec; color: #c62828; }
+.meta-prereq   { background: #f5f5f5; color: #444; }
+
 // Dark mode overrides — injected last in the Just the Docs build pipeline
 // so these rules beat all theme styles without needing !important.
 
@@ -86,4 +162,23 @@
     color: #959396;
     a { color: #2c84fa; }
   }
+
+  // ── Callout boxes ─────────────────────────────────────────────────────────
+  .callout-tip   { background: #0d2a14; border-color: #4caf50; color: #a5d6a7; }
+  .callout-note  { background: #0d1e3a; border-color: #2c84fa; color: #90caf9; }
+  .callout-warning { background: #2a1f00; border-color: #ffc107; color: #ffe082; }
+  .callout-important { background: #2a0d0d; border-color: #ef5350; color: #ef9a9a; }
+
+  // ── Back-to-top ───────────────────────────────────────────────────────────
+  #back-to-top { background: #1976d2; }
+  #back-to-top:hover { background: #1565c0; }
+
+  // ── Section meta ──────────────────────────────────────────────────────────
+  .section-meta { color: #959396; }
+  .meta-reading  { background: #0d2a4a; color: #90caf9; }
+  .meta-updated  { background: #2a1040; color: #ce93d8; }
+  .meta-beginner     { background: #0d2a14; color: #a5d6a7; }
+  .meta-intermediate { background: #2a1f00; color: #ffe082; }
+  .meta-advanced     { background: #2a0d0d; color: #ef9a9a; }
+  .meta-prereq   { background: #302d36; color: #bbb; }
 }

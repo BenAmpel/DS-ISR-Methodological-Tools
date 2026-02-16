@@ -6,6 +6,16 @@ nav_order: 12
 permalink: /Files/MultimodalModels/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~9 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-intermediate">📊 Intermediate</span>
+  <span class="meta-pill meta-prereq">🔑 Python, ML basics</span>
+</div>
+{:/}
+
 # Multimodal Models
 *Papers, Models, and Tools for Vision-Language Understanding, Image-Text Alignment, and Multimodal AI.*
 

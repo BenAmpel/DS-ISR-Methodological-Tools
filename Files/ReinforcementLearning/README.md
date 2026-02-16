@@ -6,6 +6,16 @@ nav_order: 13
 permalink: /Files/ReinforcementLearning/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~8 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-advanced">📊 Advanced</span>
+  <span class="meta-pill meta-prereq">🔑 ML basics, Python</span>
+</div>
+{:/}
+
 # Reinforcement Learning
 *Papers and Repositories For Reinforcement Learning Tasks.*
 

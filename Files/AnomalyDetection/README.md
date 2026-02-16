@@ -6,6 +6,16 @@ nav_order: 10
 permalink: /Files/AnomalyDetection/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~8 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-intermediate">📊 Intermediate</span>
+  <span class="meta-pill meta-prereq">🔑 Python, Statistics</span>
+</div>
+{:/}
+
 # Anomaly Detection
 *Papers, Libraries, and Tools for Unsupervised and Semi-Supervised Detection of Anomalous Data Points.*
 

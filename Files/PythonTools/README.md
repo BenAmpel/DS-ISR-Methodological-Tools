@@ -6,6 +6,16 @@ nav_order: 15
 permalink: /Files/PythonTools/
 ---
 
+
+{::nomarkdown}
+<div class="section-meta">
+  <span class="meta-pill meta-reading">⏱ ~8 min read</span>
+  <span class="meta-pill meta-updated">📅 Updated Feb 2026</span>
+  <span class="meta-pill meta-intermediate">📊 Intermediate</span>
+  <span class="meta-pill meta-prereq">🔑 Python basics</span>
+</div>
+{:/}
+
 # Python Data Mining Tools
 *A curated collection of Python tools for data processing, visualization, machine learning, and LLM orchestration in IS research.*
 
