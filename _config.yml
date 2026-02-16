@@ -12,7 +12,6 @@ remote_theme: just-the-docs/just-the-docs@v0.10.0
 
 # Just the Docs configuration
 color_scheme: light
-color_scheme_dark: dark
 
 # Search
 search_enabled: true
@@ -63,6 +62,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
+  parse_block_html: true
 
 sass:
   style: compressed
