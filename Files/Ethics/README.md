@@ -3,6 +3,7 @@ layout: default
 title: "Ethics & Responsible AI"
 parent: Topics
 nav_order: 14
+permalink: /Files/Ethics/
 ---
 
 # Ethics in AI

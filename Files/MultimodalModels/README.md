@@ -3,6 +3,7 @@ layout: default
 title: "Multimodal Models"
 parent: Topics
 nav_order: 12
+permalink: /Files/MultimodalModels/
 ---
 
 # Multimodal Models

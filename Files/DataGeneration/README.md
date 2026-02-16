@@ -3,6 +3,7 @@ layout: default
 title: "Generative Media & Synthetic Data"
 parent: Topics
 nav_order: 5
+permalink: /Files/DataGeneration/
 ---
 
 # Generative Media & Synthetic Data

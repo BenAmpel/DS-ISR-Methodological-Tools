@@ -3,6 +3,7 @@ layout: default
 title: "Evaluation & Benchmarking"
 parent: Topics
 nav_order: 8
+permalink: /Files/Evaluation/
 ---
 
 # Evaluation & Benchmarking for GenAI Artifacts

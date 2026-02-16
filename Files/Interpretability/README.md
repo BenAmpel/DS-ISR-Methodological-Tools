@@ -3,6 +3,7 @@ layout: default
 title: "Interpretability & Explainability"
 parent: Topics
 nav_order: 7
+permalink: /Files/Interpretability/
 ---
 
 # Interpretability & Explainability

@@ -3,6 +3,7 @@ layout: default
 title: "LLMs & Natural Language Processing"
 parent: Topics
 nav_order: 2
+permalink: /Files/NaturalLanguageProcessing/
 ---
 
 # LLMs & Natural Language Processing

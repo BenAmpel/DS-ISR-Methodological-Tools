@@ -3,6 +3,7 @@ layout: default
 title: "AI for Research Productivity"
 parent: Topics
 nav_order: 1
+permalink: /Files/AI-for-Research-Productivity/
 ---
 
 # AI for Research Productivity

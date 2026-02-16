@@ -3,6 +3,7 @@ layout: default
 title: "Prompt Engineering"
 parent: Topics
 nav_order: 3
+permalink: /Files/Prompt-Engineering/
 ---
 
 # Prompt Engineering

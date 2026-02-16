@@ -3,6 +3,7 @@ layout: default
 title: "LLM Safety & Adversarial Defense"
 parent: Topics
 nav_order: 11
+permalink: /Files/AdversarialDefense/
 ---
 
 # LLM Safety & Adversarial Defense

@@ -3,6 +3,7 @@ layout: default
 title: "AutoML"
 parent: Topics
 nav_order: 16
+permalink: /Files/AutoML/
 ---
 
 

@@ -3,6 +3,7 @@ layout: default
 title: "Graph Neural Networks"
 parent: Topics
 nav_order: 6
+permalink: /Files/Graphs/
 ---
 
 # Graphs

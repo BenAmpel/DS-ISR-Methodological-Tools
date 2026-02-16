@@ -3,6 +3,7 @@ layout: default
 title: "Causal Inference"
 parent: Topics
 nav_order: 9
+permalink: /Files/Causal-Inference/
 ---
 
 # Causal Inference & Causal AI

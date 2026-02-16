@@ -3,6 +3,7 @@ layout: default
 title: "Fine-Tuning"
 parent: Topics
 nav_order: 4
+permalink: /Files/FineTuning/
 ---
 
 # Fine-Tuning Foundation Models

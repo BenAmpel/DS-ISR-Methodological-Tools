@@ -3,6 +3,7 @@ layout: default
 title: "Anomaly Detection"
 parent: Topics
 nav_order: 10
+permalink: /Files/AnomalyDetection/
 ---
 
 # Anomaly Detection

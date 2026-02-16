@@ -3,6 +3,7 @@ layout: default
 title: "Reinforcement Learning"
 parent: Topics
 nav_order: 13
+permalink: /Files/ReinforcementLearning/
 ---
 
 # Reinforcement Learning

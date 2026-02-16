@@ -3,6 +3,7 @@ layout: default
 title: "Python Tools & Infrastructure"
 parent: Topics
 nav_order: 15
+permalink: /Files/PythonTools/
 ---
 
 # Python Data Mining Tools
