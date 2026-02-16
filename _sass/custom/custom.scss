@@ -1,0 +1,89 @@
+// Dark mode overrides — injected last in the Just the Docs build pipeline
+// so these rules beat all theme styles without needing !important.
+
+@media (prefers-color-scheme: dark) {
+
+  // ── Page chrome ─────────────────────────────────────────────────────────────
+  body {
+    background-color: #27262b;
+    color: #e6e1e8;
+  }
+
+  .side-bar {
+    background-color: #27262b;
+    border-right-color: #44434d;
+  }
+
+  .main-header {
+    background-color: #27262b;
+    border-bottom-color: #44434d;
+  }
+
+  .site-title { color: #f5f6fa; }
+  .site-title:hover { background-color: #302d36; }
+
+  // ── Navigation ───────────────────────────────────────────────────────────────
+  .nav-list .nav-list-item .nav-list-link {
+    color: #e6e1e8;
+    &:hover, &.active {
+      background-color: #302d36;
+      color: #f5f6fa;
+    }
+  }
+  .nav-list .nav-list-expander { color: #959396; }
+
+  // ── Search ───────────────────────────────────────────────────────────────────
+  .search-input {
+    background-color: #302d36;
+    border-color: #44434d;
+    color: #e6e1e8;
+  }
+  .search-results { background-color: #302d36; border-color: #44434d; }
+  .search-result { border-bottom-color: #44434d; }
+  .search-result-title { color: #e6e1e8; }
+  .search-result-preview { color: #959396; }
+
+  // ── Main content ─────────────────────────────────────────────────────────────
+  .main-content {
+    h1, h2, h3, h4, h5, h6 { color: #f5f6fa; border-bottom-color: #44434d; }
+    p, li { color: #e6e1e8; }
+    a { color: #2c84fa; }
+    hr { border-color: #44434d; }
+    code { background-color: #302d36; color: #e6e1e8; }
+    pre { background-color: #302d36; }
+  }
+
+  // ── Tables ───────────────────────────────────────────────────────────────────
+  // Must be at top-level (not nested) to beat Just the Docs' global th,td rule
+  th, td {
+    background-color: #27262b;
+    color: #e6e1e8;
+    border-bottom-color: #44434d;
+    border-left-color: #44434d;
+  }
+  thead th {
+    background-color: #1e2d3d;
+    color: #90caf9;
+    border-bottom-color: #44434d;
+  }
+  tbody tr:hover th,
+  tbody tr:hover td {
+    background-color: #302d36;
+  }
+  .main-content table a { color: #2c84fa; }
+
+  // ── Blockquotes ──────────────────────────────────────────────────────────────
+  .main-content blockquote {
+    background: #1a2a3f;
+    color: #90caf9;
+    border-left-color: #2c84fa;
+  }
+
+  // ── Footer ───────────────────────────────────────────────────────────────────
+  .site-footer {
+    background-color: #27262b;
+    border-top-color: #44434d;
+    color: #959396;
+    a { color: #2c84fa; }
+  }
+}
